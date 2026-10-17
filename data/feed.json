@@ -1,0 +1,562 @@
+{
+  "version": 2,
+  "updatedAt": "2026-10-17",
+  "changes": [
+    {
+      "id": "release-date",
+      "category": "Systems",
+      "title": "Global launch",
+      "forever": "Launches November 4, 2026 at 3:00 PM PST. Beta began September 17, 2026.",
+      "status": "confirmed",
+      "source": "https://worldofwarcraft.blizzard.com/en-us/news/24301145",
+      "sourceLabel": "Blizzard BlizzCon 2026 roundup"
+    },
+    {
+      "id": "setting",
+      "category": "Systems",
+      "title": "Original Azeroth setting",
+      "forever": "Set in an expanded original Azeroth, after Forsaken Kingdom and before Molten Core. Not a Classic season and not a version that advances through expansions.",
+      "vanilla": "Vanilla is the original 1.x Azeroth.",
+      "status": "confirmed",
+      "source": "https://worldofwarcraft.blizzard.com/en-us/news/24302093",
+      "sourceLabel": "Blizzard announcement"
+    },
+    {
+      "id": "leveling-journey",
+      "category": "Quests",
+      "title": "Level 1–60 journey with 1,000+ quests",
+      "forever": "The 1–60 journey has more than 1,000 quests across the original continents.",
+      "vanilla": "Vanilla levelling covers 1–60 on the original continents.",
+      "status": "confirmed",
+      "source": "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap",
+      "sourceLabel": "Blizzard What's Next panel recap"
+    },
+    {
+      "id": "new-regions",
+      "category": "Zones",
+      "title": "New and reimagined regions",
+      "forever": "Four new or reimagined regions: Mount Hyjal, Shen’dralas, Riverglades and Zephras Isle.",
+      "status": "confirmed",
+      "source": "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap",
+      "sourceLabel": "Blizzard What's Next panel recap"
+    },
+    {
+      "id": "dungeons",
+      "category": "Dungeons",
+      "title": "Nine new dungeons",
+      "forever": "Nine new dungeons are added. Loot and boss details are tracked on ForeverChanges.",
+      "status": "confirmed",
+      "source": "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap",
+      "sourceLabel": "Blizzard What's Next panel recap"
+    },
+    {
+      "id": "skyborne-race",
+      "category": "Races",
+      "title": "Skyborne race",
+      "forever": "A new playable race, the Skyborne, is added.",
+      "vanilla": "No Skyborne race in vanilla.",
+      "status": "confirmed",
+      "source": "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap",
+      "sourceLabel": "Blizzard What's Next panel recap"
+    },
+    {
+      "id": "no-flying-mounts",
+      "category": "Systems",
+      "title": "No flying mounts",
+      "forever": "Flying mounts are not part of Forever’s design principles. Travel relies on the world itself.",
+      "vanilla": "Vanilla had no flying mounts; flying arrived in The Burning Crusade.",
+      "status": "confirmed",
+      "source": "https://news.blizzard.com/en-us/article/24303313/world-of-warcraft-forever-deep-dive-panel-recap",
+      "sourceLabel": "Blizzard Deep Dive panel recap"
+    },
+    {
+      "id": "no-level-scaling",
+      "category": "Systems",
+      "title": "No level scaling",
+      "forever": "Content does not scale to your level. Preparation and cooperation matter more than gear level.",
+      "vanilla": "Vanilla had no level scaling.",
+      "status": "confirmed",
+      "source": "https://news.blizzard.com/en-us/article/24303313/world-of-warcraft-forever-deep-dive-panel-recap",
+      "sourceLabel": "Blizzard Deep Dive panel recap"
+    },
+    {
+      "id": "legacy-progression",
+      "category": "Systems",
+      "title": "Legacy progression",
+      "forever": "A Legacy progression system carries progress forward across Forever.",
+      "vanilla": "Not part of vanilla.",
+      "status": "confirmed",
+      "source": "https://news.blizzard.com/en-us/article/24303313/world-of-warcraft-forever-deep-dive-panel-recap",
+      "sourceLabel": "Blizzard Deep Dive panel recap"
+    },
+    {
+      "id": "realmless",
+      "category": "Systems",
+      "title": "Realmless play by ruleset",
+      "forever": "Players are organised by ruleset rather than by realm.",
+      "vanilla": "Vanilla characters live on individual realms.",
+      "status": "confirmed",
+      "source": "https://news.blizzard.com/en-us/article/24303313/world-of-warcraft-forever-deep-dive-panel-recap",
+      "sourceLabel": "Blizzard Deep Dive panel recap"
+    },
+    {
+      "id": "opt-in-transmog",
+      "category": "Items",
+      "title": "Opt-in transmogrification",
+      "forever": "Transmog is opt-in, so appearance changes are a choice.",
+      "vanilla": "Transmog did not exist in vanilla; it was added in Legion.",
+      "status": "confirmed",
+      "source": "https://news.blizzard.com/en-us/article/24303313/world-of-warcraft-forever-deep-dive-panel-recap",
+      "sourceLabel": "Blizzard Deep Dive panel recap"
+    },
+    {
+      "id": "professions",
+      "category": "Professions",
+      "title": "Reworked profession systems",
+      "forever": "Profession systems, including camping, are reworked. See the Deep Dive recap for details.",
+      "vanilla": "Vanilla professions as shipped in 1.x.",
+      "status": "confirmed",
+      "source": "https://news.blizzard.com/en-us/article/24303313/world-of-warcraft-forever-deep-dive-panel-recap",
+      "sourceLabel": "Blizzard Deep Dive panel recap"
+    },
+    {
+      "id": "combat-itemization",
+      "category": "Systems",
+      "title": "Combat and itemization changes",
+      "forever": "Combat and itemization are changed from vanilla. Item-level detail is tracked on ForeverChanges.",
+      "status": "confirmed",
+      "source": "https://news.blizzard.com/en-us/article/24303313/world-of-warcraft-forever-deep-dive-panel-recap",
+      "sourceLabel": "Blizzard Deep Dive panel recap"
+    },
+    {
+      "id": "battleground",
+      "category": "Systems",
+      "title": "New battleground",
+      "forever": "A new battleground is part of the launch content.",
+      "status": "confirmed",
+      "source": "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap",
+      "sourceLabel": "Blizzard What's Next panel recap"
+    },
+    {
+      "id": "item-count",
+      "category": "Items",
+      "title": "Thousands of item changes",
+      "forever": "The beta build showed 5,594 new items and 4,581 changed items.",
+      "status": "reported",
+      "source": "https://foreverchanges.pro/",
+      "sourceLabel": "ForeverChanges (beta data)"
+    },
+    {
+      "id": "spell-talent-count",
+      "category": "Classes",
+      "title": "Spell and talent changes",
+      "forever": "The beta build showed 759 talent and spell changes compared with Classic.",
+      "status": "reported",
+      "source": "https://foreverchanges.pro/",
+      "sourceLabel": "ForeverChanges (beta data)"
+    }
+  ],
+  "news": [
+    {
+      "id": "news-announcement",
+      "title": "World of Warcraft: Forever announced",
+      "summary": "Blizzard announces Forever as a permanent home alongside modern WoW and Classic.",
+      "url": "https://worldofwarcraft.blizzard.com/en-us/news/24302093",
+      "sourceLabel": "Blizzard",
+      "publishedAt": null,
+      "official": true,
+      "tags": [
+        "announcement"
+      ]
+    },
+    {
+      "id": "news-blizzcon-roundup",
+      "title": "BlizzCon 2026: WoW roundup",
+      "summary": "Launch date, beta timing and what was shown on stage.",
+      "url": "https://worldofwarcraft.blizzard.com/en-us/news/24301145",
+      "sourceLabel": "Blizzard",
+      "publishedAt": null,
+      "official": true,
+      "tags": [
+        "launch",
+        "blizzcon"
+      ]
+    },
+    {
+      "id": "news-whats-next",
+      "title": "What's Next panel recap",
+      "summary": "Regions, 1,000+ quests, nine dungeons and the Skyborne race.",
+      "url": "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap",
+      "sourceLabel": "Blizzard News",
+      "publishedAt": null,
+      "official": true,
+      "tags": [
+        "panel",
+        "content"
+      ]
+    },
+    {
+      "id": "news-deep-dive",
+      "title": "Deep Dive panel recap",
+      "summary": "Legacy progression, professions, camping, realmless play and combat changes.",
+      "url": "https://news.blizzard.com/en-us/article/24303313/world-of-warcraft-forever-deep-dive-panel-recap",
+      "sourceLabel": "Blizzard News",
+      "publishedAt": null,
+      "official": true,
+      "tags": [
+        "panel",
+        "systems"
+      ]
+    },
+    {
+      "id": "news-foreverchanges",
+      "title": "ForeverChanges: beta patch notes",
+      "summary": "Independent beta patch notes, grouped by class, race, items and other topics.",
+      "url": "https://foreverchanges.pro/patch-notes",
+      "sourceLabel": "ForeverChanges",
+      "publishedAt": null,
+      "official": false,
+      "tags": [
+        "beta",
+        "tracker"
+      ]
+    },
+    {
+      "id": "news-travelcraft",
+      "title": "Travelcraft: what is new in Forever",
+      "summary": "Interactive map, zone levels and transport links, with a Forever-only filter.",
+      "url": "https://wow-travelcraft.com/",
+      "sourceLabel": "WoW Travelcraft",
+      "publishedAt": null,
+      "official": false,
+      "tags": [
+        "map",
+        "tracker"
+      ]
+    },
+    {
+      "id": "news-6edd68ff",
+      "title": "Blizzard Moves WoW: Forever Stress Test to October 21",
+      "summary": "Blizzard has moved the WoW: Forever Stress Test to October 21st, instead of the previously announced October 19th. Continue reading »",
+      "url": "https://www.wowhead.com/news=383474/blizzard-moves-wow-forever-stress-test-to-october-21",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-16",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-00e14e72",
+      "title": "Blizzard Clarifies Recent Art Assets Discovered on the WoW: Forever Beta",
+      "summary": "Blizzard has released a statement about the new mounts, pets, toys, and transmog sets recently discovered on the WoW: Forever beta. Continue reading »",
+      "url": "https://www.wowhead.com/news=383472/blizzard-clarifies-recent-art-assets-discovered-on-the-wow-forever-beta",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-16",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-6068b10d",
+      "title": "Potential New Mounts, Pets, and Cosmetics Discovered in Latest WoW: Forever Build",
+      "summary": "The most recent Forever beta build has revealed several new mounts, pets, and cosmetics that might potentially be added. Spoilers ahead! Continue reading »",
+      "url": "https://www.wowhead.com/news=383463/potential-new-mounts-pets-and-cosmetics-discovered-in-latest-wow-forever-build",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-16",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-5ebdfc12",
+      "title": "Blizzard Announces Hotfix for Druid Cat Form Quest in WoW: Forever",
+      "summary": "Blizzard has fixed a bug preventing players from completing the Druid Cat Form quest in WoW: Forever. Continue reading »",
+      "url": "https://www.wowhead.com/news=383466/blizzard-announces-hotfix-for-druid-cat-form-quest-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-16",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-4839e889",
+      "title": "Midnight 12.1.5 Live, Patch 12.1.7 & WoW: Forever - WoW Weekly Recap",
+      "summary": "Blizzard is recapping some of the biggest WoW news this week, which includes Patch 12.1.5 going live, Patch 12.1.7 being announced, more details about WoW: Forever, and more! Continue reading »",
+      "url": "https://www.wowhead.com/news=383465/midnight-12-1-5-live-patch-12-1-7-and-wow-forever-wow-weekly-recap",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-16",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-c9649b9e",
+      "title": "Several Starter Zone White Drops Changed to Greens in Latest WoW: Forever Beta Build",
+      "summary": "WoW: Forever players are getting used to item balancing as the beta goes on, and the recent build is no different; several Common items that drop in starting zones are now being buffed to Uncommon quality. Continue reading »",
+      "url": "https://www.wowhead.com/news=383461/several-starter-zone-white-drops-changed-to-greens-in-latest-wow-forever-beta",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-16",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-272b6b90",
+      "title": "Are Vendor Shuffles Dead in WoW: Forever?",
+      "summary": "Gold-Makers in WoW: Forever have been hit repeatedly during the WoW: Forever Beta, presumably taking strays from the war on gold-sellers and bots, and today is no different, with more vendor prices being reduced. Continue reading »",
+      "url": "https://www.wowhead.com/news=383458/are-vendor-shuffles-dead-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-16",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-29706c0e",
+      "title": "Official Dueling Arena Added for $100k PvP Tournament in WoW: Forever",
+      "summary": "In the WoW: Forever podcast, Senior Game Designer Josh “Aggrend” Greenfield announced that Blizzard will be providing an official dueling arena on the second day of the Forever Open $100k duelling tournament. Continue reading »",
+      "url": "https://www.wowhead.com/news=383438/official-dueling-arena-added-for-100k-pvp-tournament-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-16",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-b6eecf76",
+      "title": "Some Powerful Hunter Pet Abilities Nerfed in WoW: Forever",
+      "summary": "Hunter pets are seeing some nerfs in the latest WoW: Forever build, particularly to abilities that were too similar to other classes. Continue reading »",
+      "url": "https://www.wowhead.com/news=383460/some-powerful-hunter-pet-abilities-nerfed-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-16",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-eacb8154",
+      "title": "Class Racials in WoW: Forever Receive Tuning Adjustments in Latest Build",
+      "summary": "Many racials were changed or tuned in the latest WoW: Forever build, including more adjustments to Gnome racials and buffs to Plainsrunning. Continue reading »",
+      "url": "https://www.wowhead.com/news=383457/class-racials-in-wow-forever-receive-tuning-adjustments-in-latest-build",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-16",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-0e8e8d3f",
+      "title": "Many Buffs Now Raid-Wide: Class Changes in Latest WoW: Forever Build",
+      "summary": "The newest Wow: Forever build is here, and there are plenty of class changes - including many buffs becoming raid-wide! Continue reading »",
+      "url": "https://www.wowhead.com/news=383456/many-buffs-now-raid-wide-class-changes-in-latest-wow-forever-build",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-16",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-094c2638",
+      "title": "Massive Racial Updates - WoW: Forever Beta Development Notes",
+      "summary": "Blizzard has posted development notes for today's WoW: Forever beta which includes massive racial ability updates! Continue reading »",
+      "url": "https://www.wowhead.com/news=383454/massive-racial-updates-wow-forever-beta-development-notes",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-16",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-40456c7a",
+      "title": "No Lower Level PvP Protection Planned for WoW: Forever",
+      "summary": "In the latest episode of the WoW: Forever Podcast, Blizzard confirms there is no plan to add any low-level PvP protection from higher-level players. Continue reading »",
+      "url": "https://www.wowhead.com/news=383435/no-lower-level-pvp-protection-planned-for-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-15",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-8b691069",
+      "title": "Join the World of Warcraft: Forever Stress Test on October 19th",
+      "summary": "If you haven't tried beta, all players are invited to the WoW: Forever Stress Test on October 19th, with no invitation or subscription needed! Continue reading »",
+      "url": "https://www.wowhead.com/news=383449/join-the-world-of-warcraft-forever-stress-test-on-october-19th",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-15",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-b9e89c7c",
+      "title": "WoW: Forever Beta Going Down for Maintenance for New Build",
+      "summary": "The Forever beta will be going down shortly to prepare for a new build. Continue reading »",
+      "url": "https://www.wowhead.com/news=383446/wow-forever-beta-going-down-for-maintenance-for-new-build",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-15",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-60f6f42a",
+      "title": "Paladin Class Deep Dive in WoW: Forever",
+      "summary": "Blizzard is ending their WoW: Forever class developer insights with Paladins! Continue reading »",
+      "url": "https://www.wowhead.com/news=383440/paladin-class-deep-dive-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-15",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-1cdb721f",
+      "title": "Blizzard to Lower Alterac Valley Honor and Increase All Other Battlegrounds Honor in WoW: Forever",
+      "summary": "In the latest episode of the WoW: Forever Podcast, Blizzard has announced that they plan to lower Honor gained in Alterac Valley and raise Honor in all other Battlegrounds. Continue reading »",
+      "url": "https://www.wowhead.com/news=383433/blizzard-to-lower-alterac-valley-honor-and-increase-all-other-battlegrounds",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-15",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-9afb76ee",
+      "title": "Blizzard Confirms No Current Plans for RP-PVP Ruleset in WoW: Forever",
+      "summary": "In the latest episode of the WoW: Forever Podcast, Josh Greenfield confirms that there are currently no plans for an RP-PVP Server for WoW: Forever. Continue reading »",
+      "url": "https://www.wowhead.com/news=383431/blizzard-confirms-no-current-plans-for-rp-pvp-ruleset-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-15",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-bf148d24",
+      "title": "The WoW: Forever Podcast Episode 4 Now Available - PvP Discussion",
+      "summary": "Blizzard has released Episode 4 of the WoW: Forever podcast and this week they're discussing PvP! Continue reading »",
+      "url": "https://www.wowhead.com/news=383429/the-wow-forever-podcast-episode-3-now-available-pvp-discussion",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-15",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-7edf4e66",
+      "title": "The Secret Finding Discord is Sleuthing Again in WoW: Forever",
+      "summary": "WoW: Forever has tons of secrets in store, and the Secret Finding Discord is on the case! Join in the fun and keep an eye out for new, exciting discoveries. Continue reading »",
+      "url": "https://www.wowhead.com/news=383414/the-secret-finding-discord-is-sleuthing-again-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-15",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-7971ad2c",
+      "title": "Forever’s respec system punishes the players we need the most",
+      "summary": "",
+      "url": "https://www.reddit.com/r/wow/comments/1x7zhb4/forevers_respec_system_punishes_the_players_we/",
+      "sourceLabel": "r/wow",
+      "publishedAt": "2026-10-17",
+      "official": false,
+      "tags": [
+        "community"
+      ]
+    },
+    {
+      "id": "news-9f44c0ab",
+      "title": "QuestTogether has received a bunch of new features and a major round of polish ahead of Forever's release.",
+      "summary": "",
+      "url": "https://www.reddit.com/r/wow/comments/1x7rseu/questtogether_has_received_a_bunch_of_new/",
+      "sourceLabel": "r/wow",
+      "publishedAt": "2026-10-16",
+      "official": false,
+      "tags": [
+        "community"
+      ]
+    },
+    {
+      "id": "news-4f32d743",
+      "title": "Horde mage race wow forever.",
+      "summary": "",
+      "url": "https://www.reddit.com/r/wow/comments/1x7rr90/horde_mage_race_wow_forever/",
+      "sourceLabel": "r/wow",
+      "publishedAt": "2026-10-16",
+      "official": false,
+      "tags": [
+        "community"
+      ]
+    },
+    {
+      "id": "news-96d2a2f6",
+      "title": "Potential New Mounts, Pets, and Cosmetics Discovered in Latest WoW: Forever Build",
+      "summary": "",
+      "url": "https://www.reddit.com/r/wow/comments/1x7rb49/potential_new_mounts_pets_and_cosmetics/",
+      "sourceLabel": "r/wow",
+      "publishedAt": "2026-10-16",
+      "official": false,
+      "tags": [
+        "community"
+      ]
+    },
+    {
+      "id": "news-ee964d5b",
+      "title": "I've read up on all the forever beta changes...",
+      "summary": "",
+      "url": "https://www.reddit.com/r/wow/comments/1x7ipaf/ive_read_up_on_all_the_forever_beta_changes/",
+      "sourceLabel": "r/wow",
+      "publishedAt": "2026-10-16",
+      "official": false,
+      "tags": [
+        "community"
+      ]
+    },
+    {
+      "id": "news-c78ba540",
+      "title": "WoW Forever Beta Question",
+      "summary": "",
+      "url": "https://www.reddit.com/r/wow/comments/1x7bqi6/wow_forever_beta_question/",
+      "sourceLabel": "r/wow",
+      "publishedAt": "2026-10-16",
+      "official": false,
+      "tags": [
+        "community"
+      ]
+    },
+    {
+      "id": "news-a51cd380",
+      "title": "wow forever beta",
+      "summary": "",
+      "url": "https://www.reddit.com/r/wow/comments/1x6xlfr/wow_forever_beta/",
+      "sourceLabel": "r/wow",
+      "publishedAt": "2026-10-15",
+      "official": false,
+      "tags": [
+        "community"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+[
+  {
+    "at": "2026-10-17T08:50:21.385Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "reddit-r-wow",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-6edd68ff",
+        "detail": "Wowhead: Blizzard Moves WoW: Forever Stress Test to October 21"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-00e14e72",
+        "detail": "Wowhead: Blizzard Clarifies Recent Art Assets Discovered on the WoW: Forever Beta"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-6068b10d",
+        "detail": "Wowhead: Potential New Mounts, Pets, and Cosmetics Discovered in Latest WoW: Forever Build"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-5ebdfc12",
+        "detail": "Wowhead: Blizzard Announces Hotfix for Druid Cat Form Quest in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-4839e889",
+        "detail": "Wowhead: Midnight 12.1.5 Live, Patch 12.1.7 & WoW: Forever - WoW Weekly Recap"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-c9649b9e",
+        "detail": "Wowhead: Several Starter Zone White Drops Changed to Greens in Latest WoW: Forever Beta Build"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-272b6b90",
+        "detail": "Wowhead: Are Vendor Shuffles Dead in WoW: Forever?"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-29706c0e",
+        "detail": "Wowhead: Official Dueling Arena Added for $100k PvP Tournament in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-b6eecf76",
+        "detail": "Wowhead: Some Powerful Hunter Pet Abilities Nerfed in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-eacb8154",
+        "detail": "Wowhead: Class Racials in WoW: Forever Receive Tuning Adjustments in Latest Build"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-0e8e8d3f",
+        "detail": "Wowhead: Many Buffs Now Raid-Wide: Class Changes in Latest WoW: Forever Build"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-094c2638",
+        "detail": "Wowhead: Massive Racial Updates - WoW: Forever Beta Development Notes"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-40456c7a",
+        "detail": "Wowhead: No Lower Level PvP Protection Planned for WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-8b691069",
+        "detail": "Wowhead: Join the World of Warcraft: Forever Stress Test on October 19th"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-b9e89c7c",
+        "detail": "Wowhead: WoW: Forever Beta Going Down for Maintenance for New Build"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-60f6f42a",
+        "detail": "Wowhead: Paladin Class Deep Dive in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-1cdb721f",
+        "detail": "Wowhead: Blizzard to Lower Alterac Valley Honor and Increase All Other Battlegrounds Honor in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-9afb76ee",
+        "detail": "Wowhead: Blizzard Confirms No Current Plans for RP-PVP Ruleset in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-bf148d24",
+        "detail": "Wowhead: The WoW: Forever Podcast Episode 4 Now Available - PvP Discussion"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-7edf4e66",
+        "detail": "Wowhead: The Secret Finding Discord is Sleuthing Again in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-7971ad2c",
+        "detail": "r/wow: Forever’s respec system punishes the players we need the most"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-9f44c0ab",
+        "detail": "r/wow: QuestTogether has received a bunch of new features and a major round of polish ahead of Forever's release."
+      },
+      {
+        "kind": "news-added",
+        "id": "news-4f32d743",
+        "detail": "r/wow: Horde mage race wow forever."
+      },
+      {
+        "kind": "news-added",
+        "id": "news-96d2a2f6",
+        "detail": "r/wow: Potential New Mounts, Pets, and Cosmetics Discovered in Latest WoW: Forever Build"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-ee964d5b",
+        "detail": "r/wow: I've read up on all the forever beta changes..."
+      },
+      {
+        "kind": "news-added",
+        "id": "news-c78ba540",
+        "detail": "r/wow: WoW Forever Beta Question"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-a51cd380",
+        "detail": "r/wow: wow forever beta"
+      }
+    ],
+    "changed": true
+  }
+]
