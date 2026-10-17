@@ -18,16 +18,12 @@ afterEach(async () => {
 });
 
 const blizzardHtml = `<a href="/en-us/news/24400001">Forever launch update for players</a>`;
-const redditAtom = `<feed xmlns="http://www.w3.org/2005/Atom"><entry>
-  <link href="https://www.reddit.com/r/wow/comments/x1/beta/" />
-  <published>2026-10-17T03:39:38+00:00</published><title>Forever beta patch 1.60 notes</title></entry></feed>`;
 const wowheadRss = `<?xml version="1.0"?><rss><channel><item><title>Forever stress test moved</title><link>https://www.wowhead.com/news/forever-stress-test-1</link><pubDate>Fri, 16 Oct 2026 21:18:50 -0500</pubDate></item></channel></rss>`;
 const trackerHtml = '<p>5,594 new items and 4,581 changed</p><p>759 talent and spell changes</p>';
 
 const fakeFetch: FetchText = async (url) => {
   if (url.includes('blizzard')) return blizzardHtml;
   if (url.includes('wowhead')) return wowheadRss;
-  if (url.includes('reddit')) return redditAtom;
   if (url.includes('foreverchanges')) return trackerHtml;
   throw new Error(`unexpected url ${url}`);
 };
@@ -36,7 +32,7 @@ describe('runCollection', () => {
   it('writes the feed and a changelog entry when new items arrive', async () => {
     const record = await runCollection({ dataDir: dir, dryRun: false, fetch: fakeFetch, now: new Date('2026-10-18T06:00:00Z') });
     expect(record.changed).toBe(true);
-    expect(record.sourcesOk).toEqual(['blizzard-news', 'wowhead-news', 'reddit-r-wow', 'foreverchanges']);
+    expect(record.sourcesOk).toEqual(['blizzard-news', 'wowhead-news', 'foreverchanges']);
     expect(record.sourcesFailed).toEqual([]);
 
     const feed = JSON.parse(await fs.readFile(path.join(dir, 'feed.json'), 'utf8'));
@@ -68,11 +64,11 @@ describe('runCollection', () => {
 
   it('isolates a failing source and still ingests the rest', async () => {
     const partial: FetchText = async (url) => {
-      if (url.includes('reddit')) throw new Error('HTTP 429');
+      if (url.includes('wowhead')) throw new Error('HTTP 429');
       return fakeFetch(url);
     };
     const record = await runCollection({ dataDir: dir, dryRun: false, fetch: partial, now: new Date() });
-    expect(record.sourcesFailed).toEqual([{ name: 'reddit-r-wow', error: 'HTTP 429' }]);
+    expect(record.sourcesFailed).toEqual([{ name: 'wowhead-news', error: 'HTTP 429' }]);
     expect(record.sourcesOk).toContain('blizzard-news');
     expect(record.changed).toBe(true);
   });

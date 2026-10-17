@@ -1,10 +1,8 @@
 import { describe, expect, it } from 'vitest';
 
-import { isRelevantRedditPost } from './sources';
 import {
   decodeEntities,
   parseNewsLinks,
-  parseRedditAtom,
   parseRss,
   parseTrackerStats,
   stripTags,
@@ -52,47 +50,6 @@ describe('parseRss', () => {
       sourceLabel: 'Test',
       official: true,
     });
-  });
-});
-
-describe('parseRedditAtom', () => {
-  it('reads entries with their permalink, title and date, and skips entries without a link', () => {
-    const xml = `<?xml version="1.0"?><feed xmlns="http://www.w3.org/2005/Atom">
-      <entry><content type="html">&lt;p&gt;Body&lt;/p&gt;</content>
-        <id>t3_abc</id><link href="https://www.reddit.com/r/wow/comments/abc/forever_is_huge/" />
-        <published>2026-10-17T03:39:38+00:00</published><title>Forever is huge</title></entry>
-      <entry><link href="not-a-url" /><title>Bad link</title></entry>
-      <entry><title>No link</title></entry>
-    </feed>`;
-    const items = parseRedditAtom(xml, meta);
-    expect(items).toHaveLength(1);
-    expect(items[0]).toMatchObject({
-      url: 'https://www.reddit.com/r/wow/comments/abc/forever_is_huge/',
-      title: 'Forever is huge',
-      summary: '',
-      publishedAt: '2026-10-17',
-    });
-  });
-
-  it('keeps only change-related Forever posts from the Reddit results', () => {
-    expect(isRelevantRedditPost('WoW Forever beta impressions')).toBe(false);
-    expect(isRelevantRedditPost('Forever physical Collector\'s Edition content')).toBe(false);
-    expect(isRelevantRedditPost('Wow forever guild')).toBe(false);
-    expect(isRelevantRedditPost('Forever patch 1.60 notes')).toBe(true);
-    expect(isRelevantRedditPost('Is Forever beta worth it?')).toBe(false);
-    expect(isRelevantRedditPost('Forever beta meme of the week')).toBe(false);
-    expect(isRelevantRedditPost('Forever beta: the changes are huge')).toBe(false);
-    expect(isRelevantRedditPost('WoW Forever Beta Question')).toBe(false);
-    expect(isRelevantRedditPost('Forever\'s respec system punishes the players we need')).toBe(false);
-    expect(isRelevantRedditPost('Potential New Mounts Discovered in Latest Forever Build')).toBe(false);
-    expect(isRelevantRedditPost('I\'ve read up on all the Forever beta changes')).toBe(false);
-    expect(isRelevantRedditPost('Forever hotfix for the Druid Cat Form quest')).toBe(true);
-    expect(isRelevantRedditPost('Forever beta dungeon changes announced')).toBe(true);
-  });
-
-  it('returns nothing for a feed with no entries', () => {
-    expect(parseRedditAtom('<feed></feed>', meta)).toEqual([]);
-    expect(parseRedditAtom('', meta)).toEqual([]);
   });
 });
 

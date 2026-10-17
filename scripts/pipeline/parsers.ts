@@ -72,30 +72,6 @@ export function parseRss(xml: string, meta: NewsSourceMeta): CollectedNews[] {
 }
 
 /**
- * Parses Reddit Atom search results (e.g. /r/wow/search.rss). Reddit's JSON endpoints reject
- * anonymous requests with 403, but the RSS form is publicly readable. Post bodies are not used
- * as summaries because Reddit wraps them in 'submitted by' boilerplate.
- */
-export function parseRedditAtom(xml: string, meta: NewsSourceMeta): CollectedNews[] {
-  const blocks = [...xml.matchAll(/<entry\b[^>]*>([\s\S]*?)<\/entry>/gi)].map((m) => m[1]);
-  const out: CollectedNews[] = [];
-  for (const block of blocks) {
-    const href = block.match(/<link\b[^>]*\bhref="([^"]+)"/i);
-    const url = href ? decodeEntities(href[1]) : '';
-    const title = stripTags(readTag(block, 'title'));
-    if (!/^https?:\/\//.test(url) || !title) continue;
-    out.push({
-      url,
-      title,
-      summary: '',
-      publishedAt: toIsoDate(readTag(block, 'published') || readTag(block, 'updated')),
-      ...meta,
-    });
-  }
-  return out;
-}
-
-/**
  * Extracts Blizzard news article links from an HTML index page.
  * Only links under /en-us/news/ or /en-us/article/ are considered.
  */
