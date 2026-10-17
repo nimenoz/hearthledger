@@ -1,0 +1,11 @@
+name = "hearthledger-battlenet"
+main = "callback-worker.ts"
+compatibility_date = "2026-10-01"
+
+# Set these as secrets (never commit values):
+#   npx wrangler secret put BATTLENET_CLIENT_ID
+#   npx wrangler secret put BATTLENET_CLIENT_SECRET
+# Plain vars below; CALLBACK_URL must match the redirect URI registered with Battle.net exactly.
+[vars]
+CALLBACK_URL = "https://hearthledger-battlenet.YOUR_SUBDOMAIN.workers.dev/callback"
+APP_RETURN_URL = "hearthledger://armoury"
