@@ -74,6 +74,15 @@ function monthDays(title: string): string[] {
   return (title.match(MONTH_DAY) ?? []).map((d) => d.toLowerCase().replace(/\s+/g, ' ').replace(/(st|nd|rd|th)$/, ''));
 }
 
+/** Third-party addon names and terms. Matched only in non-official items, since Blizzard's own addon news is official. */
+const ADDON_RE = /\b(add-?ons?|weakauras?|elvui|plater|questtogether|hekili|bagnon|deadly boss mods|dbm|method raid tools|curseforge)\b/i;
+
+/** Community posts and third-party addon news do not belong in the feed. */
+export function isExcludedNews(item: Pick<NewsItem, 'title' | 'tags' | 'official'>): boolean {
+  if (item.tags.includes('community')) return true;
+  return !item.official && ADDON_RE.test(item.title);
+}
+
 /** True when `newer` is a reschedule notice for the same event as `older`, and gives a different date. */
 function replacedBy(older: NewsItem, newer: NewsItem): boolean {
   if (older.id === newer.id || !RESCHEDULE.test(newer.title)) return false;
@@ -109,7 +118,7 @@ export function ingest(feed: Feed, news: CollectedNews[], stats: TrackerStats, n
 
   for (const item of news) {
     const key = normalizeUrl(item.url);
-    if (knownUrls.has(key)) continue;
+    if (knownUrls.has(key) || isExcludedNews(item)) continue;
     knownUrls.add(key);
     candidates.push({
       id: newsIdFor(item.url),
@@ -125,10 +134,12 @@ export function ingest(feed: Feed, news: CollectedNews[], stats: TrackerStats, n
 
   // Drop items superseded by a newer reschedule notice, whether already in the feed or in this batch.
   const superseded = findSuperseded([...feed.news, ...candidates]);
-  const keptNews = feed.news.filter((n) => !superseded.has(n.id));
+  // Also drop community and third-party addon items already stored in the feed.
+  const removed = new Set([...superseded, ...feed.news.filter(isExcludedNews).map((n) => n.id)]);
+  const keptNews = feed.news.filter((n) => !removed.has(n.id));
   const addedNews = candidates.filter((n) => !superseded.has(n.id));
   for (const n of feed.news) {
-    if (superseded.has(n.id)) log.push({ kind: 'news-removed', id: n.id, detail: `${n.sourceLabel}: ${n.title}` });
+    if (removed.has(n.id)) log.push({ kind: 'news-removed', id: n.id, detail: `${n.sourceLabel}: ${n.title}` });
   }
   for (const n of addedNews) {
     log.push({ kind: 'news-added', id: n.id, detail: `${n.sourceLabel}: ${n.title}` });

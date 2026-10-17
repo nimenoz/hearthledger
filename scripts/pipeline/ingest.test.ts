@@ -4,6 +4,7 @@ import type { NewsItem } from '../../src/data/types';
 import { seedFeed } from '../../src/data/seed';
 import { hashId, ingest, newsIdFor, normalizeUrl } from './ingest';
 import type { CollectedNews } from './parsers';
+import type { Feed } from '../../src/data/types';
 
 const now = new Date('2026-10-18T06:00:00Z');
 const noStats = {};
@@ -59,6 +60,33 @@ describe('ingest', () => {
     expect(changed.feed.changes.find((c) => c.id === 'spell-talent-count')?.forever).toContain('800 talent');
     expect(changed.log.filter((l) => l.kind === 'change-updated')).toHaveLength(2);
     expect(changed.feed.version).toBe(seedFeed.version + 1);
+  });
+
+  it('drops community posts and third-party addon news from the batch', () => {
+    const community = { ...item('https://reddit.com/r/wow/comments/1', 'Forever patch notes'), sourceLabel: 'r/wow', tags: ['community'] };
+    const addon = item('https://example.com/addon', 'QuestTogether adds new features for Forever');
+    const kept = item('https://example.com/dungeon', 'Forever dungeon announced');
+    const result = ingest(seedFeed, [community, addon, kept], noStats, now);
+    const added = result.feed.news.slice(seedFeed.news.length);
+    expect(added.map((n) => n.url)).toEqual(['https://example.com/dungeon']);
+  });
+
+  it('keeps official news that mentions addons', () => {
+    const official = { ...item('https://worldofwarcraft.blizzard.com/addon-api', 'Blizzard adds addon API changes in Forever'), official: true, tags: ['official'] };
+    const result = ingest(seedFeed, [official], noStats, now);
+    expect(result.feed.news.map((n) => n.url)).toContain('https://worldofwarcraft.blizzard.com/addon-api');
+  });
+
+  it('removes community and addon items already in the feed, and does not re-add them', () => {
+    const stored = { id: 'news-aaaaaaaa', title: 'Forever patch notes', summary: '', url: 'https://reddit.com/r/wow/comments/1', sourceLabel: 'r/wow', publishedAt: '2026-10-18', official: false, tags: ['community'] };
+    const base: Feed = { ...seedFeed, news: [...seedFeed.news, stored] };
+    const removedRun = ingest(base, [], noStats, now);
+    expect(removedRun.feed.news.find((n) => n.id === 'news-aaaaaaaa')).toBeUndefined();
+    expect(removedRun.log).toContainEqual(expect.objectContaining({ kind: 'news-removed', id: 'news-aaaaaaaa' }));
+
+    const recollected = { ...item(stored.url, 'Forever patch notes'), sourceLabel: 'r/wow', tags: ['community'] };
+    const again = ingest(removedRun.feed, [recollected], noStats, now);
+    expect(again.feed.news.map((n) => n.url)).not.toContain(stored.url);
   });
 
   it('does not invent change entries that are not in the seed', () => {

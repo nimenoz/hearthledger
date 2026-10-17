@@ -41,7 +41,8 @@ describe('runCollection', () => {
 
     const feed = JSON.parse(await fs.readFile(path.join(dir, 'feed.json'), 'utf8'));
     expect(feed.news.some((n: { url: string }) => n.url.endsWith('/24400001'))).toBe(true);
-    expect(feed.news.some((n: { url: string }) => n.url.includes('reddit.com'))).toBe(true);
+    // Community posts (r/wow) are dropped from the feed.
+    expect(feed.news.some((n: { url: string }) => n.url.includes('reddit.com'))).toBe(false);
     expect(feed.news.some((n: { url: string }) => n.url.includes('wowhead.com'))).toBe(true);
 
     const log = JSON.parse(await fs.readFile(path.join(dir, 'changelog.json'), 'utf8'));
