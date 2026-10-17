@@ -146,5 +146,23 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-10-17T09:04:21.371Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "reddit-r-wow",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-removed",
+        "id": "news-8b691069",
+        "detail": "Wowhead: Join the World of Warcraft: Forever Stress Test on October 19th"
+      }
+    ],
+    "changed": true
   }
 ]

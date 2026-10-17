@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "updatedAt": "2026-10-17",
   "changes": [
     {
@@ -383,18 +383,6 @@
       "title": "No Lower Level PvP Protection Planned for WoW: Forever",
       "summary": "In the latest episode of the WoW: Forever Podcast, Blizzard confirms there is no plan to add any low-level PvP protection from higher-level players. Continue reading »",
       "url": "https://www.wowhead.com/news=383435/no-lower-level-pvp-protection-planned-for-wow-forever",
-      "sourceLabel": "Wowhead",
-      "publishedAt": "2026-10-15",
-      "official": false,
-      "tags": [
-        "news"
-      ]
-    },
-    {
-      "id": "news-8b691069",
-      "title": "Join the World of Warcraft: Forever Stress Test on October 19th",
-      "summary": "If you haven't tried beta, all players are invited to the WoW: Forever Stress Test on October 19th, with no invitation or subscription needed! Continue reading »",
-      "url": "https://www.wowhead.com/news=383449/join-the-world-of-warcraft-forever-stress-test-on-october-19th",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-10-15",
       "official": false,
