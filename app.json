@@ -33,6 +33,12 @@
     "scheme": "hearthledger",
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "70258bee-1eaa-435d-8f07-39929f6996ec"
+      }
+    },
+    "owner": "nimenoz"
   }
 }
