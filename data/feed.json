@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "updatedAt": "2026-10-17",
   "changes": [
     {
@@ -460,90 +460,6 @@
       "official": false,
       "tags": [
         "news"
-      ]
-    },
-    {
-      "id": "news-7971ad2c",
-      "title": "Forever’s respec system punishes the players we need the most",
-      "summary": "",
-      "url": "https://www.reddit.com/r/wow/comments/1x7zhb4/forevers_respec_system_punishes_the_players_we/",
-      "sourceLabel": "r/wow",
-      "publishedAt": "2026-10-17",
-      "official": false,
-      "tags": [
-        "community"
-      ]
-    },
-    {
-      "id": "news-9f44c0ab",
-      "title": "QuestTogether has received a bunch of new features and a major round of polish ahead of Forever's release.",
-      "summary": "",
-      "url": "https://www.reddit.com/r/wow/comments/1x7rseu/questtogether_has_received_a_bunch_of_new/",
-      "sourceLabel": "r/wow",
-      "publishedAt": "2026-10-16",
-      "official": false,
-      "tags": [
-        "community"
-      ]
-    },
-    {
-      "id": "news-4f32d743",
-      "title": "Horde mage race wow forever.",
-      "summary": "",
-      "url": "https://www.reddit.com/r/wow/comments/1x7rr90/horde_mage_race_wow_forever/",
-      "sourceLabel": "r/wow",
-      "publishedAt": "2026-10-16",
-      "official": false,
-      "tags": [
-        "community"
-      ]
-    },
-    {
-      "id": "news-96d2a2f6",
-      "title": "Potential New Mounts, Pets, and Cosmetics Discovered in Latest WoW: Forever Build",
-      "summary": "",
-      "url": "https://www.reddit.com/r/wow/comments/1x7rb49/potential_new_mounts_pets_and_cosmetics/",
-      "sourceLabel": "r/wow",
-      "publishedAt": "2026-10-16",
-      "official": false,
-      "tags": [
-        "community"
-      ]
-    },
-    {
-      "id": "news-ee964d5b",
-      "title": "I've read up on all the forever beta changes...",
-      "summary": "",
-      "url": "https://www.reddit.com/r/wow/comments/1x7ipaf/ive_read_up_on_all_the_forever_beta_changes/",
-      "sourceLabel": "r/wow",
-      "publishedAt": "2026-10-16",
-      "official": false,
-      "tags": [
-        "community"
-      ]
-    },
-    {
-      "id": "news-c78ba540",
-      "title": "WoW Forever Beta Question",
-      "summary": "",
-      "url": "https://www.reddit.com/r/wow/comments/1x7bqi6/wow_forever_beta_question/",
-      "sourceLabel": "r/wow",
-      "publishedAt": "2026-10-16",
-      "official": false,
-      "tags": [
-        "community"
-      ]
-    },
-    {
-      "id": "news-a51cd380",
-      "title": "wow forever beta",
-      "summary": "",
-      "url": "https://www.reddit.com/r/wow/comments/1x6xlfr/wow_forever_beta/",
-      "sourceLabel": "r/wow",
-      "publishedAt": "2026-10-15",
-      "official": false,
-      "tags": [
-        "community"
       ]
     }
   ]

@@ -164,5 +164,53 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-10-17T09:16:00.924Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "reddit-r-wow",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-removed",
+        "id": "news-7971ad2c",
+        "detail": "r/wow: Forever’s respec system punishes the players we need the most"
+      },
+      {
+        "kind": "news-removed",
+        "id": "news-9f44c0ab",
+        "detail": "r/wow: QuestTogether has received a bunch of new features and a major round of polish ahead of Forever's release."
+      },
+      {
+        "kind": "news-removed",
+        "id": "news-4f32d743",
+        "detail": "r/wow: Horde mage race wow forever."
+      },
+      {
+        "kind": "news-removed",
+        "id": "news-96d2a2f6",
+        "detail": "r/wow: Potential New Mounts, Pets, and Cosmetics Discovered in Latest WoW: Forever Build"
+      },
+      {
+        "kind": "news-removed",
+        "id": "news-ee964d5b",
+        "detail": "r/wow: I've read up on all the forever beta changes..."
+      },
+      {
+        "kind": "news-removed",
+        "id": "news-c78ba540",
+        "detail": "r/wow: WoW Forever Beta Question"
+      },
+      {
+        "kind": "news-removed",
+        "id": "news-a51cd380",
+        "detail": "r/wow: wow forever beta"
+      }
+    ],
+    "changed": true
   }
 ]
