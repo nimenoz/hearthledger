@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "updatedAt": "2026-10-17",
   "changes": [
     {
@@ -457,6 +457,18 @@
       "url": "https://www.wowhead.com/news=383414/the-secret-finding-discord-is-sleuthing-again-in-wow-forever",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-10-15",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-94013ffc",
+      "title": "What's Going on With Layering in WoW: Forever?",
+      "summary": "Players have noticed some interesting interactions when it comes to layers and layering in WoW: Forever, making for some frustrating gameplay. Continue reading »",
+      "url": "https://www.wowhead.com/news=383412/whats-going-on-with-layering-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-17",
       "official": false,
       "tags": [
         "news"

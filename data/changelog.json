@@ -212,5 +212,22 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-10-17T15:42:16.662Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-94013ffc",
+        "detail": "Wowhead: What's Going on With Layering in WoW: Forever?"
+      }
+    ],
+    "changed": true
   }
 ]
