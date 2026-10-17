@@ -75,7 +75,7 @@ export default function ArmouryScreen() {
           </View>
           {error ? <Muted style={styles.error}>{error}</Muted> : null}
           {!loading && characters.length === 0 && !error ? (
-            <Muted style={{ marginTop: spacing.sm }}>No characters loaded yet. Tap "Load characters".</Muted>
+            <Muted style={{ marginTop: spacing.sm }}>{'No characters loaded yet. Tap "Load characters".'}</Muted>
           ) : null}
         </GoldPanel>
       }

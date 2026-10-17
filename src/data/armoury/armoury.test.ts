@@ -1,12 +1,12 @@
 import { describe, expect, it, vi } from 'vitest';
 
-vi.mock('@react-native-async-storage/async-storage', () => ({
-  default: { getItem: async () => null, setItem: async () => undefined, removeItem: async () => undefined },
-}));
-
 import { buildAuthorizeUrl, parseAuthFragment } from './battlenet';
 import { computeTracker, DEFAULT_LEVEL_CAP, DEFAULT_TARGET_ITEM_LEVEL } from './tracker';
 import type { CharacterDetail, TrackerGoal } from './types';
+
+vi.mock('@react-native-async-storage/async-storage', () => ({
+  default: { getItem: async () => null, setItem: async () => undefined, removeItem: async () => undefined },
+}));
 
 describe('parseAuthFragment', () => {
   const back = 'hearthledger://armoury';

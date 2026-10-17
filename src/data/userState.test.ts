@@ -1,10 +1,10 @@
 import { describe, expect, it, vi } from 'vitest';
 
+import { parseIdList } from './userState';
+
 vi.mock('@react-native-async-storage/async-storage', () => ({
   default: { getItem: async () => null, setItem: async () => undefined },
 }));
-
-import { parseIdList } from './userState';
 
 describe('parseIdList', () => {
   it('returns null when nothing is stored, so first run can be told apart from empty', () => {
