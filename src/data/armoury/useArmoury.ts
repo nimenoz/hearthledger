@@ -103,34 +103,41 @@ export function useArmoury() {
   return { session, characters, ready, loading, error, signIn, signOut, loadCharacters, expireSession };
 }
 
+type DetailResult = { key: string; detail: CharacterDetail | null; error: string | null };
+
+/**
+ * Loading is derived: a request is pending until a result is stored for its key.
+ * Results are only written from async callbacks, so the effect never sets state synchronously.
+ */
 export function useCharacterDetail(session: Session | null, realmSlug: string, name: string) {
-  const [detail, setDetail] = useState<CharacterDetail | null>(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
+  const [result, setResult] = useState<DetailResult | null>(null);
+  const requestKey = session ? `${session.region}:${session.accessToken}:${realmSlug}:${name}` : null;
 
   useEffect(() => {
-    if (!session) {
-      setLoading(false);
-      return;
-    }
+    if (!session || !requestKey) return;
     let cancelled = false;
-    setLoading(true);
     fetchCharacterDetail(session.region, session.accessToken, { realmSlug, name })
       .then((d) => {
-        if (!cancelled) setDetail(d);
+        if (!cancelled) setResult({ key: requestKey, detail: d, error: null });
       })
       .catch((err: unknown) => {
         if (cancelled) return;
-        if (isAuthExpired(err)) setError('Your Battle.net sign-in has expired. Sign in again from the Armoury tab.');
-        else setError(err instanceof Error ? err.message : 'Could not load this character.');
-      })
-      .finally(() => {
-        if (!cancelled) setLoading(false);
+        const message = isAuthExpired(err)
+          ? 'Your Battle.net sign-in has expired. Sign in again from the Armoury tab.'
+          : err instanceof Error
+            ? err.message
+            : 'Could not load this character.';
+        setResult({ key: requestKey, detail: null, error: message });
       });
     return () => {
       cancelled = true;
     };
-  }, [session, realmSlug, name]);
+  }, [session, requestKey, realmSlug, name]);
 
-  return { detail, loading, error };
+  const current = result !== null && result.key === requestKey ? result : null;
+  return {
+    detail: current?.detail ?? null,
+    loading: requestKey !== null && current === null,
+    error: current?.error ?? null,
+  };
 }
