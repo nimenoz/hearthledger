@@ -11,7 +11,6 @@ const SOURCES = [
   { name: 'ForeverChanges', url: 'https://foreverchanges.pro/', use: 'Independent beta tracker: items, spells, talents, patch notes. Marked "Tracker".' },
   { name: 'WoW Travelcraft', url: 'https://wow-travelcraft.com/', use: 'Map, zones, flight points and transport. Marked "Tracker".' },
   { name: 'Wowhead', url: 'https://www.wowhead.com/', use: 'Reference for items, spells and quests. Linked, not scraped by the bundled collector.' },
-  { name: 'r/wow (Reddit)', url: 'https://www.reddit.com/r/wow/', use: 'Community discussion. Used as a lead for review, never as a confirmed source.' },
 ];
 
 export default function SourcesScreen() {
