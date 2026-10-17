@@ -1,0 +1,42 @@
+name: Build Android APK
+
+on:
+  push:
+    branches:
+      - main
+
+concurrency:
+  group: build-apk
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      # Queues the build on EAS (cloud). The APK is produced there, not on this runner.
+      # Requires the EXPO_TOKEN repository secret (Expo → Access tokens).
+      # The EAS build page link is printed to the log and copied into the run summary.
+      - name: Queue EAS Android build
+        env:
+          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+        run: |
+          set -o pipefail
+          status=0
+          npx --yes eas-cli@latest build --platform android --profile preview --non-interactive --no-wait 2>&1 | tee eas-build.log || status=$?
+
+          BUILD_URL=$(grep -oE 'https://expo\.dev/[^[:space:]]+/builds/[A-Za-z0-9-]+' eas-build.log | head -n 1)
+          {
+            echo "## EAS Android build"
+            if [ "$status" -ne 0 ]; then
+              echo "The build could not be queued (EAS CLI exit code $status). See the job log."
+            elif [ -n "$BUILD_URL" ]; then
+              echo "Queued on EAS. [Open the build in the EAS dashboard]($BUILD_URL)"
+            else
+              echo "Queued on EAS, but the build link was not found in the CLI output. See the job log."
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          exit "$status"
