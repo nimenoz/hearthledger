@@ -75,13 +75,19 @@ describe('parseRedditAtom', () => {
   });
 
   it('keeps only change-related Forever posts from the Reddit results', () => {
-    expect(isRelevantRedditPost('WoW Forever beta impressions')).toBe(true);
+    expect(isRelevantRedditPost('WoW Forever beta impressions')).toBe(false);
     expect(isRelevantRedditPost('Forever physical Collector\'s Edition content')).toBe(false);
     expect(isRelevantRedditPost('Wow forever guild')).toBe(false);
     expect(isRelevantRedditPost('Forever patch 1.60 notes')).toBe(true);
     expect(isRelevantRedditPost('Is Forever beta worth it?')).toBe(false);
     expect(isRelevantRedditPost('Forever beta meme of the week')).toBe(false);
-    expect(isRelevantRedditPost('Forever beta: the changes are huge')).toBe(true);
+    expect(isRelevantRedditPost('Forever beta: the changes are huge')).toBe(false);
+    expect(isRelevantRedditPost('WoW Forever Beta Question')).toBe(false);
+    expect(isRelevantRedditPost('Forever\'s respec system punishes the players we need')).toBe(false);
+    expect(isRelevantRedditPost('Potential New Mounts Discovered in Latest Forever Build')).toBe(false);
+    expect(isRelevantRedditPost('I\'ve read up on all the Forever beta changes')).toBe(false);
+    expect(isRelevantRedditPost('Forever hotfix for the Druid Cat Form quest')).toBe(true);
+    expect(isRelevantRedditPost('Forever beta dungeon changes announced')).toBe(true);
   });
 
   it('returns nothing for a feed with no entries', () => {

@@ -2,7 +2,7 @@ import type { ChangeEntry, Feed, NewsItem } from '../../src/data/types';
 import type { CollectedNews, TrackerStats } from './parsers';
 
 export interface ChangeLogEntry {
-  kind: 'news-added' | 'change-updated';
+  kind: 'news-added' | 'news-removed' | 'change-updated';
   id: string;
   detail: string;
 }
@@ -55,6 +55,47 @@ function upsertChange(changes: ChangeEntry[], id: string, forever: string, log: 
   return changes.map((c) => (c.id === id ? { ...c, forever } : c));
 }
 
+const MONTHS = 'january|february|march|april|may|june|july|august|september|october|november|december';
+const MONTH_DAY = new RegExp(`\\b(?:${MONTHS})\\s+\\d{1,2}(?:st|nd|rd|th)?\\b`, 'gi');
+/** Titles announcing that an event moved, e.g. "Blizzard Moves WoW: Forever Stress Test to October 21". */
+const RESCHEDULE = /\b(moves?|moved|postpone[sd]?|rescheduled|delayed)\b/i;
+/** Words too generic to identify an event on their own. */
+const GENERIC = new Set([
+  'a', 'an', 'and', 'announced', 'at', 'blizzard', 'by', 'for', 'in', 'instead', 'is', 'join', 'moves', 'moved',
+  'of', 'on', 'previously', 'the', 'to', 'warcraft', 'with', 'world', 'wow',
+]);
+
+function eventWords(title: string): Set<string> {
+  const words = title.replace(MONTH_DAY, ' ').toLowerCase().match(/[a-z]+/g) ?? [];
+  return new Set(words.filter((w) => !GENERIC.has(w)));
+}
+
+function monthDays(title: string): string[] {
+  return (title.match(MONTH_DAY) ?? []).map((d) => d.toLowerCase().replace(/\s+/g, ' ').replace(/(st|nd|rd|th)$/, ''));
+}
+
+/** True when `newer` is a reschedule notice for the same event as `older`, and gives a different date. */
+function replacedBy(older: NewsItem, newer: NewsItem): boolean {
+  if (older.id === newer.id || !RESCHEDULE.test(newer.title)) return false;
+  // Without dates on both items, we cannot tell which notice is newer.
+  if (!older.publishedAt || !newer.publishedAt || older.publishedAt > newer.publishedAt) return false;
+  const olderWords = eventWords(older.title);
+  const shared = [...eventWords(newer.title)].filter((w) => olderWords.has(w));
+  if (shared.length < 2) return false;
+  const newerDays = monthDays(newer.title);
+  const olderDays = monthDays(older.title);
+  return newerDays.length > 0 && olderDays.some((d) => !newerDays.includes(d));
+}
+
+/** IDs of news items replaced by a newer reschedule notice. Chains (A -> B -> C) remove both A and B. */
+function findSuperseded(news: NewsItem[]): Set<string> {
+  const superseded = new Set<string>();
+  for (const older of news) {
+    if (news.some((newer) => replacedBy(older, newer))) superseded.add(older.id);
+  }
+  return superseded;
+}
+
 /**
  * Merge collected items into a feed.
  * - News is deduplicated by normalised URL against the existing feed and within the batch.
@@ -64,15 +105,14 @@ function upsertChange(changes: ChangeEntry[], id: string, forever: string, log: 
 export function ingest(feed: Feed, news: CollectedNews[], stats: TrackerStats, now: Date): IngestResult {
   const log: ChangeLogEntry[] = [];
   const knownUrls = new Set(feed.news.map((n) => normalizeUrl(n.url)));
-  const addedNews: NewsItem[] = [];
+  const candidates: NewsItem[] = [];
 
   for (const item of news) {
     const key = normalizeUrl(item.url);
     if (knownUrls.has(key)) continue;
     knownUrls.add(key);
-    const id = newsIdFor(item.url);
-    addedNews.push({
-      id,
+    candidates.push({
+      id: newsIdFor(item.url),
       title: item.title,
       summary: item.summary,
       url: item.url,
@@ -81,7 +121,17 @@ export function ingest(feed: Feed, news: CollectedNews[], stats: TrackerStats, n
       official: item.official,
       tags: item.tags,
     });
-    log.push({ kind: 'news-added', id, detail: `${item.sourceLabel}: ${item.title}` });
+  }
+
+  // Drop items superseded by a newer reschedule notice, whether already in the feed or in this batch.
+  const superseded = findSuperseded([...feed.news, ...candidates]);
+  const keptNews = feed.news.filter((n) => !superseded.has(n.id));
+  const addedNews = candidates.filter((n) => !superseded.has(n.id));
+  for (const n of feed.news) {
+    if (superseded.has(n.id)) log.push({ kind: 'news-removed', id: n.id, detail: `${n.sourceLabel}: ${n.title}` });
+  }
+  for (const n of addedNews) {
+    log.push({ kind: 'news-added', id: n.id, detail: `${n.sourceLabel}: ${n.title}` });
   }
 
   let changes = feed.changes;
@@ -92,7 +142,7 @@ export function ingest(feed: Feed, news: CollectedNews[], stats: TrackerStats, n
     changes = upsertChange(changes, 'spell-talent-count', spellTalentText(stats.spellTalentChanges), log);
   }
 
-  if (addedNews.length === 0 && log.length === 0) {
+  if (log.length === 0) {
     return { feed, log };
   }
 
@@ -101,7 +151,7 @@ export function ingest(feed: Feed, news: CollectedNews[], stats: TrackerStats, n
       version: feed.version + 1,
       updatedAt: now.toISOString().slice(0, 10),
       changes,
-      news: [...feed.news, ...addedNews],
+      news: [...keptNews, ...addedNews],
     },
     log,
   };

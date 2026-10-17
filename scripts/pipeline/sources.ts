@@ -24,10 +24,13 @@ export interface CollectorSource {
 
 const FOREVER_RE = /forever/i;
 /** Post titles that describe a change, not a question, meme or guild ad. A heuristic, so review the feed. */
-const REDDIT_CHANGE_RE = /\b(beta|patch|hotfix|updates?|announc\w*|launch\w*|release|changes?|build|talents?|dungeons?|races?|classes?|respec)\b/i;
-/** Questions, memes, recruitment and merch posts that match the change words but are not news. */
+const REDDIT_CHANGE_RE = /\b(patch|hotfix|updates?|announc\w*|launch\w*|release|changes?|build|talents?|dungeons?|races?|classes?|respec|nerfs?|buffs?)\b/i;
+/**
+ * Questions, memes, recruitment and merch posts, first-person posts, speculation and opinion titles.
+ * These can match the change words but are not news.
+ */
 const REDDIT_NOISE_RE =
-  /\?|\b(guild|recruit\w*|lfg|lfm|merch\w*|collector'?s|edition|giveaway|meme|rant|anyone|help|how|why|what|who|when|which)\b/i;
+  /\?|\b(guild|recruit\w*|lfg|lfm|merch\w*|collector'?s|edition|giveaway|meme|rant|anyone|help|how|why|what|who|when|which|question|i|my|me|we|our|potential|possible|maybe|might|could|rumou?rs?|rumored|speculat\w*|leak\w*|predict\w*|hope|wish|if|should|punish\w*|ruin\w*|hate|love|sucks?|trash|huge|amazing|terrible|awful|worst|best)\b/i;
 const REDDIT_MAX_POSTS = 10;
 
 export function isRelevantRedditPost(title: string): boolean {

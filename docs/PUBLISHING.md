@@ -25,17 +25,14 @@ Hearthledger is an unofficial companion app for the WoW Forever beta. This guide
    npm install -g eas-cli        # or: npx eas-cli@latest <command>
    eas login
    eas init                      # links the project and writes the EAS project ID into app.json
-   eas build:configure           # creates eas.json with development, preview and production profiles
+   # eas.json already exists in the repo with development, preview and production profiles. Don't run build:configure.
    ```
 2. **Google Play Console**: one-time fee of US$25. https://play.google.com/console. Personal accounts must verify identity. Allow several days.
 3. **Apple Developer Program**: US$99 per year. https://developer.apple.com/programs/. Then create the app record in App Store Connect.
 
 ## 3. Configure release settings
 
-1. Set the feed URL as an EAS environment variable, not in a committed file:
-   ```bash
-   eas env:create --name EXPO_PUBLIC_FEED_URL --value "https://raw.githubusercontent.com/<owner>/<repo>/main/data/feed.json" --environment production --visibility plaintext
-   ```
+1. The feed URL is set in each build profile's `env` in [eas.json](../eas.json). It is public, so it's safe to commit. If the repo owner or name changes, update all three profiles.
 2. Set the Battle.net client ID in the app environment if the app reads it (check `src/data/armoury/battlenet.ts` for the variable name), using the same method.
 3. Bump `version` in `app.json` for each user-visible release.
 4. Run the local checks before paying for cloud builds:
@@ -82,7 +79,7 @@ EAS signs the builds in the cloud, so no Mac is needed for iOS. On first run, le
 ## 8. Final checklist
 
 - [ ] GitHub repo created and pushed; collector workflow enabled; `data/feed.json` exists and is public.
-- [ ] `EXPO_PUBLIC_FEED_URL` set for production.
+- [ ] `EXPO_PUBLIC_FEED_URL` in `eas.json` points to the live feed.
 - [ ] Battle.net client created; secret only in the Worker; Worker deployed; redirect URI matches exactly.
 - [ ] Privacy policy hosted and linked in both stores.
 - [ ] Disclaimer present in the app and in listings; no Blizzard logos in icon or screenshots.

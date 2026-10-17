@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
 
+import type { NewsItem } from '../../src/data/types';
 import { seedFeed } from '../../src/data/seed';
 import { hashId, ingest, newsIdFor, normalizeUrl } from './ingest';
 import type { CollectedNews } from './parsers';
@@ -63,5 +64,52 @@ describe('ingest', () => {
   it('does not invent change entries that are not in the seed', () => {
     const result = ingest(seedFeed, [], { newItems: 1, changedItems: 2, spellTalentChanges: 3 }, now);
     expect(result.feed.changes.length).toBe(seedFeed.changes.length);
+  });
+});
+
+describe('superseded news', () => {
+  const notice = (id: string, title: string, publishedAt: string): NewsItem => ({
+    id,
+    title,
+    summary: '',
+    url: `https://www.wowhead.com/news=${id}`,
+    sourceLabel: 'Wowhead',
+    publishedAt,
+    official: false,
+    tags: ['news'],
+  });
+  const oldDate = notice('news-old', 'Join the World of Warcraft: Forever Stress Test on October 19th', '2026-10-15');
+  const moved = notice('news-moved', 'Blizzard Moves WoW: Forever Stress Test to October 21', '2026-10-16');
+  const feedWith = (news: NewsItem[]) => ({ ...seedFeed, news });
+
+  it('removes an older notice when a newer reschedule for the same event is in the batch', () => {
+    const base = feedWith([oldDate]);
+    const incoming: CollectedNews = { title: moved.title, url: moved.url, summary: '', sourceLabel: 'Wowhead', publishedAt: moved.publishedAt, official: false, tags: ['news'] };
+    const result = ingest(base, [incoming], noStats, now);
+    expect(result.feed.news.map((n) => n.title)).toEqual([moved.title]);
+    expect(result.log).toContainEqual(expect.objectContaining({ kind: 'news-removed', id: 'news-old' }));
+    expect(result.feed.version).toBe(seedFeed.version + 1);
+  });
+
+  it('removes an older notice already in the feed when the reschedule is already stored', () => {
+    const result = ingest(feedWith([oldDate, moved]), [], noStats, now);
+    expect(result.feed.news.map((n) => n.id)).toEqual(['news-moved']);
+    expect(result.log.filter((l) => l.kind === 'news-removed')).toHaveLength(1);
+  });
+
+  it('does not re-add a superseded notice that the source still lists', () => {
+    const base = feedWith([moved]);
+    const result = ingest(base, [{ title: oldDate.title, url: oldDate.url, summary: '', sourceLabel: 'Wowhead', publishedAt: oldDate.publishedAt, official: false, tags: ['news'] }], noStats, now);
+    expect(result.feed).toBe(base);
+    expect(result.log).toEqual([]);
+  });
+
+  it('keeps notices with the same date or without a reschedule verb', () => {
+    const sameDate = notice('news-same', 'Forever Stress Test schedule on October 21', '2026-10-15');
+    const unrelated = notice('news-other', 'Forever beta patch notes for October 19', '2026-10-15');
+    const incoming: CollectedNews = { title: moved.title, url: moved.url, summary: '', sourceLabel: 'Wowhead', publishedAt: moved.publishedAt, official: false, tags: ['news'] };
+    const result = ingest(feedWith([sameDate, unrelated]), [incoming], noStats, now);
+    expect(result.feed.news.map((n) => n.title)).toEqual([sameDate.title, unrelated.title, moved.title]);
+    expect(result.log.filter((l) => l.kind === 'news-removed')).toEqual([]);
   });
 });
