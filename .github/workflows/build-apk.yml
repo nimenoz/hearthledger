@@ -12,31 +12,68 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    # EAS builds usually take 10-30 minutes; this job waits for the build to finish.
+    timeout-minutes: 60
+    permissions:
+      contents: read
+      statuses: write
     steps:
       - uses: actions/checkout@v4
 
-      # Queues the build on EAS (cloud). The APK is produced there, not on this runner.
+      - name: Mark commit as building
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          SHA: ${{ github.sha }}
+        run: |
+          gh api --method POST "repos/$REPO/statuses/$SHA" \
+            -f state=pending -f context="EAS Android build" -f description="EAS Android build is running"
+
+      # Builds the APK on EAS (cloud) and waits for it to finish. The APK is produced there, not on this runner.
       # Requires the EXPO_TOKEN repository secret (Expo → Access tokens).
       # The EAS build page link is printed to the log and copied into the run summary.
-      - name: Queue EAS Android build
+      - name: Build Android APK on EAS
+        id: eas
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
         run: |
           set -o pipefail
           status=0
-          npx --yes eas-cli@latest build --platform android --profile preview --non-interactive --no-wait 2>&1 | tee eas-build.log || status=$?
+          npx --yes eas-cli@latest build --platform android --profile preview --non-interactive 2>&1 | tee eas-build.log || status=$?
 
           BUILD_URL=$(grep -oE 'https://expo\.dev/[^[:space:]]+/builds/[A-Za-z0-9-]+' eas-build.log | head -n 1)
+          echo "url=$BUILD_URL" >> "$GITHUB_OUTPUT"
           {
             echo "## EAS Android build"
             if [ "$status" -ne 0 ]; then
-              echo "The build could not be queued (EAS CLI exit code $status). See the job log."
+              echo "The EAS build failed (EAS CLI exit code $status). See the job log."
             elif [ -n "$BUILD_URL" ]; then
-              echo "Queued on EAS. [Open the build in the EAS dashboard]($BUILD_URL)"
+              echo "Build finished. [Open the build in the EAS dashboard]($BUILD_URL)"
             else
-              echo "Queued on EAS, but the build link was not found in the CLI output. See the job log."
+              echo "Build finished, but the build link was not found in the CLI output. See the job log."
             fi
           } >> "$GITHUB_STEP_SUMMARY"
 
           exit "$status"
+
+      - name: Report EAS build result on commit
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          SHA: ${{ github.sha }}
+          OUTCOME: ${{ steps.eas.outcome }}
+          URL: ${{ steps.eas.outputs.url }}
+        run: |
+          if [ "$OUTCOME" = "success" ]; then
+            state=success
+            description="EAS Android build finished"
+          else
+            state=failure
+            description="EAS Android build failed"
+          fi
+          args=(-f state="$state" -f context="EAS Android build" -f description="$description")
+          if [ -n "$URL" ]; then
+            args+=(-f target_url="$URL")
+          fi
+          gh api --method POST "repos/$REPO/statuses/$SHA" "${args[@]}"
