@@ -20,6 +20,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      # EAS CLI reads the project config, which needs the app's dependencies (e.g. expo-router) installed.
+      - name: Install dependencies
+        run: npm ci --legacy-peer-deps
+
       - name: Mark commit as building
         env:
           GH_TOKEN: ${{ github.token }}
