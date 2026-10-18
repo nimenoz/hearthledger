@@ -229,5 +229,22 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-10-18T15:58:10.813Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-c64c53f5",
+        "detail": "Wowhead: Premade Groups Will Only Match Against Other Premades in WoW: Forever Battlegrounds"
+      }
+    ],
+    "changed": true
   }
 ]

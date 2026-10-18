@@ -1,6 +1,6 @@
 {
-  "version": 5,
-  "updatedAt": "2026-10-17",
+  "version": 6,
+  "updatedAt": "2026-10-18",
   "changes": [
     {
       "id": "release-date",
@@ -469,6 +469,18 @@
       "url": "https://www.wowhead.com/news=383412/whats-going-on-with-layering-in-wow-forever",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-10-17",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-c64c53f5",
+      "title": "Premade Groups Will Only Match Against Other Premades in WoW: Forever Battlegrounds",
+      "summary": "In the most recent WoW: Forever podcast, Blizzard revealed that if you queue a Battleground solo, you will not be matched against a premade. Continue reading »",
+      "url": "https://www.wowhead.com/news=383436/premade-groups-will-only-match-against-other-premades-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-18",
       "official": false,
       "tags": [
         "news"
