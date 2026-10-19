@@ -1,5 +1,5 @@
 {
-  "version": 7,
+  "version": 8,
   "updatedAt": "2026-10-19",
   "changes": [
     {
@@ -481,6 +481,30 @@
       "url": "https://www.wowhead.com/news=383436/premade-groups-will-only-match-against-other-premades-in-wow-forever",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-10-18",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-d9b02af0",
+      "title": "The Journey Past Level 30 in WoW: Forever - The Riverglades and Hyjal Zones",
+      "summary": "The World of Warcraft: Forever Beta caps players at level 30, but Blizzard has released a video teasing what is next for players as they level to 60! Continue reading »",
+      "url": "https://www.wowhead.com/news=383495/the-journey-past-level-30-in-wow-forever-the-riverglades-and-hyjal-zones",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-19",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-e68dbc25",
+      "title": "Should Flight Paths Be Changed in WoW: Forever?",
+      "summary": "One aspect from Classic WoW that may not need to make its way into WoW: Forever are the awkward flight paths that exist in the game. Continue reading »",
+      "url": "https://www.wowhead.com/news=383272/should-flight-paths-be-changed-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-19",
       "official": false,
       "tags": [
         "news"

@@ -263,5 +263,27 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-10-19T22:27:17.591Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-d9b02af0",
+        "detail": "Wowhead: The Journey Past Level 30 in WoW: Forever - The Riverglades and Hyjal Zones"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-e68dbc25",
+        "detail": "Wowhead: Should Flight Paths Be Changed in WoW: Forever?"
+      }
+    ],
+    "changed": true
   }
 ]
