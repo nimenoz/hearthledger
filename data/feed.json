@@ -1,6 +1,6 @@
 {
-  "version": 8,
-  "updatedAt": "2026-10-19",
+  "version": 9,
+  "updatedAt": "2026-10-20",
   "changes": [
     {
       "id": "release-date",
@@ -141,7 +141,7 @@
       "id": "item-count",
       "category": "Items",
       "title": "Thousands of item changes",
-      "forever": "The beta build showed 5,619 new items and 4,584 changed items.",
+      "forever": "The beta build showed 5,620 new items and 4,586 changed items.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
@@ -150,7 +150,7 @@
       "id": "spell-talent-count",
       "category": "Classes",
       "title": "Spell and talent changes",
-      "forever": "The beta build showed 759 talent and spell changes compared with Classic.",
+      "forever": "The beta build showed 760 talent and spell changes compared with Classic.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"

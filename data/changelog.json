@@ -285,5 +285,27 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-10-20T11:48:56.883Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "change-updated",
+        "id": "item-count",
+        "detail": "The beta build showed 5,619 new items and 4,584 changed items. -> The beta build showed 5,620 new items and 4,586 changed items."
+      },
+      {
+        "kind": "change-updated",
+        "id": "spell-talent-count",
+        "detail": "The beta build showed 759 talent and spell changes compared with Classic. -> The beta build showed 760 talent and spell changes compared with Classic."
+      }
+    ],
+    "changed": true
   }
 ]
