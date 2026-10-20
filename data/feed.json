@@ -1,5 +1,5 @@
 {
-  "version": 9,
+  "version": 10,
   "updatedAt": "2026-10-20",
   "changes": [
     {
@@ -141,7 +141,7 @@
       "id": "item-count",
       "category": "Items",
       "title": "Thousands of item changes",
-      "forever": "The beta build showed 5,620 new items and 4,586 changed items.",
+      "forever": "The beta build showed 5,620 new items and 4,587 changed items.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
@@ -505,6 +505,30 @@
       "url": "https://www.wowhead.com/news=383272/should-flight-paths-be-changed-in-wow-forever",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-10-19",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-d252b4d1",
+      "title": "Explore the New Dungeons of World of Warcraft: Forever",
+      "summary": "Blizzard has released a blog on the new dungeons in World of Warcraft: Forever. From the Hall of Thanes to the Shaper's Terrace, there are 9 new dungeons to explore! Continue reading »",
+      "url": "https://www.wowhead.com/news=383506/explore-the-new-dungeons-of-world-of-warcraft-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-20",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-98a67e9e",
+      "title": "New Ring of Blood Style Quest Coming in WoW: Forever",
+      "summary": "In the latest YouTube video released on the World of Warcraft YouTube Channel, Blizzard has revealed a new Ring of Blood quest in WoW: Forever. Continue reading »",
+      "url": "https://www.wowhead.com/news=383498/new-ring-of-blood-style-quest-coming-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-20",
       "official": false,
       "tags": [
         "news"

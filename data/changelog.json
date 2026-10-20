@@ -307,5 +307,32 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-10-20T17:17:25.008Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-d252b4d1",
+        "detail": "Wowhead: Explore the New Dungeons of World of Warcraft: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-98a67e9e",
+        "detail": "Wowhead: New Ring of Blood Style Quest Coming in WoW: Forever"
+      },
+      {
+        "kind": "change-updated",
+        "id": "item-count",
+        "detail": "The beta build showed 5,620 new items and 4,586 changed items. -> The beta build showed 5,620 new items and 4,587 changed items."
+      }
+    ],
+    "changed": true
   }
 ]
