@@ -1,5 +1,5 @@
 {
-  "version": 10,
+  "version": 11,
   "updatedAt": "2026-10-20",
   "changes": [
     {
@@ -527,6 +527,54 @@
       "title": "New Ring of Blood Style Quest Coming in WoW: Forever",
       "summary": "In the latest YouTube video released on the World of Warcraft YouTube Channel, Blizzard has revealed a new Ring of Blood quest in WoW: Forever. Continue reading »",
       "url": "https://www.wowhead.com/news=383498/new-ring-of-blood-style-quest-coming-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-20",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-1b4346f5",
+      "title": "How to Reserve Your World of Warcraft: Forever Character Name on October 27th",
+      "summary": "Blizzard has revealed how players can reserve their character names in World of Warcraft: Forever on October 27th! Continue reading »",
+      "url": "https://www.wowhead.com/news=383515/how-to-reserve-your-world-of-warcraft-forever-character-name-on-october-27th",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-20",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-db7e831b",
+      "title": "Blizzard Announces Closing Date and Extension for WoW: Forever Beta",
+      "summary": "The World of Warcraft: Forever Beta has been extended an extra two days and will be going offline on Friday, October 23rd. Continue reading »",
+      "url": "https://www.wowhead.com/news=383514/blizzard-announces-closing-date-and-extension-for-wow-forever-beta",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-20",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-a3c5f8d0",
+      "title": "WoW: Forever Stress Test Start Times on October 21st",
+      "summary": "Blizzard has confirmed the start times for the WoW: Forever stress test! Continue reading »",
+      "url": "https://www.wowhead.com/news=383513/wow-forever-stress-test-start-times-on-october-21st",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-20",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-f030709c",
+      "title": "Learn More About the WoW: Forever Raids and Attunements",
+      "summary": "Learn about the three new raids coming in WoW: Forever and details about the Onyxia attunement! Continue reading »",
+      "url": "https://www.wowhead.com/news=383508/learn-more-about-the-wow-forever-raids-and-attunements",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-10-20",
       "official": false,

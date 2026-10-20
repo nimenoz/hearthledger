@@ -334,5 +334,37 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-10-20T21:43:04.021Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-1b4346f5",
+        "detail": "Wowhead: How to Reserve Your World of Warcraft: Forever Character Name on October 27th"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-db7e831b",
+        "detail": "Wowhead: Blizzard Announces Closing Date and Extension for WoW: Forever Beta"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-a3c5f8d0",
+        "detail": "Wowhead: WoW: Forever Stress Test Start Times on October 21st"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-f030709c",
+        "detail": "Wowhead: Learn More About the WoW: Forever Raids and Attunements"
+      }
+    ],
+    "changed": true
   }
 ]
