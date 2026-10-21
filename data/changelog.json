@@ -366,5 +366,22 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-10-21T12:00:12.347Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "change-updated",
+        "id": "item-count",
+        "detail": "The beta build showed 5,620 new items and 4,587 changed items. -> The beta build showed 5,620 new items and 4,588 changed items."
+      }
+    ],
+    "changed": true
   }
 ]
