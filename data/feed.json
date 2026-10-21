@@ -1,5 +1,5 @@
 {
-  "version": 12,
+  "version": 13,
   "updatedAt": "2026-10-21",
   "changes": [
     {
@@ -577,6 +577,30 @@
       "url": "https://www.wowhead.com/news=383508/learn-more-about-the-wow-forever-raids-and-attunements",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-10-20",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-668283e8",
+      "title": "Camping System Breakdown in World of Warcraft: Forever",
+      "summary": "Blizzard has released a blog detailing the Campfire system in WoW: Forever. Learn how camping works and which buffs each profession provides! Continue reading »",
+      "url": "https://www.wowhead.com/news=383522/camping-system-breakdown-in-world-of-warcraft-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-21",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-8a7d2f17",
+      "title": "WoW: Forever Beta Going Offline for Stress Test",
+      "summary": "Blizzard has announced that the WoW: Forever Beta will be going offline shortly to prepare for today's stress test! Continue reading »",
+      "url": "https://www.wowhead.com/news=383521/wow-forever-beta-going-offline-for-stress-test",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-21",
       "official": false,
       "tags": [
         "news"

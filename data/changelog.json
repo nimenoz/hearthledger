@@ -383,5 +383,27 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-10-21T17:20:35.262Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-668283e8",
+        "detail": "Wowhead: Camping System Breakdown in World of Warcraft: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-8a7d2f17",
+        "detail": "Wowhead: WoW: Forever Beta Going Offline for Stress Test"
+      }
+    ],
+    "changed": true
   }
 ]
