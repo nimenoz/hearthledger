@@ -405,5 +405,22 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-10-21T21:48:53.860Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-3e337ba7",
+        "detail": "Wowhead: The Current State of Protection Paladins in WoW: Forever"
+      }
+    ],
+    "changed": true
   }
 ]

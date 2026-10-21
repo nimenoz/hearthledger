@@ -1,5 +1,5 @@
 {
-  "version": 13,
+  "version": 14,
   "updatedAt": "2026-10-21",
   "changes": [
     {
@@ -599,6 +599,18 @@
       "title": "WoW: Forever Beta Going Offline for Stress Test",
       "summary": "Blizzard has announced that the WoW: Forever Beta will be going offline shortly to prepare for today's stress test! Continue reading »",
       "url": "https://www.wowhead.com/news=383521/wow-forever-beta-going-offline-for-stress-test",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-21",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-3e337ba7",
+      "title": "The Current State of Protection Paladins in WoW: Forever",
+      "summary": "With the Beta stress test on the horizon and the official end of the beta in a few days, our Prot Paladin expert Riyani weighs in on the current state of the class. Continue reading »",
+      "url": "https://www.wowhead.com/news=383487/the-current-state-of-protection-paladins-in-wow-forever",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-10-21",
       "official": false,
