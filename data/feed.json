@@ -1,6 +1,6 @@
 {
-  "version": 14,
-  "updatedAt": "2026-10-21",
+  "version": 15,
+  "updatedAt": "2026-10-22",
   "changes": [
     {
       "id": "release-date",
@@ -613,6 +613,18 @@
       "url": "https://www.wowhead.com/news=383487/the-current-state-of-protection-paladins-in-wow-forever",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-10-21",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-33ac8094",
+      "title": "World of Warcraft: Forever Beta Will Return Shortly",
+      "summary": "Blizzard has announced that they are working on bringing the Forever Beta back. Continue reading »",
+      "url": "https://www.wowhead.com/news=383532/world-of-warcraft-forever-beta-will-return-shortly",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-22",
       "official": false,
       "tags": [
         "news"

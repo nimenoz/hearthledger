@@ -422,5 +422,22 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-10-22T04:59:58.214Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-33ac8094",
+        "detail": "Wowhead: World of Warcraft: Forever Beta Will Return Shortly"
+      }
+    ],
+    "changed": true
   }
 ]
