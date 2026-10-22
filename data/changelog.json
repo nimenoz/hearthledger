@@ -481,5 +481,37 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-10-22T21:43:52.850Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-0313bfe7",
+        "detail": "Wowhead: Blizzard Teases Raid Philosophy and Encounters for WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-8f33bb6d",
+        "detail": "Wowhead: Blizzard Performing Forever Beta Realm Restarts Soon"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-882a4f5f",
+        "detail": "Wowhead: Blizzard Confirms Molten Core Will Have New Mechanics in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-bd5f199f",
+        "detail": "Wowhead: The WoW: Forever End of Beta Celebration Has Begun ft. Azuregos and Kazzak"
+      }
+    ],
+    "changed": true
   }
 ]

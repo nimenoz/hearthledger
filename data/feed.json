@@ -1,5 +1,5 @@
 {
-  "version": 16,
+  "version": 17,
   "updatedAt": "2026-10-22",
   "changes": [
     {
@@ -683,6 +683,54 @@
       "title": "Dalaran Recreated at 1:1 Scale for WoW: Forever Celebration in China",
       "summary": "To celebrate all things Blizzard and WoW: Forever, a massive party was recently held in Shanghai, China, and players got to explore the iconic city of Dalaran in full-scale glory. Continue reading »",
       "url": "https://www.wowhead.com/news=383530/dalaran-recreated-at-1-1-scale-for-wow-forever-celebration-in-china",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-22",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-0313bfe7",
+      "title": "Blizzard Teases Raid Philosophy and Encounters for WoW: Forever",
+      "summary": "In the latest WoW: Forever Podcast episode, Lead Encounter Designer Michael Nuthals breaks down what players should expect from Forever Raid Bosses. Continue reading »",
+      "url": "https://www.wowhead.com/news=383546/blizzard-teases-raid-philosophy-and-encounters-for-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-22",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-8f33bb6d",
+      "title": "Blizzard Performing Forever Beta Realm Restarts Soon",
+      "summary": "Blizzard has announced that they will be performing restarts on the Forever Beta shortly. Continue reading »",
+      "url": "https://www.wowhead.com/news=383548/blizzard-performing-forever-beta-realm-restarts-soon",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-22",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-882a4f5f",
+      "title": "Blizzard Confirms Molten Core Will Have New Mechanics in WoW: Forever",
+      "summary": "In the most recent episode of the WoW: Forever Podcast, Josh Greenfield confirms that older raids like Molten Core will have new mechanics for players to discover. Continue reading »",
+      "url": "https://www.wowhead.com/news=383543/blizzard-confirms-molten-core-will-have-new-mechanics-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-22",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-bd5f199f",
+      "title": "The WoW: Forever End of Beta Celebration Has Begun ft. Azuregos and Kazzak",
+      "summary": "The WoW: Forever End of Beta celebrations are taking place in various zones over the next 24 hours featuring Azuregos, Kazzak, and more! Continue reading »",
+      "url": "https://www.wowhead.com/news=383541/the-wow-forever-end-of-beta-celebration-has-begun-ft-azuregos-and-kazzak",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-10-22",
       "official": false,
