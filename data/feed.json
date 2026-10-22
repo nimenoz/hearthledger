@@ -1,5 +1,5 @@
 {
-  "version": 15,
+  "version": 16,
   "updatedAt": "2026-10-22",
   "changes": [
     {
@@ -141,7 +141,7 @@
       "id": "item-count",
       "category": "Items",
       "title": "Thousands of item changes",
-      "forever": "The beta build showed 5,620 new items and 4,588 changed items.",
+      "forever": "The beta build showed 5,630 new items and 4,588 changed items.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
@@ -623,6 +623,66 @@
       "title": "World of Warcraft: Forever Beta Will Return Shortly",
       "summary": "Blizzard has announced that they are working on bringing the Forever Beta back. Continue reading »",
       "url": "https://www.wowhead.com/news=383532/world-of-warcraft-forever-beta-will-return-shortly",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-22",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-8ed3fc8d",
+      "title": "The WoW: Forever Podcast Episode 5 Now Available - The End of Beta Special!",
+      "summary": "The 5th episode of the WoW: Forever Podcast is now live and this week they have a special episode for the end of the WoW: Forever Beta! Continue reading »",
+      "url": "https://www.wowhead.com/news=383540/the-wow-forever-podcast-episode-5-now-available-the-end-of-beta-special",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-22",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-b5a0235f",
+      "title": "Josh Greenfield Teases Possible Event on WoW: Forever Beta in \"Few Hours\"",
+      "summary": "Josh Greenfield has teased on social media that it might be a good idea to log in to the WoW: Forever Beta one last time in a few hours. Continue reading »",
+      "url": "https://www.wowhead.com/news=383538/josh-greenfield-teases-possible-event-on-wow-forever-beta-in-few-hours",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-22",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-23d9e985",
+      "title": "No Mail Spell Power Dungeon and Quest Armor in WoW: Forever Early Levels",
+      "summary": "As players continue to play the WoW Forever Beta, they've noticed that mail spell power gear seems to be completely missing from quests and dungeon rewards - at least in early levels. Continue reading »",
+      "url": "https://www.wowhead.com/news=383520/no-mail-spell-power-dungeon-and-quest-armor-in-wow-forever-early-levels",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-22",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-e6e2cec1",
+      "title": "RP-PvP Ruleset Coming to WoW: Forever",
+      "summary": "Blizzard has announced that they will be adding a RP-PvP Ruleset for WoW: Forever's launch! Continue reading »",
+      "url": "https://www.wowhead.com/news=383537/rp-pvp-ruleset-coming-to-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-22",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-47cdcce1",
+      "title": "Dalaran Recreated at 1:1 Scale for WoW: Forever Celebration in China",
+      "summary": "To celebrate all things Blizzard and WoW: Forever, a massive party was recently held in Shanghai, China, and players got to explore the iconic city of Dalaran in full-scale glory. Continue reading »",
+      "url": "https://www.wowhead.com/news=383530/dalaran-recreated-at-1-1-scale-for-wow-forever-celebration-in-china",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-10-22",
       "official": false,

@@ -439,5 +439,47 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-10-22T17:17:54.406Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-8ed3fc8d",
+        "detail": "Wowhead: The WoW: Forever Podcast Episode 5 Now Available - The End of Beta Special!"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-b5a0235f",
+        "detail": "Wowhead: Josh Greenfield Teases Possible Event on WoW: Forever Beta in \"Few Hours\""
+      },
+      {
+        "kind": "news-added",
+        "id": "news-23d9e985",
+        "detail": "Wowhead: No Mail Spell Power Dungeon and Quest Armor in WoW: Forever Early Levels"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-e6e2cec1",
+        "detail": "Wowhead: RP-PvP Ruleset Coming to WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-47cdcce1",
+        "detail": "Wowhead: Dalaran Recreated at 1:1 Scale for WoW: Forever Celebration in China"
+      },
+      {
+        "kind": "change-updated",
+        "id": "item-count",
+        "detail": "The beta build showed 5,620 new items and 4,588 changed items. -> The beta build showed 5,630 new items and 4,588 changed items."
+      }
+    ],
+    "changed": true
   }
 ]
