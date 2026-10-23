@@ -1,6 +1,6 @@
 {
-  "version": 17,
-  "updatedAt": "2026-10-22",
+  "version": 18,
+  "updatedAt": "2026-10-23",
   "changes": [
     {
       "id": "release-date",
@@ -141,7 +141,7 @@
       "id": "item-count",
       "category": "Items",
       "title": "Thousands of item changes",
-      "forever": "The beta build showed 5,630 new items and 4,588 changed items.",
+      "forever": "The beta build showed 5,745 new items and 4,594 changed items.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
