@@ -1,5 +1,5 @@
 {
-  "version": 19,
+  "version": 20,
   "updatedAt": "2026-10-23",
   "changes": [
     {
@@ -141,7 +141,7 @@
       "id": "item-count",
       "category": "Items",
       "title": "Thousands of item changes",
-      "forever": "The beta build showed 5,754 new items and 4,595 changed items.",
+      "forever": "The beta build showed 5,629 new items and 4,595 changed items.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
@@ -767,6 +767,42 @@
       "title": "Who is WoW: Forever Meant For? Blizzard Discusses on Forever Podcast",
       "summary": "In the latest podcast episode, Associate Production Director Clay Stone breaks down who World of Warcraft: Forever is meant for. Continue reading »",
       "url": "https://www.wowhead.com/news=383547/who-is-wow-forever-meant-for-blizzard-discusses-on-forever-podcast",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-23",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-8c9f213e",
+      "title": "World Bosses, Legendaries, and a Scourge Invasion - The WoW: Forever Beta is Over",
+      "summary": "In the final hours of the WoW: Forever Beta, Blizzard decided to go out with a bang, giving players fun and chaotic events throughout the world. Continue reading »",
+      "url": "https://www.wowhead.com/news=383554/world-bosses-legendaries-and-a-scourge-invasion-the-wow-forever-beta-is-over",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-23",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-6aedf9f1",
+      "title": "This Week's WoW Recap - WoW: Forever, Hallow's End, Fall Savings",
+      "summary": "Blizzard has released a recap of the major events across World of Warcraft in the last week, which includes many new details in WoW: Forever, Hallow's End starting and a Fall Saving sale! Continue reading »",
+      "url": "https://www.wowhead.com/news=383561/this-weeks-wow-recap-wow-forever-hallows-end-fall-savings",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-23",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-28294686",
+      "title": "Blizzard Thanks Players for Testing the WoW Forever Beta",
+      "summary": "Blizzard has released a message thanking players for playing the WoW: Forever Beta and sharing details about what's to come before the November 4th release. Continue reading »",
+      "url": "https://www.wowhead.com/news=383560/blizzard-thanks-players-for-testing-the-wow-forever-beta",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-10-23",
       "official": false,

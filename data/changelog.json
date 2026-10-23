@@ -562,5 +562,37 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-10-23T21:30:03.498Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-8c9f213e",
+        "detail": "Wowhead: World Bosses, Legendaries, and a Scourge Invasion - The WoW: Forever Beta is Over"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-6aedf9f1",
+        "detail": "Wowhead: This Week's WoW Recap - WoW: Forever, Hallow's End, Fall Savings"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-28294686",
+        "detail": "Wowhead: Blizzard Thanks Players for Testing the WoW Forever Beta"
+      },
+      {
+        "kind": "change-updated",
+        "id": "item-count",
+        "detail": "The beta build showed 5,754 new items and 4,595 changed items. -> The beta build showed 5,629 new items and 4,595 changed items."
+      }
+    ],
+    "changed": true
   }
 ]
