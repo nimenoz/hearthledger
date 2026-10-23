@@ -530,5 +530,37 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-10-23T17:15:40.074Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-9e18a9b6",
+        "detail": "Wowhead: Get Your WoW: Forever Beta Stats"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-6ecc5f6b",
+        "detail": "Wowhead: Dalaran Updated Ahead of the Beta's End in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-f701486c",
+        "detail": "Wowhead: Who is WoW: Forever Meant For? Blizzard Discusses on Forever Podcast"
+      },
+      {
+        "kind": "change-updated",
+        "id": "item-count",
+        "detail": "The beta build showed 5,745 new items and 4,594 changed items. -> The beta build showed 5,754 new items and 4,595 changed items."
+      }
+    ],
+    "changed": true
   }
 ]

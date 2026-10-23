@@ -1,5 +1,5 @@
 {
-  "version": 18,
+  "version": 19,
   "updatedAt": "2026-10-23",
   "changes": [
     {
@@ -141,7 +141,7 @@
       "id": "item-count",
       "category": "Items",
       "title": "Thousands of item changes",
-      "forever": "The beta build showed 5,745 new items and 4,594 changed items.",
+      "forever": "The beta build showed 5,754 new items and 4,595 changed items.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
@@ -733,6 +733,42 @@
       "url": "https://www.wowhead.com/news=383541/the-wow-forever-end-of-beta-celebration-has-begun-ft-azuregos-and-kazzak",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-10-22",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-9e18a9b6",
+      "title": "Get Your WoW: Forever Beta Stats",
+      "summary": "Players can now see various stats about their WoW: Forever Beta experience and share their results with their friends! Continue reading »",
+      "url": "https://www.wowhead.com/news=383557/get-your-wow-forever-beta-stats",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-23",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-6ecc5f6b",
+      "title": "Dalaran Updated Ahead of the Beta's End in WoW: Forever",
+      "summary": "Dalaran opened its doors to Alliance players in WoW: Forever. In the final build of the Beta, the city received some significant updates! Continue reading »",
+      "url": "https://www.wowhead.com/news=383523/dalaran-updated-ahead-of-the-betas-end-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-23",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-f701486c",
+      "title": "Who is WoW: Forever Meant For? Blizzard Discusses on Forever Podcast",
+      "summary": "In the latest podcast episode, Associate Production Director Clay Stone breaks down who World of Warcraft: Forever is meant for. Continue reading »",
+      "url": "https://www.wowhead.com/news=383547/who-is-wow-forever-meant-for-blizzard-discusses-on-forever-podcast",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-23",
       "official": false,
       "tags": [
         "news"
