@@ -628,5 +628,37 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-10-26T22:45:32.525Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-8c362fe6",
+        "detail": "Wowhead: Racial Ability Tuning Pass for WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-912f9835",
+        "detail": "Wowhead: Meet the Devs at WoW: Forever Poster Signing - Limited Tickets Available Tomorrow"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-197ef672",
+        "detail": "Wowhead: Watch the WoW: Forever Short Story, “Unbowed”"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-61e1064c",
+        "detail": "Wowhead: Blizzard Hints The WoW: Forever Podcast Will Continue"
+      }
+    ],
+    "changed": true
   }
 ]

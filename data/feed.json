@@ -1,5 +1,5 @@
 {
-  "version": 22,
+  "version": 23,
   "updatedAt": "2026-10-26",
   "changes": [
     {
@@ -815,6 +815,54 @@
       "title": "The WoW: Forever Beta PvP Tournament: Results, Winners, Statistics",
       "summary": "The WoW Forever Beta Tournament had a huge turnout, and with a $100,000 prize pool, players from all over the world prepared for this lucrative competition - but which classes came out on top? Continue reading »",
       "url": "https://www.wowhead.com/news=383571/the-wow-forever-beta-pvp-tournament-results-winners-statistics",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-26",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-8c362fe6",
+      "title": "Racial Ability Tuning Pass for WoW: Forever",
+      "summary": "Blizzard has announced upcoming racial ability tuning for the launch of WoW: Forever! Continue reading »",
+      "url": "https://www.wowhead.com/news=383597/racial-ability-tuning-pass-for-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-26",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-912f9835",
+      "title": "Meet the Devs at WoW: Forever Poster Signing - Limited Tickets Available Tomorrow",
+      "summary": "Blizzard has announced a WoW: Forever Poster Signing on November 2nd where players can meet the devs and tickets are available starting tomorrow! Continue reading »",
+      "url": "https://www.wowhead.com/news=383595/meet-the-devs-at-wow-forever-poster-signing-limited-tickets-available-now",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-26",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-197ef672",
+      "title": "Watch the WoW: Forever Short Story, “Unbowed”",
+      "summary": "A new World of Warcraft: Forever short story called \"Unbowed\" focuses on the story of Cormack, a former Scarlet Crusader, as he struggles to accept his undead existence. Continue reading »",
+      "url": "https://www.wowhead.com/news=383589/watch-the-wow-forever-short-story-unbowed-world-of-warcraft-blizzard-news",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-26",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-61e1064c",
+      "title": "Blizzard Hints The WoW: Forever Podcast Will Continue",
+      "summary": "In Blizzard's latest episode of the WoW Forever Podcast, they have strongly hinted that it will continue through WoW: Forever's launch! Continue reading »",
+      "url": "https://www.wowhead.com/news=383573/blizzard-hints-the-wow-forever-podcast-will-continue",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-10-26",
       "official": false,
