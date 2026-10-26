@@ -1,6 +1,6 @@
 {
-  "version": 21,
-  "updatedAt": "2026-10-24",
+  "version": 22,
+  "updatedAt": "2026-10-26",
   "changes": [
     {
       "id": "release-date",
@@ -805,6 +805,18 @@
       "url": "https://www.wowhead.com/news=383560/blizzard-thanks-players-for-testing-the-wow-forever-beta",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-10-23",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-f6ebfd36",
+      "title": "The WoW: Forever Beta PvP Tournament: Results, Winners, Statistics",
+      "summary": "The WoW Forever Beta Tournament had a huge turnout, and with a $100,000 prize pool, players from all over the world prepared for this lucrative competition - but which classes came out on top? Continue reading »",
+      "url": "https://www.wowhead.com/news=383571/the-wow-forever-beta-pvp-tournament-results-winners-statistics",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-26",
       "official": false,
       "tags": [
         "news"

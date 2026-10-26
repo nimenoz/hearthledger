@@ -611,5 +611,22 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-10-26T13:15:44.647Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-f6ebfd36",
+        "detail": "Wowhead: The WoW: Forever Beta PvP Tournament: Results, Winners, Statistics"
+      }
+    ],
+    "changed": true
   }
 ]
