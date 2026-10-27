@@ -1,6 +1,6 @@
 {
-  "version": 23,
-  "updatedAt": "2026-10-26",
+  "version": 24,
+  "updatedAt": "2026-10-27",
   "changes": [
     {
       "id": "release-date",
@@ -865,6 +865,66 @@
       "url": "https://www.wowhead.com/news=383573/blizzard-hints-the-wow-forever-podcast-will-continue",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-10-26",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-4960ab7b",
+      "title": "Blizzard Announces Name Reservation Issue for Oceanic Players in WoW: Forever",
+      "summary": "Blizzard has announced a name reservation issue for Oceanic Players who are connecting to Australian-based servers. Continue reading »",
+      "url": "https://www.wowhead.com/news=383612/blizzard-announces-name-reservation-issue-for-oceanic-players-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-27",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-c56b71c7",
+      "title": "Join the WoW Portal Room for Your Next Adventure in WoW: Forever",
+      "summary": "Blizzard has released a new blog, incentivizing players to join the WoW Portal Room! Continue reading »",
+      "url": "https://www.wowhead.com/news=383610/join-the-wow-portal-room-for-your-next-adventure-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-27",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-7ea9e64c",
+      "title": "Update: Name Reservations for WoW: Forever Now Live in EU, NA",
+      "summary": "Updated: The delay on Forever name reservations is complete, and players can now reserve their names on EU and NA! Continue reading »",
+      "url": "https://www.wowhead.com/news=383608/name-reservations-for-wow-forever-delayed",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-27",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-3ea9863d",
+      "title": "World of Warcraft: Forever AMV - WARPATH",
+      "summary": "To highlight the upcoming launch of WoW: Forever, Blizzard has released a brand new AMV called WARPATH! Continue reading »",
+      "url": "https://www.wowhead.com/news=383605/world-of-warcraft-forever-amv-warpath",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-27",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-ed226ced",
+      "title": "[Updated] More Racial Ability Tuning on WoW: Forever",
+      "summary": "Blizzard has added even more racial ability tuning in WoW: Forever, now also affecting Trolls. Continue reading »",
+      "url": "https://www.wowhead.com/news=383602/more-racial-ability-tuning-on-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-27",
       "official": false,
       "tags": [
         "news"

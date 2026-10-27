@@ -660,5 +660,42 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-10-27T22:22:56.124Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-4960ab7b",
+        "detail": "Wowhead: Blizzard Announces Name Reservation Issue for Oceanic Players in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-c56b71c7",
+        "detail": "Wowhead: Join the WoW Portal Room for Your Next Adventure in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-7ea9e64c",
+        "detail": "Wowhead: Update: Name Reservations for WoW: Forever Now Live in EU, NA"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-3ea9863d",
+        "detail": "Wowhead: World of Warcraft: Forever AMV - WARPATH"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-ed226ced",
+        "detail": "Wowhead: [Updated] More Racial Ability Tuning on WoW: Forever"
+      }
+    ],
+    "changed": true
   }
 ]
