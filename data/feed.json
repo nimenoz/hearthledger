@@ -1,5 +1,5 @@
 {
-  "version": 25,
+  "version": 26,
   "updatedAt": "2026-10-28",
   "changes": [
     {
@@ -925,6 +925,42 @@
       "url": "https://www.wowhead.com/news=383602/more-racial-ability-tuning-on-wow-forever",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-10-27",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-2c020d29",
+      "title": "New Class and Item Tuning on WoW: Forever - Hunter Changes",
+      "summary": "With name reservations now live in WoW: Forever, there are some tuning changes for Hunters and an Alchemy potion. Continue reading »",
+      "url": "https://www.wowhead.com/news=383641/new-class-and-item-tuning-on-wow-forever-hunter-changes",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-28",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-f04febe2",
+      "title": "Retail Team Discussing Lighting and Water Improvements from WoW: Forever",
+      "summary": "In an interview with IGN, Kris Zierhut confirms that the Retail WoW team has been discussing many of the lightning and water improvements from WoW: Forever. Continue reading »",
+      "url": "https://www.wowhead.com/news=383637/retail-team-discussing-lighting-and-water-improvements-from-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-28",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-b544f774",
+      "title": "New Player’s Starter Guide for World of Warcraft: Forever",
+      "summary": "Blizzard has released a new player's starter guide for World of Warcraft: Forever! Continue reading »",
+      "url": "https://www.wowhead.com/news=383632/new-player-s-starter-guide-for-world-of-warcraft-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-28",
       "official": false,
       "tags": [
         "news"

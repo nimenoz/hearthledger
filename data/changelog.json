@@ -714,5 +714,32 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-10-28T22:41:07.323Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-2c020d29",
+        "detail": "Wowhead: New Class and Item Tuning on WoW: Forever - Hunter Changes"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-f04febe2",
+        "detail": "Wowhead: Retail Team Discussing Lighting and Water Improvements from WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-b544f774",
+        "detail": "Wowhead: New Player’s Starter Guide for World of Warcraft: Forever"
+      }
+    ],
+    "changed": true
   }
 ]
