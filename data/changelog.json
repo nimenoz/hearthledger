@@ -775,5 +775,52 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-10-29T22:51:05.871Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-9c18eafa",
+        "detail": "Wowhead: Everything You Need to Know for WoW: Forever's Global Launch"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-e59c1710",
+        "detail": "Wowhead: Forced World Refreshes Will Be Significantly Reduced for WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-3759870a",
+        "detail": "Wowhead: Return to Azeroth Recap for World of Warcraft: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-b3f97ac2",
+        "detail": "Wowhead: Blizzard Working on Top Layering Issues in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-9c5ad44c",
+        "detail": "Wowhead: The WoW: Forever Podcast Episode 6 Now Available - Tech and Community Building"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-80ffc937",
+        "detail": "Wowhead: WoW: Forever is Aiming for a 4-Month Patch Cadence"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-4e8e4cb6",
+        "detail": "Wowhead: Patch Cadence, Future Locations, Respeccing - IGN Interview on WoW: Forever"
+      }
+    ],
+    "changed": true
   }
 ]
