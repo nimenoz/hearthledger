@@ -741,5 +741,22 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-10-29T05:57:41.654Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "change-updated",
+        "id": "spell-talent-count",
+        "detail": "The beta build showed 760 talent and spell changes compared with Classic. -> The beta build showed 758 talent and spell changes compared with Classic."
+      }
+    ],
+    "changed": true
   }
 ]

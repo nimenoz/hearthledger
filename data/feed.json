@@ -1,6 +1,6 @@
 {
-  "version": 26,
-  "updatedAt": "2026-10-28",
+  "version": 27,
+  "updatedAt": "2026-10-29",
   "changes": [
     {
       "id": "release-date",
@@ -150,7 +150,7 @@
       "id": "spell-talent-count",
       "category": "Classes",
       "title": "Spell and talent changes",
-      "forever": "The beta build showed 760 talent and spell changes compared with Classic.",
+      "forever": "The beta build showed 758 talent and spell changes compared with Classic.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
