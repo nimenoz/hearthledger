@@ -822,5 +822,42 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-10-30T22:27:40.173Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-65948000",
+        "detail": "Wowhead: Over 8 Million Characters Were Created in the WoW: Forever Beta"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-d3198e59",
+        "detail": "Wowhead: WoW Weekly Recap - WoW: Forever, Talebound Demo, New Shop Decor Packs"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-8e369f52",
+        "detail": "Wowhead: Blizzard Addresses Day and Night Cycle Issues for Oceanic Players in WoW: Forever"
+      },
+      {
+        "kind": "change-updated",
+        "id": "item-count",
+        "detail": "The beta build showed 5,669 new items and 4,598 changed items. -> The beta build showed 5,705 new items and 4,598 changed items."
+      },
+      {
+        "kind": "change-updated",
+        "id": "spell-talent-count",
+        "detail": "The beta build showed 758 talent and spell changes compared with Classic. -> The beta build showed 759 talent and spell changes compared with Classic."
+      }
+    ],
+    "changed": true
   }
 ]

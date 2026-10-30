@@ -1,6 +1,6 @@
 {
-  "version": 29,
-  "updatedAt": "2026-10-29",
+  "version": 30,
+  "updatedAt": "2026-10-30",
   "changes": [
     {
       "id": "release-date",
@@ -141,7 +141,7 @@
       "id": "item-count",
       "category": "Items",
       "title": "Thousands of item changes",
-      "forever": "The beta build showed 5,669 new items and 4,598 changed items.",
+      "forever": "The beta build showed 5,705 new items and 4,598 changed items.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
@@ -150,7 +150,7 @@
       "id": "spell-talent-count",
       "category": "Classes",
       "title": "Spell and talent changes",
-      "forever": "The beta build showed 758 talent and spell changes compared with Classic.",
+      "forever": "The beta build showed 759 talent and spell changes compared with Classic.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
@@ -1045,6 +1045,42 @@
       "url": "https://www.wowhead.com/news=383635/patch-cadence-future-locations-respeccing-ign-interview-on-wow-forever",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-10-29",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-65948000",
+      "title": "Over 8 Million Characters Were Created in the WoW: Forever Beta",
+      "summary": "Blizzard has released some statistics about the WoW: Forever Beta, and over 8 million characters were created! Continue reading »",
+      "url": "https://www.wowhead.com/news=383669/over-8-million-characters-were-created-in-the-wow-forever-beta",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-30",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-d3198e59",
+      "title": "WoW Weekly Recap - WoW: Forever, Talebound Demo, New Shop Decor Packs",
+      "summary": "Blizzard has posted this week's WoW weekly recap, which includes WoW: Forever launching next week, the Talebound Demo starting today, and new shop decor packs. Continue reading »",
+      "url": "https://www.wowhead.com/news=383664/wow-weekly-recap-wow-forever-talebound-demo-new-shop-decor-packs",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-30",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-8e369f52",
+      "title": "Blizzard Addresses Day and Night Cycle Issues for Oceanic Players in WoW: Forever",
+      "summary": "In the latest episode of the WoW: Forever Podcast, Blizzard has addressed Day and Night cycle issues for Oceanic Players in WoW: Forever. Continue reading »",
+      "url": "https://www.wowhead.com/news=383652/blizzard-addresses-day-and-night-cycle-issues-for-oceanic-players-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-30",
       "official": false,
       "tags": [
         "news"
