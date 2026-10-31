@@ -1,6 +1,6 @@
 {
-  "version": 30,
-  "updatedAt": "2026-10-30",
+  "version": 31,
+  "updatedAt": "2026-10-31",
   "changes": [
     {
       "id": "release-date",
@@ -141,7 +141,7 @@
       "id": "item-count",
       "category": "Items",
       "title": "Thousands of item changes",
-      "forever": "The beta build showed 5,705 new items and 4,598 changed items.",
+      "forever": "The beta build showed 5,707 new items and 4,599 changed items.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
@@ -150,7 +150,7 @@
       "id": "spell-talent-count",
       "category": "Classes",
       "title": "Spell and talent changes",
-      "forever": "The beta build showed 759 talent and spell changes compared with Classic.",
+      "forever": "The beta build showed 761 talent and spell changes compared with Classic.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
@@ -1079,6 +1079,18 @@
       "title": "Blizzard Addresses Day and Night Cycle Issues for Oceanic Players in WoW: Forever",
       "summary": "In the latest episode of the WoW: Forever Podcast, Blizzard has addressed Day and Night cycle issues for Oceanic Players in WoW: Forever. Continue reading »",
       "url": "https://www.wowhead.com/news=383652/blizzard-addresses-day-and-night-cycle-issues-for-oceanic-players-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-30",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-508d943b",
+      "title": "Massive Talent Tree Changes to Druids and Paladins - Class Tuning for WoW: Forever",
+      "summary": "Druids and Paladins have some massive talent tree changes, with many others getting class tuning changes ahead of WoW: Forever's launch on November 4th! Continue reading »",
+      "url": "https://www.wowhead.com/news=383670/massive-talent-tree-changes-to-druids-and-paladins-class-tuning-for-wow-forever",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-10-30",
       "official": false,
