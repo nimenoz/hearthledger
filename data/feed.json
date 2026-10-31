@@ -1,5 +1,5 @@
 {
-  "version": 31,
+  "version": 32,
   "updatedAt": "2026-10-31",
   "changes": [
     {
@@ -1093,6 +1093,30 @@
       "url": "https://www.wowhead.com/news=383670/massive-talent-tree-changes-to-druids-and-paladins-class-tuning-for-wow-forever",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-10-30",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-6a8043a9",
+      "title": "Could the WoW: Forever Podcast be Teasing a Secret New Weapon?",
+      "summary": "A mysterious message on the latest WoW: Forever podcast board has players decoding Darnassian and speculating about what Blizzard could be hinting at. Continue reading »",
+      "url": "https://www.wowhead.com/news=383657/could-the-wow-forever-podcast-be-teasing-a-secret-new-weapon",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-31",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-8f039f26",
+      "title": "Repeatable Quest Experience Exploit Fixed for WoW: Forever Launch",
+      "summary": "Players discovered a repeatable Alliance-only quest that continuously gave XP, but Blizzard has fixed the quest for Forever's launch - don't plan to level with it! Continue reading »",
+      "url": "https://www.wowhead.com/news=383574/repeatable-quest-experience-exploit-fixed-for-wow-forever-launch",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-10-31",
       "official": false,
       "tags": [
         "news"

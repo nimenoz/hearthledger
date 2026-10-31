@@ -886,5 +886,27 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-10-31T21:43:00.528Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-6a8043a9",
+        "detail": "Wowhead: Could the WoW: Forever Podcast be Teasing a Secret New Weapon?"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-8f039f26",
+        "detail": "Wowhead: Repeatable Quest Experience Exploit Fixed for WoW: Forever Launch"
+      }
+    ],
+    "changed": true
   }
 ]
