@@ -908,5 +908,32 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-11-02T21:47:08.176Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-677c66e8",
+        "detail": "Wowhead: Xbox UK Confirms WoW: Forever Not Coming to Xbox in November"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-4ae073cb",
+        "detail": "Wowhead: Long Maintenance Planned Ahead of WoW: Forever Launch"
+      },
+      {
+        "kind": "change-updated",
+        "id": "item-count",
+        "detail": "The beta build showed 5,707 new items and 4,599 changed items. -> The beta build showed 5,867 new items and 4,734 changed items."
+      }
+    ],
+    "changed": true
   }
 ]

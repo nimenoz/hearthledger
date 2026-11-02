@@ -1,6 +1,6 @@
 {
-  "version": 32,
-  "updatedAt": "2026-10-31",
+  "version": 33,
+  "updatedAt": "2026-11-02",
   "changes": [
     {
       "id": "release-date",
@@ -141,7 +141,7 @@
       "id": "item-count",
       "category": "Items",
       "title": "Thousands of item changes",
-      "forever": "The beta build showed 5,707 new items and 4,599 changed items.",
+      "forever": "The beta build showed 5,867 new items and 4,734 changed items.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
@@ -1117,6 +1117,30 @@
       "url": "https://www.wowhead.com/news=383574/repeatable-quest-experience-exploit-fixed-for-wow-forever-launch",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-10-31",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-677c66e8",
+      "title": "Xbox UK Confirms WoW: Forever Not Coming to Xbox in November",
+      "summary": "Xbox UK recently posted on their social media that WoW: Forever was coming to Xbox in November. This has been removed, and they’ve now confirmed that Forever is not available on Xbox. Continue reading »",
+      "url": "https://www.wowhead.com/news=383696/xbox-uk-confirms-wow-forever-not-coming-to-xbox-in-november",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-02",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-4ae073cb",
+      "title": "Long Maintenance Planned Ahead of WoW: Forever Launch",
+      "summary": "Blizzard has announced a long maintenance ahead of WoW: Forever's launch on November 4th. Continue reading »",
+      "url": "https://www.wowhead.com/news=383695/long-maintenance-planned-ahead-of-wow-forever-launch",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-02",
       "official": false,
       "tags": [
         "news"
