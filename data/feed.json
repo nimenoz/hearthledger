@@ -1,6 +1,6 @@
 {
-  "version": 33,
-  "updatedAt": "2026-11-02",
+  "version": 34,
+  "updatedAt": "2026-11-03",
   "changes": [
     {
       "id": "release-date",
@@ -141,7 +141,7 @@
       "id": "item-count",
       "category": "Items",
       "title": "Thousands of item changes",
-      "forever": "The beta build showed 5,867 new items and 4,734 changed items.",
+      "forever": "The beta build showed 5,868 new items and 4,734 changed items.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
@@ -1141,6 +1141,30 @@
       "url": "https://www.wowhead.com/news=383695/long-maintenance-planned-ahead-of-wow-forever-launch",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-11-02",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-7e3bfc89",
+      "title": "WoW: Forever Official Development Notes and Class Tuning",
+      "summary": "Blizzard has posted the official development notes and class tuning changes for the WoW: Forever launch! Continue reading »",
+      "url": "https://www.wowhead.com/news=383704/wow-forever-official-development-notes-and-class-tuning",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-03",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-6b4c0ea0",
+      "title": "Hunter Class Buffs on WoW: Forever",
+      "summary": "Hunters have been buffed in WoW: Forever, increasing the power of various abilities and passives! Continue reading »",
+      "url": "https://www.wowhead.com/news=383702/hunter-buffs-on-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-03",
       "official": false,
       "tags": [
         "news"

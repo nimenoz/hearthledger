@@ -935,5 +935,32 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-11-03T06:58:02.233Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-7e3bfc89",
+        "detail": "Wowhead: WoW: Forever Official Development Notes and Class Tuning"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-6b4c0ea0",
+        "detail": "Wowhead: Hunter Class Buffs on WoW: Forever"
+      },
+      {
+        "kind": "change-updated",
+        "id": "item-count",
+        "detail": "The beta build showed 5,867 new items and 4,734 changed items. -> The beta build showed 5,868 new items and 4,734 changed items."
+      }
+    ],
+    "changed": true
   }
 ]
