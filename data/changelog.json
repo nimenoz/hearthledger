@@ -962,5 +962,47 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-11-03T19:35:30.117Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-53b1bbb6",
+        "detail": "Wowhead: Tier Pieces Require Quest Chain That Requires Group Content in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-0605223f",
+        "detail": "Wowhead: What's New and What's the Same in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-4119747e",
+        "detail": "Wowhead: Watch the World of Warcraft: Forever Launch Overview"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-c3e12f8c",
+        "detail": "Wowhead: Shaman Classic Discord Closed in Protest of Shaman Changes in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-288a5ff7",
+        "detail": "Wowhead: Bonus Experience and Extra Bags for Purchase on CN WoW: Forever Servers"
+      },
+      {
+        "kind": "change-updated",
+        "id": "spell-talent-count",
+        "detail": "The beta build showed 761 talent and spell changes compared with Classic. -> The beta build showed 766 talent and spell changes compared with Classic."
+      }
+    ],
+    "changed": true
   }
 ]

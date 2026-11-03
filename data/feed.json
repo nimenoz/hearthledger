@@ -1,5 +1,5 @@
 {
-  "version": 34,
+  "version": 35,
   "updatedAt": "2026-11-03",
   "changes": [
     {
@@ -150,7 +150,7 @@
       "id": "spell-talent-count",
       "category": "Classes",
       "title": "Spell and talent changes",
-      "forever": "The beta build showed 761 talent and spell changes compared with Classic.",
+      "forever": "The beta build showed 766 talent and spell changes compared with Classic.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
@@ -1163,6 +1163,66 @@
       "title": "Hunter Class Buffs on WoW: Forever",
       "summary": "Hunters have been buffed in WoW: Forever, increasing the power of various abilities and passives! Continue reading »",
       "url": "https://www.wowhead.com/news=383702/hunter-buffs-on-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-03",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-53b1bbb6",
+      "title": "Tier Pieces Require Quest Chain That Requires Group Content in WoW: Forever",
+      "summary": "During the WoW: Forever Launch overview, Blizzard revealed that Tier Tokens will unlock a series of quests that ends with the player earning a Tier Piece. Continue reading »",
+      "url": "https://www.wowhead.com/news=383716/tier-pieces-require-quest-chain-that-requires-group-content-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-03",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-0605223f",
+      "title": "What's New and What's the Same in WoW: Forever",
+      "summary": "Blizzard has released a blog highlighting what's new and what will feel the same in WoW: Forever, whether you play modern, Classic or haven't played for a while. Continue reading »",
+      "url": "https://www.wowhead.com/news=383712/whats-new-and-whats-the-same-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-03",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-4119747e",
+      "title": "Watch the World of Warcraft: Forever Launch Overview",
+      "summary": "A 30 minute launch overview for World of Warcraft: Forever is now available, giving more details about the world, classes, professions, dungeons, raids, and more! Continue reading »",
+      "url": "https://www.wowhead.com/news=383711/watch-the-world-of-warcraft-forever-launch-overview",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-03",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-c3e12f8c",
+      "title": "Shaman Classic Discord Closed in Protest of Shaman Changes in WoW: Forever",
+      "summary": "The Shaman Classic Discord has been shut down in protest of the changes to Shaman in WoW: Forever. Continue reading »",
+      "url": "https://www.wowhead.com/news=383710/shaman-classic-discord-closed-in-protest-of-shaman-changes-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-03",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-288a5ff7",
+      "title": "Bonus Experience and Extra Bags for Purchase on CN WoW: Forever Servers",
+      "summary": "On the Chinese WoW: Forever servers, new bundles available for real money grant 12-slot bags, consumables, and a tent that increases rested experience faster! Continue reading »",
+      "url": "https://www.wowhead.com/news=383692/bonus-experience-and-extra-bags-for-purchase-on-cn-wow-forever-servers",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-11-03",
       "official": false,
