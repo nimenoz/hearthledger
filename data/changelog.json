@@ -1031,5 +1031,52 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-11-04T19:52:38.248Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-efc69a16",
+        "detail": "Wowhead: WoW: Forever Development Notes Updated - UI and Accessibility Updates"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-e0c0eb2c",
+        "detail": "Wowhead: New Nvidia Drivers for World of Warcraft: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-3959b2d3",
+        "detail": "Wowhead: Introducing The Forever Files: Wowhead's Forever Newsletter"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-377ea30d",
+        "detail": "Wowhead: Did Blizzard Tease Future WoW: Forever Class and Race Combinations?"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-cece0c8e",
+        "detail": "Wowhead: Every Guide You'll Need for Launch: the WoW: Forever Guide Compendium"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-a298924d",
+        "detail": "Wowhead: Wowhead's Forever Tools Now Live and Updated for Launch"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-b4468074",
+        "detail": "Wowhead: When Does WoW: Forever Launch Globally?"
+      }
+    ],
+    "changed": true
   }
 ]

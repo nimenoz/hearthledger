@@ -1,5 +1,5 @@
 {
-  "version": 36,
+  "version": 37,
   "updatedAt": "2026-11-04",
   "changes": [
     {
@@ -1249,6 +1249,90 @@
       "url": "https://www.wowhead.com/news=383714/wowheads-talent-calculator-for-wow-forever-updated-for-launch-class-changes",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-11-03",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-efc69a16",
+      "title": "WoW: Forever Development Notes Updated - UI and Accessibility Updates",
+      "summary": "Blizzard has updated WoW: Forever Development notes before the official launch, adding new updates for UI and accessibility. Continue reading »",
+      "url": "https://www.wowhead.com/news=383741/wow-forever-development-notes-updated-ui-and-accessibility-updates",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-04",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-e0c0eb2c",
+      "title": "New Nvidia Drivers for World of Warcraft: Forever",
+      "summary": "Nvidia has released a new set of Game Ready drivers for World of Warcraft: Forever ahead of today's launch! Continue reading »",
+      "url": "https://www.wowhead.com/news=383738/new-nvidia-drivers-for-world-of-warcraft-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-04",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-3959b2d3",
+      "title": "Introducing The Forever Files: Wowhead's Forever Newsletter",
+      "summary": "With the launch of WoW: Forever, Wowhead is launching another jam-packed newsletter - sign up for The Forever Files today! Continue reading »",
+      "url": "https://www.wowhead.com/news=383736/introducing-the-forever-files-wowheads-forever-newsletter",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-04",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-377ea30d",
+      "title": "Did Blizzard Tease Future WoW: Forever Class and Race Combinations?",
+      "summary": "Blizzard recently released a Launch Overview for WoW: Forever - and there are some class and race combinations that caught players' eyes. Continue reading »",
+      "url": "https://www.wowhead.com/news=383725/did-blizzard-tease-future-wow-forever-class-and-race-combinations",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-04",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-cece0c8e",
+      "title": "Every Guide You'll Need for Launch: the WoW: Forever Guide Compendium",
+      "summary": "WoW: Forever launches today, and Wowhead's guides are now live! Learn everything you need to know about class changes, zones and systems, professions, dungeons, and more, all in one place. Continue reading »",
+      "url": "https://www.wowhead.com/news=383727/every-guide-youll-need-for-launch-the-wow-forever-guide-compendium",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-04",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-a298924d",
+      "title": "Wowhead's Forever Tools Now Live and Updated for Launch",
+      "summary": "WoW: Forever is almost here - and Wowhead's tools will help you jump into Azeroth. From talent calculators to profession leveling, we've got everything you'll need! Continue reading »",
+      "url": "https://www.wowhead.com/news=383722/wowheads-forever-tools-now-live-and-updated-for-launch",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-04",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-b4468074",
+      "title": "When Does WoW: Forever Launch Globally?",
+      "summary": "It's almost here - WoW: Forever launches today, so check out what time you'll need to log on in your time zone during this global release! Continue reading »",
+      "url": "https://www.wowhead.com/news=383728/when-does-wow-forever-launch-globally",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-04",
       "official": false,
       "tags": [
         "news"
