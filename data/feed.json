@@ -1,6 +1,6 @@
 {
-  "version": 35,
-  "updatedAt": "2026-11-03",
+  "version": 36,
+  "updatedAt": "2026-11-04",
   "changes": [
     {
       "id": "release-date",
@@ -150,7 +150,7 @@
       "id": "spell-talent-count",
       "category": "Classes",
       "title": "Spell and talent changes",
-      "forever": "The beta build showed 766 talent and spell changes compared with Classic.",
+      "forever": "The beta build showed 768 talent and spell changes compared with Classic.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
@@ -1223,6 +1223,30 @@
       "title": "Bonus Experience and Extra Bags for Purchase on CN WoW: Forever Servers",
       "summary": "On the Chinese WoW: Forever servers, new bundles available for real money grant 12-slot bags, consumables, and a tent that increases rested experience faster! Continue reading »",
       "url": "https://www.wowhead.com/news=383692/bonus-experience-and-extra-bags-for-purchase-on-cn-wow-forever-servers",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-03",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-aa80bf7b",
+      "title": "You Can Play WoW: Forever on a Gamepad",
+      "summary": "World of Warcraft: Forever officially supports playing with a Gamepad and Blizzard breaks down everything you need to know. Continue reading »",
+      "url": "https://www.wowhead.com/news=383720/wow-forever-officially-supports-gamepads",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-03",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-d099089f",
+      "title": "Wowhead's Talent Calculator for WoW: Forever Updated for Launch Class Changes",
+      "summary": "Wowhead's Talent Calculators are now updated for the WoW: Forever launch, which includes the recent class changes to Rogues and Warriors! Continue reading »",
+      "url": "https://www.wowhead.com/news=383714/wowheads-talent-calculator-for-wow-forever-updated-for-launch-class-changes",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-11-03",
       "official": false,

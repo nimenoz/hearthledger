@@ -1004,5 +1004,32 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-11-04T06:39:32.498Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-aa80bf7b",
+        "detail": "Wowhead: You Can Play WoW: Forever on a Gamepad"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-d099089f",
+        "detail": "Wowhead: Wowhead's Talent Calculator for WoW: Forever Updated for Launch Class Changes"
+      },
+      {
+        "kind": "change-updated",
+        "id": "spell-talent-count",
+        "detail": "The beta build showed 766 talent and spell changes compared with Classic. -> The beta build showed 768 talent and spell changes compared with Classic."
+      }
+    ],
+    "changed": true
   }
 ]
