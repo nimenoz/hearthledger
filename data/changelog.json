@@ -1110,5 +1110,42 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-11-05T20:04:52.145Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-e47b1dbc",
+        "detail": "Wowhead: New Prerequisites Required for Ruins of Lordaeron Dungeon Quests in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-c6b66935",
+        "detail": "Wowhead: The Weekly Reset with Taliesin and Evitel: Forever Forever? Talebound and More"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-b726ca98",
+        "detail": "Wowhead: WoW: Forever Known Issues After Launch"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-ff1076f1",
+        "detail": "Wowhead: Earn 700 Discord Orbs with New WoW: Forever Quest"
+      },
+      {
+        "kind": "change-updated",
+        "id": "item-count",
+        "detail": "The beta build showed 5,870 new items and 4,734 changed items. -> The beta build showed 5,872 new items and 4,737 changed items."
+      }
+    ],
+    "changed": true
   }
 ]

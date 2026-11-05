@@ -1,5 +1,5 @@
 {
-  "version": 38,
+  "version": 39,
   "updatedAt": "2026-11-05",
   "changes": [
     {
@@ -141,7 +141,7 @@
       "id": "item-count",
       "category": "Items",
       "title": "Thousands of item changes",
-      "forever": "The beta build showed 5,870 new items and 4,734 changed items.",
+      "forever": "The beta build showed 5,872 new items and 4,737 changed items.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
@@ -1369,6 +1369,54 @@
       "url": "https://www.wowhead.com/news=383747/taldramir-the-whispering-wood-revealed-as-wow-forever-legendary",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-11-04",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-e47b1dbc",
+      "title": "New Prerequisites Required for Ruins of Lordaeron Dungeon Quests in WoW: Forever",
+      "summary": "Two Horde quests for Ruins of Lordaeron have new prerequisite quests on live servers! Continue reading »",
+      "url": "https://www.wowhead.com/news=383769/new-prerequisites-required-for-ruins-of-lordaeron-dungeon-quests-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-05",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-c6b66935",
+      "title": "The Weekly Reset with Taliesin and Evitel: Forever Forever? Talebound and More",
+      "summary": "Taliesin and Evitel check out WoW: Forever, where it's going, and how it's different from Retail. Also Talebound, decor, and more. Continue reading »",
+      "url": "https://www.wowhead.com/news=383691/the-weekly-reset-with-taliesin-and-evitel-forever-forever-talebound-and-more",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-05",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-b726ca98",
+      "title": "WoW: Forever Known Issues After Launch",
+      "summary": "Blizzard has posted known issues with WoW: Forever after yesterday's launch. Continue reading »",
+      "url": "https://www.wowhead.com/news=383760/wo-w-forever-known-issues",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-05",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-ff1076f1",
+      "title": "Earn 700 Discord Orbs with New WoW: Forever Quest",
+      "summary": "Play WoW: Forever for 15 minutes and earn 700 Discord Orbs! Continue reading »",
+      "url": "https://www.wowhead.com/news=383754/earn-700-discord-orbs-with-new-wow-forever-quest",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-05",
       "official": false,
       "tags": [
         "news"
