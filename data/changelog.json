@@ -1078,5 +1078,37 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-11-05T06:58:49.794Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-7ebe1af8",
+        "detail": "Wowhead: World of Warcraft: Forever is Now Live"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-c60df2ee",
+        "detail": "Wowhead: Secret Twitch Drop Awarded Pouch of Violet Dust Toy to Live Stream Viewers in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-c1171a11",
+        "detail": "Wowhead: Taldramir, the Whispering Wood Revealed as WoW: Forever Legendary"
+      },
+      {
+        "kind": "change-updated",
+        "id": "item-count",
+        "detail": "The beta build showed 5,868 new items and 4,734 changed items. -> The beta build showed 5,870 new items and 4,734 changed items."
+      }
+    ],
+    "changed": true
   }
 ]
