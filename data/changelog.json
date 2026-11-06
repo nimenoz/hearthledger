@@ -1179,5 +1179,57 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-11-06T19:30:43.968Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-9eb22475",
+        "detail": "Wowhead: Minimum Deposit on AH Being Reduced to 1 Copper Soon in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-dd94ab92",
+        "detail": "Wowhead: Shaman Talents Revisited Early Next Year - Blizzard Addresses Shaman Classic Discord Shutdown in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-3d063153",
+        "detail": "Wowhead: The Adventure Begins in WoW: Forever, Stay Connected with Discord, and Taldramir Takes Shape in WoW Weekly"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-27308d86",
+        "detail": "Wowhead: Major QoL Update to Popular Alliance Quest in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-03ae91ae",
+        "detail": "Wowhead: New Battle.net Icons for WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-aa23fd7b",
+        "detail": "Wowhead: Four New Key Art Pieces for WoW: Forever Launch"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-ce42d6a5",
+        "detail": "Wowhead: Every Quest for Dungeons up to Level 20 in WoW: Forever"
+      },
+      {
+        "kind": "change-updated",
+        "id": "item-count",
+        "detail": "The beta build showed 5,873 new items and 4,739 changed items. -> The beta build showed 5,887 new items and 4,749 changed items."
+      }
+    ],
+    "changed": true
   }
 ]

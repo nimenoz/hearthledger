@@ -1,5 +1,5 @@
 {
-  "version": 40,
+  "version": 41,
   "updatedAt": "2026-11-06",
   "changes": [
     {
@@ -141,7 +141,7 @@
       "id": "item-count",
       "category": "Items",
       "title": "Thousands of item changes",
-      "forever": "The beta build showed 5,873 new items and 4,739 changed items.",
+      "forever": "The beta build showed 5,887 new items and 4,749 changed items.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
@@ -1453,6 +1453,90 @@
       "url": "https://www.wowhead.com/news=383771/blizzard-investigating-issues-with-certain-escort-quests-in-wow-forever",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-11-05",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-9eb22475",
+      "title": "Minimum Deposit on AH Being Reduced to 1 Copper Soon in WoW: Forever",
+      "summary": "Kris Zierhut has announced that the minimum deposit on the Auction House on WoW: Forever will be changed soon. Continue reading »",
+      "url": "https://www.wowhead.com/news=383786/minimum-deposit-on-ah-being-reduced-to-1-copper-soon-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-06",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-dd94ab92",
+      "title": "Shaman Talents Revisited Early Next Year - Blizzard Addresses Shaman Classic Discord Shutdown in WoW: Forever",
+      "summary": "Blizzard has addressed the Shaman Classic Discord shutdown, noting that they are looking at revisiting Shaman talents, but no sooner than early next year. Continue reading »",
+      "url": "https://www.wowhead.com/news=383785/shaman-talents-revisited-early-next-year-blizzard-addresses-shaman-classic",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-06",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-3d063153",
+      "title": "The Adventure Begins in WoW: Forever, Stay Connected with Discord, and Taldramir Takes Shape in WoW Weekly",
+      "summary": "Blizzard has released a new issue of their WoW Weekly blog post, recapping the Forever launch, Discord integration, and the reveal of a new Forever Legendary weapon. Continue reading »",
+      "url": "https://www.wowhead.com/news=383784/the-adventure-begins-in-wow-forever-stay-connected-with-discord-and-taldramir",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-06",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-27308d86",
+      "title": "Major QoL Update to Popular Alliance Quest in WoW: Forever",
+      "summary": "In WoW: Forever, an iconic quest has received some major quality-of-life updates to allow players to complete this quest faster! Continue reading »",
+      "url": "https://www.wowhead.com/news=383782/major-qol-update-to-popular-alliance-quest-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-06",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-03ae91ae",
+      "title": "New Battle.net Icons for WoW: Forever",
+      "summary": "New WoW: Forever icons have been added to Battle.net! Continue reading »",
+      "url": "https://www.wowhead.com/news=383772/new-battle-net-icons-for-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-06",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-aa23fd7b",
+      "title": "Four New Key Art Pieces for WoW: Forever Launch",
+      "summary": "Blizzard has released beautiful new artwork for the WoW: Forever launch! Continue reading »",
+      "url": "https://www.wowhead.com/news=383770/four-new-key-art-pieces-for-wow-forever-launch",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-06",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-ce42d6a5",
+      "title": "Every Quest for Dungeons up to Level 20 in WoW: Forever",
+      "summary": "Dungeons are a great source of experience, but only if you have dungeon quests. Here's where to find all the dungeon quests for the first few dungeons. Continue reading »",
+      "url": "https://www.wowhead.com/news=383768/every-quest-for-dungeons-up-to-level-20-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-06",
       "official": false,
       "tags": [
         "news"
