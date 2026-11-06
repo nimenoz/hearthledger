@@ -1147,5 +1147,37 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-11-06T06:58:18.100Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-89e814b9",
+        "detail": "Wowhead: Various NPC Fixes and Deathstalker Erland Spawn Rate - WoW: Forever Hotfixes"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-a7bddf16",
+        "detail": "Wowhead: Minimum Deposit of 1 Silver Required to List Items on Auction House in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-a1517722",
+        "detail": "Wowhead: Blizzard Investigating Issues with Certain Escort Quests in WoW: Forever"
+      },
+      {
+        "kind": "change-updated",
+        "id": "item-count",
+        "detail": "The beta build showed 5,872 new items and 4,737 changed items. -> The beta build showed 5,873 new items and 4,739 changed items."
+      }
+    ],
+    "changed": true
   }
 ]

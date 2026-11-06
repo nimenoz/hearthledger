@@ -1,6 +1,6 @@
 {
-  "version": 39,
-  "updatedAt": "2026-11-05",
+  "version": 40,
+  "updatedAt": "2026-11-06",
   "changes": [
     {
       "id": "release-date",
@@ -141,7 +141,7 @@
       "id": "item-count",
       "category": "Items",
       "title": "Thousands of item changes",
-      "forever": "The beta build showed 5,872 new items and 4,737 changed items.",
+      "forever": "The beta build showed 5,873 new items and 4,739 changed items.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
@@ -1415,6 +1415,42 @@
       "title": "Earn 700 Discord Orbs with New WoW: Forever Quest",
       "summary": "Play WoW: Forever for 15 minutes and earn 700 Discord Orbs! Continue reading »",
       "url": "https://www.wowhead.com/news=383754/earn-700-discord-orbs-with-new-wow-forever-quest",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-05",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-89e814b9",
+      "title": "Various NPC Fixes and Deathstalker Erland Spawn Rate - WoW: Forever Hotfixes",
+      "summary": "The first set of hotfixes are out for WoW: Forever, which fixes issues with various NPCs and spawns Deathstalker Erland faster for his quest! Continue reading »",
+      "url": "https://www.wowhead.com/news=383778/wow-forever-hotfixes-november-5-2026-world-of-warcraft-blizzard-news",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-06",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-a7bddf16",
+      "title": "Minimum Deposit of 1 Silver Required to List Items on Auction House in WoW: Forever",
+      "summary": "In WoW: Forever, listing an item on the Auction House always incurs a deposit of at least 1 silver. Continue reading »",
+      "url": "https://www.wowhead.com/news=383774/minimum-deposit-of-1-silver-required-to-list-items-at-auction-house-in-wow",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-05",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-a1517722",
+      "title": "Blizzard Investigating Issues with Certain Escort Quests in WoW: Forever",
+      "summary": "Blizzard is investigating issues with certain quests in WoW: Forever. Continue reading »",
+      "url": "https://www.wowhead.com/news=383771/blizzard-investigating-issues-with-certain-escort-quests-in-wow-forever",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-11-05",
       "official": false,
