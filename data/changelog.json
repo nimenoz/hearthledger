@@ -1231,5 +1231,47 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-11-07T06:10:43.332Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-467f3b08",
+        "detail": "Wowhead: WoW: Forever Makes History with Biggest Launch Ever!"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-7fe882c2",
+        "detail": "Wowhead: World First Level 60s in WoW: Forever in Less Than Three Days"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-b93304b9",
+        "detail": "Wowhead: Many Class, Dungeon and Quest Fixes - WoW: Forever Hotfixes for November 6th"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-523c04d1",
+        "detail": "Wowhead: Upcoming Pet Changes in WoW: Forever - Upcoming Class Tuning for November 10th"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-54ee97d8",
+        "detail": "Wowhead: Raid Rewards and PvP Balance - Crix Interview on WoW: Forever"
+      },
+      {
+        "kind": "change-updated",
+        "id": "item-count",
+        "detail": "The beta build showed 5,887 new items and 4,749 changed items. -> The beta build showed 5,968 new items and 4,760 changed items."
+      }
+    ],
+    "changed": true
   }
 ]

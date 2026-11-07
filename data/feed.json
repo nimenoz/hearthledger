@@ -1,6 +1,6 @@
 {
-  "version": 41,
-  "updatedAt": "2026-11-06",
+  "version": 42,
+  "updatedAt": "2026-11-07",
   "changes": [
     {
       "id": "release-date",
@@ -141,7 +141,7 @@
       "id": "item-count",
       "category": "Items",
       "title": "Thousands of item changes",
-      "forever": "The beta build showed 5,887 new items and 4,749 changed items.",
+      "forever": "The beta build showed 5,968 new items and 4,760 changed items.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
@@ -1535,6 +1535,66 @@
       "title": "Every Quest for Dungeons up to Level 20 in WoW: Forever",
       "summary": "Dungeons are a great source of experience, but only if you have dungeon quests. Here's where to find all the dungeon quests for the first few dungeons. Continue reading »",
       "url": "https://www.wowhead.com/news=383768/every-quest-for-dungeons-up-to-level-20-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-06",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-467f3b08",
+      "title": "WoW: Forever Makes History with Biggest Launch Ever!",
+      "summary": "Blizzard has revealed that WoW: Forever has achieved a historic launch with the biggest launch ever! Continue reading »",
+      "url": "https://www.wowhead.com/news=383798/wow-forever-makes-history-with-biggest-launch-ever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-07",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-7fe882c2",
+      "title": "World First Level 60s in WoW: Forever in Less Than Three Days",
+      "summary": "The World First level 60 has been claimed in WoW: Forever. Congratulations! Continue reading »",
+      "url": "https://www.wowhead.com/news=383797/world-first-level-60s-in-wow-forever-in-less-than-three-days",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-07",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-b93304b9",
+      "title": "Many Class, Dungeon and Quest Fixes - WoW: Forever Hotfixes for November 6th",
+      "summary": "Blizzard has posted WoW: Forever hotfixes for today, which includes a lot of class, dungeon, and questing fixes! Continue reading »",
+      "url": "https://www.wowhead.com/news=383794/many-class-dungeon-and-quest-fixes-wow-forever-hotfixes-for-november-6th",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-07",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-523c04d1",
+      "title": "Upcoming Pet Changes in WoW: Forever - Upcoming Class Tuning for November 10th",
+      "summary": "The first set of class tuning adjustments has Hunter and Warlock pet changes and adjusts what stats Enhancement Shaman will want on their gear! Continue reading »",
+      "url": "https://www.wowhead.com/news=383790/upcoming-pet-changes-for-hunters-and-warlocks-in-wow-forever-upcoming-class",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-06",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-54ee97d8",
+      "title": "Raid Rewards and PvP Balance - Crix Interview on WoW: Forever",
+      "summary": "Crix interviewed Kris Zierhut and Tim Jones on WoW: Forever and discussed raid rewards, PvP balance and more! Continue reading »",
+      "url": "https://www.wowhead.com/news=383787/raid-rewards-and-pvp-balance-crix-interview-on-wow-forever",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-11-06",
       "official": false,
