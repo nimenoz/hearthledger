@@ -1290,5 +1290,37 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-11-07T21:58:36.263Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-2b265481",
+        "detail": "Wowhead: Quests Give No Gold at Level 60 in WoW: Forever - \"Intentional Change\" According to Jokerd"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-8d2a96bc",
+        "detail": "Wowhead: GMs Appeared In-Person to Celebrate the Launch of WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-969d0e07",
+        "detail": "Wowhead: Black Market Auction House, Global Raid Launch, Quest Helpers - MrGM Interview on WoW: Forever"
+      },
+      {
+        "kind": "change-updated",
+        "id": "item-count",
+        "detail": "The beta build showed 5,989 new items and 4,835 changed items. -> The beta build showed 6,004 new items and 4,894 changed items."
+      }
+    ],
+    "changed": true
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "version": 43,
+  "version": 44,
   "updatedAt": "2026-11-07",
   "changes": [
     {
@@ -141,7 +141,7 @@
       "id": "item-count",
       "category": "Items",
       "title": "Thousands of item changes",
-      "forever": "The beta build showed 5,989 new items and 4,835 changed items.",
+      "forever": "The beta build showed 6,004 new items and 4,894 changed items.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
@@ -1597,6 +1597,42 @@
       "url": "https://www.wowhead.com/news=383787/raid-rewards-and-pvp-balance-crix-interview-on-wow-forever",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-11-06",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-2b265481",
+      "title": "Quests Give No Gold at Level 60 in WoW: Forever - \"Intentional Change\" According to Jokerd",
+      "summary": "Quests at level 60 give no gold and according to Jokerd, this is an intentional change. Continue reading »",
+      "url": "https://www.wowhead.com/news=383803/quests-give-no-gold-at-level-60-in-wow-forever-intentional-change-according-to",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-07",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-8d2a96bc",
+      "title": "GMs Appeared In-Person to Celebrate the Launch of WoW: Forever",
+      "summary": "For the first time in years, players have seen GM characters in-game - many appeared to celebrate the launch of WoW: Forever! Continue reading »",
+      "url": "https://www.wowhead.com/news=383796/gms-appeared-in-person-to-celebrate-the-launch-of-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-07",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-969d0e07",
+      "title": "Black Market Auction House, Global Raid Launch, Quest Helpers - MrGM Interview on WoW: Forever",
+      "summary": "MrGM interviewed Kris Zierhut and Josh Greenfield on WoW: Forever and discussed the Black Market Auction House, Quest Helpers and more Continue reading »",
+      "url": "https://www.wowhead.com/news=383781/black-market-auction-house-global-raid-launch-quest-helpers-mrgm-interview-on",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-07",
       "official": false,
       "tags": [
         "news"
