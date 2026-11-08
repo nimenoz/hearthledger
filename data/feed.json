@@ -1,5 +1,5 @@
 {
-  "version": 46,
+  "version": 47,
   "updatedAt": "2026-11-08",
   "changes": [
     {
@@ -141,7 +141,7 @@
       "id": "item-count",
       "category": "Items",
       "title": "Thousands of item changes",
-      "forever": "The beta build showed 6,071 new items and 5,036 changed items.",
+      "forever": "The beta build showed 6,111 new items and 5,116 changed items.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
@@ -1633,6 +1633,30 @@
       "url": "https://www.wowhead.com/news=383781/black-market-auction-house-global-raid-launch-quest-helpers-mrgm-interview-on",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-11-07",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-c78aaed2",
+      "title": "Everything About WoW: Forever Raids - Joardee Interview on WoW: Forever",
+      "summary": "Joardee interviewed Josh Greenfield and Tim Jones on WoW: Forever and discussed everything about WoW: Forever's raids! Continue reading »",
+      "url": "https://www.wowhead.com/news=383792/everything-about-wow-forever-raids-joardee-interview-on-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-08",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-b9cbd159",
+      "title": "The Darkmoon Faire is Coming To Elwynn Forest First in WoW: Forever",
+      "summary": "The iconic Darkmoon Faire event will be making its first stop in WoW Forever in Elwynn Forest, giving the Alliance the first home-field advantage. Continue reading »",
+      "url": "https://www.wowhead.com/news=383802/the-darkmoon-faire-is-coming-to-elwynn-forest-first-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-08",
       "official": false,
       "tags": [
         "news"
