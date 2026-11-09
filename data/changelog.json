@@ -1400,5 +1400,32 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-11-09T22:29:49.476Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-be3aae25",
+        "detail": "Wowhead: Blizzard Taking Down WoW: Forever Servers Shortly"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-f0040175",
+        "detail": "Wowhead: Level Faster with your Cozy Sleeping Bag in WoW: Forever"
+      },
+      {
+        "kind": "change-updated",
+        "id": "item-count",
+        "detail": "The beta build showed 6,134 new items and 5,227 changed items. -> The beta build showed 6,167 new items and 5,333 changed items."
+      }
+    ],
+    "changed": true
   }
 ]

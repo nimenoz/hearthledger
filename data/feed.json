@@ -1,5 +1,5 @@
 {
-  "version": 48,
+  "version": 49,
   "updatedAt": "2026-11-09",
   "changes": [
     {
@@ -141,7 +141,7 @@
       "id": "item-count",
       "category": "Items",
       "title": "Thousands of item changes",
-      "forever": "The beta build showed 6,134 new items and 5,227 changed items.",
+      "forever": "The beta build showed 6,167 new items and 5,333 changed items.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
@@ -1657,6 +1657,30 @@
       "url": "https://www.wowhead.com/news=383802/the-darkmoon-faire-is-coming-to-elwynn-forest-first-in-wow-forever",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-11-08",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-be3aae25",
+      "title": "Blizzard Taking Down WoW: Forever Servers Shortly",
+      "summary": "Blizzard has announced via in-game server messages that they are taking down the WoW: Forever servers briefly. Continue reading »",
+      "url": "https://www.wowhead.com/news=383815/blizzard-taking-down-wow-forever-servers-shortly",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-09",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-f0040175",
+      "title": "Level Faster with your Cozy Sleeping Bag in WoW: Forever",
+      "summary": "The Cozy Sleeping Bag in WoW: Forever gives you a 3% experience buff and is worth going out of your way for, even though it does take a while to get. Continue reading »",
+      "url": "https://www.wowhead.com/news=383801/level-faster-with-your-cozy-sleeping-bag-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-09",
       "official": false,
       "tags": [
         "news"
