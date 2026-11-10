@@ -1449,5 +1449,42 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-11-10T19:50:45.513Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-9004fe5b",
+        "detail": "Wowhead: Enhancement Shaman Class Weapon Hotfixed on WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-2f7ba33a",
+        "detail": "Wowhead: Secret Hunt in WoW: Forever with the Night Watchman's Torch"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-dd629829",
+        "detail": "Wowhead: Every Quest for Level 20 to 30 Dungeons in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-4cc005cc",
+        "detail": "Wowhead: New \"Dawn Waker\" Secret Found in WoW: Forever"
+      },
+      {
+        "kind": "change-updated",
+        "id": "item-count",
+        "detail": "The beta build showed 6,173 new items and 5,391 changed items. -> The beta build showed 6,181 new items and 5,428 changed items."
+      }
+    ],
+    "changed": true
   }
 ]

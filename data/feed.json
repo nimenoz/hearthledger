@@ -1,5 +1,5 @@
 {
-  "version": 50,
+  "version": 51,
   "updatedAt": "2026-11-10",
   "changes": [
     {
@@ -141,7 +141,7 @@
       "id": "item-count",
       "category": "Items",
       "title": "Thousands of item changes",
-      "forever": "The beta build showed 6,173 new items and 5,391 changed items.",
+      "forever": "The beta build showed 6,181 new items and 5,428 changed items.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
@@ -1691,6 +1691,54 @@
       "title": "Drowned City Nerfs & Reduced Population in Zones - WoW: Forever Hotfixes for November 9th",
       "summary": "Blizzard has posted hotfixes for today, which includes many class bug fixes, a nerf to The Drowned City, and reducing the population in zones with significant population. Continue reading »",
       "url": "https://www.wowhead.com/news=383819/drowned-city-nerfs-and-reduced-population-in-zones-wow-forever-hotfixes-for",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-10",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-9004fe5b",
+      "title": "Enhancement Shaman Class Weapon Hotfixed on WoW: Forever",
+      "summary": "On the Weekly Reset, the Shaman Class Weapon, Rage of the Storm, has been hotfixed to change the attack speed and stats of the weapon. Continue reading »",
+      "url": "https://www.wowhead.com/news=383824/enhancement-shaman-class-weapon-hotfixed-on-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-10",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-2f7ba33a",
+      "title": "Secret Hunt in WoW: Forever with the Night Watchman's Torch",
+      "summary": "The hunt for secrets is on in WoW: Forever, and to jump in, you'll need to find the Night Watchman's Torch in Duskwood. Continue reading »",
+      "url": "https://www.wowhead.com/news=383145/secret-hunt-in-wow-forever-with-the-night-watchmans-torch",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-10",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-dd629829",
+      "title": "Every Quest for Level 20 to 30 Dungeons in WoW: Forever",
+      "summary": "Here are all the quests for the level 20 to 30 dungeons to help you level faster in WoW: Forever! Continue reading »",
+      "url": "https://www.wowhead.com/news=383814/every-quest-for-level-20-to-30-dungeons-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-10",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-4cc005cc",
+      "title": "New \"Dawn Waker\" Secret Found in WoW: Forever",
+      "summary": "A New extensive quest chain to unlock potentially powerful weapons has been discovered in WoW: Forever, thanks to the Secret Finding Discord! Continue reading »",
+      "url": "https://www.wowhead.com/news=383813/new-dawn-waker-secret-found-in-wow-forever",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-11-10",
       "official": false,
