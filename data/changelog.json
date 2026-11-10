@@ -1427,5 +1427,27 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-11-10T07:28:12.081Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-8e77287a",
+        "detail": "Wowhead: Drowned City Nerfs & Reduced Population in Zones - WoW: Forever Hotfixes for November 9th"
+      },
+      {
+        "kind": "change-updated",
+        "id": "item-count",
+        "detail": "The beta build showed 6,167 new items and 5,333 changed items. -> The beta build showed 6,173 new items and 5,391 changed items."
+      }
+    ],
+    "changed": true
   }
 ]
