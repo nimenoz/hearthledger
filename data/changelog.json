@@ -1486,5 +1486,52 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-11-11T06:41:23.471Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-7edef304",
+        "detail": "Wowhead: Hunter Pet Nerf and Enhancement Shaman Changes - WoW: Forever Hotfixes for November 10, 2026"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-cc4880e5",
+        "detail": "Wowhead: Blizzard Addressing Missing Shaman Totems Due to Monday's Server Issue in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-efc2b7f4",
+        "detail": "Wowhead: Blizzard Adding Gold to Many Quests Near Max Level in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-28a6e89f",
+        "detail": "Wowhead: Dungeon Experience in WoW: Forever is Now 60% of Classic Era - Blizzard Happy with Dungeon Level Speeds"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-07e0fca5",
+        "detail": "Wowhead: Vendor Price Changes on WoW: Forever - Iron Grenade Shuffle Dead"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-80ea763b",
+        "detail": "Wowhead: Warlock and Hunter Class Tuning Now Live in WoW: Forever"
+      },
+      {
+        "kind": "change-updated",
+        "id": "item-count",
+        "detail": "The beta build showed 6,181 new items and 5,428 changed items. -> The beta build showed 6,192 new items and 5,461 changed items."
+      }
+    ],
+    "changed": true
   }
 ]
