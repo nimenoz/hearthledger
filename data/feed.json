@@ -1,6 +1,6 @@
 {
-  "version": 53,
-  "updatedAt": "2026-11-11",
+  "version": 54,
+  "updatedAt": "2026-11-12",
   "changes": [
     {
       "id": "release-date",
@@ -141,7 +141,7 @@
       "id": "item-count",
       "category": "Items",
       "title": "Thousands of item changes",
-      "forever": "The beta build showed 6,196 new items and 5,474 changed items.",
+      "forever": "The beta build showed 6,199 new items and 5,491 changed items.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
@@ -1849,6 +1849,30 @@
       "url": "https://www.wowhead.com/news=383827/which-darkmoon-faire-buff-should-you-pick-in-wow-forever",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-11-11",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-d5e743f9",
+      "title": "Restoration Druid Change to Wild Growth in WoW: Forever",
+      "summary": "Restoration Druids have gotten a change to Wild Growth today in WoW: Forever. Continue reading »",
+      "url": "https://www.wowhead.com/news=383851/restoration-druid-change-to-wild-growth-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-12",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-3ea67f6e",
+      "title": "Tailoring Bag Cost and Size Changes - WoW: Forever Hotfixes for November 11th, 2026",
+      "summary": "Blizzard has posted hotfixes for today, which changes the crafting cost and bag size of some Tailoring Bags and disables Item Restoration. Continue reading »",
+      "url": "https://www.wowhead.com/news=383848/tailoring-bag-cost-and-size-changes-wow-forever-hotfixes-for-november-11th-2026",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-12",
       "official": false,
       "tags": [
         "news"

@@ -1570,5 +1570,32 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-11-12T07:22:54.346Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-d5e743f9",
+        "detail": "Wowhead: Restoration Druid Change to Wild Growth in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-3ea67f6e",
+        "detail": "Wowhead: Tailoring Bag Cost and Size Changes - WoW: Forever Hotfixes for November 11th, 2026"
+      },
+      {
+        "kind": "change-updated",
+        "id": "item-count",
+        "detail": "The beta build showed 6,196 new items and 5,474 changed items. -> The beta build showed 6,199 new items and 5,491 changed items."
+      }
+    ],
+    "changed": true
   }
 ]
