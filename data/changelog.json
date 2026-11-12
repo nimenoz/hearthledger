@@ -1597,5 +1597,52 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-11-12T20:04:57.896Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-19ce5b90",
+        "detail": "Wowhead: New High Level Battle Mage Weapon Discovered in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-37a0173f",
+        "detail": "Wowhead: Enhancement Shaman Class Changes Now Live in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-bf2379fa",
+        "detail": "Wowhead: The WoW: Forever Podcast Episode 7 Now Available - Lore Episode"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-e08991a7",
+        "detail": "Wowhead: Loot Ocarina of Time Boots from Drowned City in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-f645c83a",
+        "detail": "Wowhead: Party with Other Players to Use Their Sleeping Bags for Experience Buff in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-c9da5f0e",
+        "detail": "Wowhead: Catch-Up Mechanics & The Economy in WoW: Forever - But Why Tho? Interview"
+      },
+      {
+        "kind": "change-updated",
+        "id": "item-count",
+        "detail": "The beta build showed 6,199 new items and 5,491 changed items. -> The beta build showed 6,202 new items and 5,493 changed items."
+      }
+    ],
+    "changed": true
   }
 ]

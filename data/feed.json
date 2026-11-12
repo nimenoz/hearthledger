@@ -1,5 +1,5 @@
 {
-  "version": 54,
+  "version": 55,
   "updatedAt": "2026-11-12",
   "changes": [
     {
@@ -141,7 +141,7 @@
       "id": "item-count",
       "category": "Items",
       "title": "Thousands of item changes",
-      "forever": "The beta build showed 6,199 new items and 5,491 changed items.",
+      "forever": "The beta build showed 6,202 new items and 5,493 changed items.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
@@ -1871,6 +1871,78 @@
       "title": "Tailoring Bag Cost and Size Changes - WoW: Forever Hotfixes for November 11th, 2026",
       "summary": "Blizzard has posted hotfixes for today, which changes the crafting cost and bag size of some Tailoring Bags and disables Item Restoration. Continue reading »",
       "url": "https://www.wowhead.com/news=383848/tailoring-bag-cost-and-size-changes-wow-forever-hotfixes-for-november-11th-2026",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-12",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-19ce5b90",
+      "title": "New High Level Battle Mage Weapon Discovered in WoW: Forever",
+      "summary": "Players have discovered a new high-level Battle Mage weapon called Wit's Edge in WoW: Forever! Continue reading »",
+      "url": "https://www.wowhead.com/news=383860/new-high-level-battle-mage-weapon-discovered-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-12",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-37a0173f",
+      "title": "Enhancement Shaman Class Changes Now Live in WoW: Forever",
+      "summary": "Blizzard has confirmed that the Enhancement Shaman changes are now live. Continue reading »",
+      "url": "https://www.wowhead.com/news=383858/enhancement-shaman-class-changes-now-live",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-12",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-bf2379fa",
+      "title": "The WoW: Forever Podcast Episode 7 Now Available - Lore Episode",
+      "summary": "The WoW: Forever podcast continues! Episode 7 is here and the team is talking about the lore. Continue reading »",
+      "url": "https://www.wowhead.com/news=383853/the-wow-forever-podcast-episode-7-now-available-lore-episode",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-12",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-e08991a7",
+      "title": "Loot Ocarina of Time Boots from Drowned City in WoW: Forever",
+      "summary": "A pair of boots has been discovered in the Drowned City loot table, which appears to be a clear reference to The Legend of Zelda: Ocarina of Time! Continue reading »",
+      "url": "https://www.wowhead.com/news=383842/loot-ocarina-of-time-boots-from-drowned-city-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-12",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-f645c83a",
+      "title": "Party with Other Players to Use Their Sleeping Bags for Experience Buff in WoW: Forever",
+      "summary": "Getting the Cozy Sleeping Bag takes a long time, but you can use other players' sleeping bags to get the same experience buff if you're in the same party! Continue reading »",
+      "url": "https://www.wowhead.com/news=383807/party-with-other-players-to-use-their-sleeping-bags-for-experience-buff-in-wow",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-12",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-c9da5f0e",
+      "title": "Catch-Up Mechanics & The Economy in WoW: Forever - But Why Tho? Interview",
+      "summary": "But Why Tho? interviewed Mike Nuthals and Tim Jones on WoW: Forever and discussed the possibility of catch-up mechanics and the Economy. Continue reading »",
+      "url": "https://www.wowhead.com/news=383818/catch-up-mechanics-and-the-economy-in-wow-forever-but-why-tho-interview",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-11-12",
       "official": false,
