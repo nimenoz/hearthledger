@@ -1644,5 +1644,37 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-11-13T06:55:30.674Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-e6aeb1ad",
+        "detail": "Wowhead: New Max Level Weekly Quest Rewards Up to 100 Gold in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-e7e64e5a",
+        "detail": "Wowhead: Learning Dual Spec Can Trigger Empty Action Bars When Logging Out in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-280d8bcf",
+        "detail": "Wowhead: Season of Discovery's Scarlet Enclave Raid to Return in WoW: Forever"
+      },
+      {
+        "kind": "change-updated",
+        "id": "item-count",
+        "detail": "The beta build showed 6,202 new items and 5,493 changed items. -> The beta build showed 6,204 new items and 5,499 changed items."
+      }
+    ],
+    "changed": true
   }
 ]

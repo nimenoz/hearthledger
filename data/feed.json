@@ -1,6 +1,6 @@
 {
-  "version": 55,
-  "updatedAt": "2026-11-12",
+  "version": 56,
+  "updatedAt": "2026-11-13",
   "changes": [
     {
       "id": "release-date",
@@ -141,7 +141,7 @@
       "id": "item-count",
       "category": "Items",
       "title": "Thousands of item changes",
-      "forever": "The beta build showed 6,202 new items and 5,493 changed items.",
+      "forever": "The beta build showed 6,204 new items and 5,499 changed items.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
@@ -1943,6 +1943,42 @@
       "title": "Catch-Up Mechanics & The Economy in WoW: Forever - But Why Tho? Interview",
       "summary": "But Why Tho? interviewed Mike Nuthals and Tim Jones on WoW: Forever and discussed the possibility of catch-up mechanics and the Economy. Continue reading »",
       "url": "https://www.wowhead.com/news=383818/catch-up-mechanics-and-the-economy-in-wow-forever-but-why-tho-interview",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-12",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-e6aeb1ad",
+      "title": "New Max Level Weekly Quest Rewards Up to 100 Gold in WoW: Forever",
+      "summary": "Once you reach max level in WoW: Forever, there's a new Weekly Quest that awards a random amount of gold, up to 100 Gold! Continue reading »",
+      "url": "https://www.wowhead.com/news=383846/new-max-level-weekly-quest-rewards-up-to-100-gold-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-13",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-e7e64e5a",
+      "title": "Learning Dual Spec Can Trigger Empty Action Bars When Logging Out in WoW: Forever",
+      "summary": "Once you learn Dual Spec, a bug can randomly trigger when you log out, wiping abilities off your Action Bars! Continue reading »",
+      "url": "https://www.wowhead.com/news=383862/dual-spec-bug-causes-empty-action-bars-after-logging-out",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-12",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-280d8bcf",
+      "title": "Season of Discovery's Scarlet Enclave Raid to Return in WoW: Forever",
+      "summary": "In the latest episode of the WoW: Forever podcast, Blizzard has confirmed that the SoD exclusive raid, The Scarlet Enclave, will eventually return in WoW: Forever! Continue reading »",
+      "url": "https://www.wowhead.com/news=383855/season-of-discoverys-scarlet-enclave-raid-to-return-in-wow-forever",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-11-12",
       "official": false,
