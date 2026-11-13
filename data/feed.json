@@ -1,5 +1,5 @@
 {
-  "version": 56,
+  "version": 57,
   "updatedAt": "2026-11-13",
   "changes": [
     {
@@ -141,7 +141,7 @@
       "id": "item-count",
       "category": "Items",
       "title": "Thousands of item changes",
-      "forever": "The beta build showed 6,204 new items and 5,499 changed items.",
+      "forever": "The beta build showed 6,205 new items and 5,508 changed items.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
@@ -1981,6 +1981,66 @@
       "url": "https://www.wowhead.com/news=383855/season-of-discoverys-scarlet-enclave-raid-to-return-in-wow-forever",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-11-12",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-cc82095e",
+      "title": "Blizzard Taking Down WoW: Forever Realms in 30 Minutes to Fix Urgent Server Crash",
+      "summary": "Blizzard has announced emergency realm maintenance in 30 minutes to fix an urgent server crash for WoW: Forever realms. Continue reading »",
+      "url": "https://www.wowhead.com/news=383870/blizzard-taking-down-wow-forever-realms-in-30-minutes-to-fix-urgent-server-crash",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-13",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-e9fbec18",
+      "title": "The WoW: Forever Podcast, a New Short Story, This Week’s Videos, and More! — WoW Weekly",
+      "summary": "Blizzard has posted a recap of this week in WoW, highlighting the continuation of the WoW: Forever podcast, a new short story, and more! Continue reading »",
+      "url": "https://www.wowhead.com/news=383869/the-wow-forever-podcast-a-new-short-story-this-week-s-videos-and-more-wow-weekly",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-13",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-a119312e",
+      "title": "New Short Story “Cost of Honor” for WoW: Forever",
+      "summary": "Blizzard has released a new short story for WoW: Forever called \"The Cost of Honor\"! Continue reading »",
+      "url": "https://www.wowhead.com/news=383868/new-short-story-cost-of-honor-for-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-13",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-de20b126",
+      "title": "Might of Stormwind World Buff Returns in WoW: Forever",
+      "summary": "First introduced in Season of Discovery, the Might of Stormwind World Buff has returned for Alliance players in WoW: Forever. Continue reading »",
+      "url": "https://www.wowhead.com/news=383857/might-of-stormwind-world-buff-returns-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-13",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-736385a0",
+      "title": "Secret Disguise Toy Found WoW: Forever",
+      "summary": "A new secret toy, the Alcaz Operative Disguise, has been found in WoW Forever, starting in the new dungeon: Alcaz Prison. Continue reading »",
+      "url": "https://www.wowhead.com/news=383859/secret-disguise-toy-found-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-13",
       "official": false,
       "tags": [
         "news"

@@ -1676,5 +1676,47 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-11-13T19:50:47.823Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-cc82095e",
+        "detail": "Wowhead: Blizzard Taking Down WoW: Forever Realms in 30 Minutes to Fix Urgent Server Crash"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-e9fbec18",
+        "detail": "Wowhead: The WoW: Forever Podcast, a New Short Story, This Week’s Videos, and More! — WoW Weekly"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-a119312e",
+        "detail": "Wowhead: New Short Story “Cost of Honor” for WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-de20b126",
+        "detail": "Wowhead: Might of Stormwind World Buff Returns in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-736385a0",
+        "detail": "Wowhead: Secret Disguise Toy Found WoW: Forever"
+      },
+      {
+        "kind": "change-updated",
+        "id": "item-count",
+        "detail": "The beta build showed 6,204 new items and 5,499 changed items. -> The beta build showed 6,205 new items and 5,508 changed items."
+      }
+    ],
+    "changed": true
   }
 ]
