@@ -1,5 +1,5 @@
 {
-  "version": 58,
+  "version": 59,
   "updatedAt": "2026-11-14",
   "changes": [
     {
@@ -2077,6 +2077,30 @@
       "url": "https://www.wowhead.com/news=383873/skyborne-dont-have-reputation-discount-for-mounts-in-wow-forever",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-11-13",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-5ac30d23",
+      "title": "Dungeon Mobs Grant Zero Experience if Trivial to Anyone in Party in WoW: Forever",
+      "summary": "In last night's hotfixes, Blizzard announced that if any party member in a dungeon is too high-level, no one in the party will receive experience. Continue reading »",
+      "url": "https://www.wowhead.com/news=383880/dungeon-mobs-grant-zero-experience-if-trivial-to-anyone-in-party",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-14",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-33ec1723",
+      "title": "New Dungeon Set Transforms Players into an Ogre in WoW: Forever",
+      "summary": "Players have discovered an additional bonus to equipping all of the new Krol'dok Battlegear armor from Krol'dok Stronghold in Forever: turning the player into an Ogre! Continue reading »",
+      "url": "https://www.wowhead.com/news=383861/new-dungeon-set-transforms-players-into-an-ogre-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-14",
       "official": false,
       "tags": [
         "news"

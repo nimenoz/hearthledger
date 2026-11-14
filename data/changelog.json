@@ -1750,5 +1750,27 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-11-14T18:15:48.609Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-5ac30d23",
+        "detail": "Wowhead: Dungeon Mobs Grant Zero Experience if Trivial to Anyone in Party in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-33ec1723",
+        "detail": "Wowhead: New Dungeon Set Transforms Players into an Ogre in WoW: Forever"
+      }
+    ],
+    "changed": true
   }
 ]
