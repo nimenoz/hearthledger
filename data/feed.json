@@ -1,5 +1,5 @@
 {
-  "version": 59,
+  "version": 60,
   "updatedAt": "2026-11-14",
   "changes": [
     {
@@ -141,7 +141,7 @@
       "id": "item-count",
       "category": "Items",
       "title": "Thousands of item changes",
-      "forever": "The beta build showed 6,208 new items and 5,510 changed items.",
+      "forever": "The beta build showed 6,208 new items and 5,513 changed items.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
@@ -2099,6 +2099,18 @@
       "title": "New Dungeon Set Transforms Players into an Ogre in WoW: Forever",
       "summary": "Players have discovered an additional bonus to equipping all of the new Krol'dok Battlegear armor from Krol'dok Stronghold in Forever: turning the player into an Ogre! Continue reading »",
       "url": "https://www.wowhead.com/news=383861/new-dungeon-set-transforms-players-into-an-ogre-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-14",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-c854de30",
+      "title": "Infiltrate Krol'dok Stronghold: New Dungeon in WoW: Forever",
+      "summary": "Krol'dok Stronghold is a new dungeon that challenges players in the Level 40-45 bracket in WoW: Forever - take a look at the quests and rewards you'll find inside! Continue reading »",
+      "url": "https://www.wowhead.com/news=383871/infiltrate-kroldok-stronghold-new-dungeon-in-wow-forever",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-11-14",
       "official": false,

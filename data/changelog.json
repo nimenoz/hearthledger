@@ -1772,5 +1772,27 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-11-14T22:35:42.660Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-c854de30",
+        "detail": "Wowhead: Infiltrate Krol'dok Stronghold: New Dungeon in WoW: Forever"
+      },
+      {
+        "kind": "change-updated",
+        "id": "item-count",
+        "detail": "The beta build showed 6,208 new items and 5,510 changed items. -> The beta build showed 6,208 new items and 5,513 changed items."
+      }
+    ],
+    "changed": true
   }
 ]
