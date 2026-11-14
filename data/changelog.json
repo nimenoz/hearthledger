@@ -1718,5 +1718,37 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-11-14T06:40:10.065Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-9fb49b31",
+        "detail": "Wowhead: Many Fixes to Dungeons, Quests, Enemies and Classes - WoW: Forever Hotfixes for November 13, 2026"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-040bda39",
+        "detail": "Wowhead: Riverglades is One of the Best Leveling Zones in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-1a7c9c7d",
+        "detail": "Wowhead: Skyborne Don't Have Reputation Discount for Mounts in WoW: Forever"
+      },
+      {
+        "kind": "change-updated",
+        "id": "item-count",
+        "detail": "The beta build showed 6,205 new items and 5,508 changed items. -> The beta build showed 6,208 new items and 5,510 changed items."
+      }
+    ],
+    "changed": true
   }
 ]
