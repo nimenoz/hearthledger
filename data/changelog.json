@@ -1794,5 +1794,27 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-11-15T06:45:44.883Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-73c78615",
+        "detail": "Wowhead: Dungeon Mobs Now Grant Zero Experience When Highest Player is 13 Levels Above the Creature in WoW: Forever"
+      },
+      {
+        "kind": "change-updated",
+        "id": "item-count",
+        "detail": "The beta build showed 6,208 new items and 5,513 changed items. -> The beta build showed 6,208 new items and 5,519 changed items."
+      }
+    ],
+    "changed": true
   }
 ]
