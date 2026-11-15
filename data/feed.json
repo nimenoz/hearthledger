@@ -1,5 +1,5 @@
 {
-  "version": 61,
+  "version": 62,
   "updatedAt": "2026-11-15",
   "changes": [
     {
@@ -141,7 +141,7 @@
       "id": "item-count",
       "category": "Items",
       "title": "Thousands of item changes",
-      "forever": "The beta build showed 6,208 new items and 5,519 changed items.",
+      "forever": "The beta build showed 6,208 new items and 5,520 changed items.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
@@ -2123,6 +2123,18 @@
       "title": "Dungeon Mobs Now Grant Zero Experience When Highest Player is 13 Levels Above the Creature in WoW: Forever",
       "summary": "In a brand-new change, dungeon mobs will now grant zero experience when the highest-level player is more than 12 levels above the creature, instead of when the mob is grey! Continue reading »",
       "url": "https://www.wowhead.com/news=383883/dungeon-mobs-now-grant-zero-experience-when-highest-player-is-13-levels-above",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-15",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-ecb3fcda",
+      "title": "An Old SoD Secret Has New Rewards in WoW: Forever",
+      "summary": "An old SoD secret has been brought forward into WoW: Forever, and it's got some new rewards compared to what players found before. Continue reading »",
+      "url": "https://www.wowhead.com/news=383879/an-old-sod-secret-has-new-rewards-in-wow-forever",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-11-15",
       "official": false,

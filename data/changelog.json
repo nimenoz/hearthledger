@@ -1816,5 +1816,27 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-11-15T18:57:19.080Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-ecb3fcda",
+        "detail": "Wowhead: An Old SoD Secret Has New Rewards in WoW: Forever"
+      },
+      {
+        "kind": "change-updated",
+        "id": "item-count",
+        "detail": "The beta build showed 6,208 new items and 5,519 changed items. -> The beta build showed 6,208 new items and 5,520 changed items."
+      }
+    ],
+    "changed": true
   }
 ]
