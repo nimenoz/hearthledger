@@ -1,5 +1,5 @@
 {
-  "version": 63,
+  "version": 64,
   "updatedAt": "2026-11-16",
   "changes": [
     {
@@ -141,7 +141,7 @@
       "id": "item-count",
       "category": "Items",
       "title": "Thousands of item changes",
-      "forever": "The beta build showed 6,210 new items and 5,526 changed items.",
+      "forever": "The beta build showed 6,213 new items and 5,533 changed items.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
@@ -2149,6 +2149,42 @@
       "url": "https://www.wowhead.com/news=383845/save-gold-and-gain-bag-space-by-earning-quest-rewards-in-wow-forever",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-11-15",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-7ca1f2b6",
+      "title": "100+ Gold Per Hour Farm Nerfed in WoW: Forever",
+      "summary": "The 100+ gold per hour farm in Blackmaw Hold has now been nerfed after some players already generated hundreds, if not thousands, of gold from runs. Continue reading »",
+      "url": "https://www.wowhead.com/news=383898/100-gold-per-hour-farm-nerfed-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-16",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-6ec3cc4f",
+      "title": "Forever 101: Blizzard Releases New Player Overview Video for WoW: Forever",
+      "summary": "Blizzard has released a Forever 101 video, which serves as an overview for new players of WoW: Forever. Continue reading »",
+      "url": "https://www.wowhead.com/news=383897/forever-101-blizzard-releases-new-player-overview-video-for-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-16",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-ed66ddd3",
+      "title": "Should WoW: Forever Dungeons Let Players Complete Quests in One Run?",
+      "summary": "In WoW: Forever, dungeon quests may not guarantee being completed in one clear. Should this be adjusted, or is this better for the game? Continue reading »",
+      "url": "https://www.wowhead.com/news=383806/should-wow-forever-dungeons-let-players-complete-quests-in-one-run",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-16",
       "official": false,
       "tags": [
         "news"

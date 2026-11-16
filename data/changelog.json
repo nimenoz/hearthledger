@@ -1860,5 +1860,37 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-11-16T22:16:31.061Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-7ca1f2b6",
+        "detail": "Wowhead: 100+ Gold Per Hour Farm Nerfed in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-6ec3cc4f",
+        "detail": "Wowhead: Forever 101: Blizzard Releases New Player Overview Video for WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-ed66ddd3",
+        "detail": "Wowhead: Should WoW: Forever Dungeons Let Players Complete Quests in One Run?"
+      },
+      {
+        "kind": "change-updated",
+        "id": "item-count",
+        "detail": "The beta build showed 6,210 new items and 5,526 changed items. -> The beta build showed 6,213 new items and 5,533 changed items."
+      }
+    ],
+    "changed": true
   }
 ]
