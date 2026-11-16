@@ -1,6 +1,6 @@
 {
-  "version": 62,
-  "updatedAt": "2026-11-15",
+  "version": 63,
+  "updatedAt": "2026-11-16",
   "changes": [
     {
       "id": "release-date",
@@ -141,7 +141,7 @@
       "id": "item-count",
       "category": "Items",
       "title": "Thousands of item changes",
-      "forever": "The beta build showed 6,208 new items and 5,520 changed items.",
+      "forever": "The beta build showed 6,210 new items and 5,526 changed items.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
@@ -2135,6 +2135,18 @@
       "title": "An Old SoD Secret Has New Rewards in WoW: Forever",
       "summary": "An old SoD secret has been brought forward into WoW: Forever, and it's got some new rewards compared to what players found before. Continue reading »",
       "url": "https://www.wowhead.com/news=383879/an-old-sod-secret-has-new-rewards-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-15",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-db3ff2a0",
+      "title": "Save Gold and Gain Bag Space by Earning Quest Rewards in WoW: Forever",
+      "summary": "Looking to upgrade your bags, but are a little tight on gold? Here are some bag upgrades from quests in Forever that should give you a bit more storage space! Continue reading »",
+      "url": "https://www.wowhead.com/news=383845/save-gold-and-gain-bag-space-by-earning-quest-rewards-in-wow-forever",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-11-15",
       "official": false,

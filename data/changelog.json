@@ -1838,5 +1838,27 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-11-16T06:44:33.228Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-db3ff2a0",
+        "detail": "Wowhead: Save Gold and Gain Bag Space by Earning Quest Rewards in WoW: Forever"
+      },
+      {
+        "kind": "change-updated",
+        "id": "item-count",
+        "detail": "The beta build showed 6,208 new items and 5,520 changed items. -> The beta build showed 6,210 new items and 5,526 changed items."
+      }
+    ],
+    "changed": true
   }
 ]
