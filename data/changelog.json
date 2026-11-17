@@ -1892,5 +1892,27 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-11-17T08:04:56.183Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-1d1cfe6d",
+        "detail": "Wowhead: More Classes, Quest, and Item Changes - WoW: Forever Hotfixes for November 16, 2026"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-2ae1b12e",
+        "detail": "Wowhead: New Scarlet Monastery Hearthstone in WoW: Forever"
+      }
+    ],
+    "changed": true
   }
 ]

@@ -1,6 +1,6 @@
 {
-  "version": 64,
-  "updatedAt": "2026-11-16",
+  "version": 65,
+  "updatedAt": "2026-11-17",
   "changes": [
     {
       "id": "release-date",
@@ -2185,6 +2185,30 @@
       "url": "https://www.wowhead.com/news=383806/should-wow-forever-dungeons-let-players-complete-quests-in-one-run",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-11-16",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-1d1cfe6d",
+      "title": "More Classes, Quest, and Item Changes - WoW: Forever Hotfixes for November 16, 2026",
+      "summary": "Blizzard has announced hotfixes for today, which includes a lot of changes for classes, quests, items and dungeons! Continue reading »",
+      "url": "https://www.wowhead.com/news=383900/more-classes-quest-and-item-changes-wow-forever-hotfixes-for-november-16-2026",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-17",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-2ae1b12e",
+      "title": "New Scarlet Monastery Hearthstone in WoW: Forever",
+      "summary": "A new cosmetic Hearthstone has been found in WoW: Forever! Continue reading »",
+      "url": "https://www.wowhead.com/news=383893/new-scarlet-monastery-hearthstone-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-17",
       "official": false,
       "tags": [
         "news"
