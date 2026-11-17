@@ -1,5 +1,5 @@
 {
-  "version": 65,
+  "version": 66,
   "updatedAt": "2026-11-17",
   "changes": [
     {
@@ -141,7 +141,7 @@
       "id": "item-count",
       "category": "Items",
       "title": "Thousands of item changes",
-      "forever": "The beta build showed 6,213 new items and 5,533 changed items.",
+      "forever": "The beta build showed 6,411 new items and 5,533 changed items.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
@@ -2207,6 +2207,42 @@
       "title": "New Scarlet Monastery Hearthstone in WoW: Forever",
       "summary": "A new cosmetic Hearthstone has been found in WoW: Forever! Continue reading »",
       "url": "https://www.wowhead.com/news=383893/new-scarlet-monastery-hearthstone-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-17",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-66bc149b",
+      "title": "Spell Power Added to Soulforge Paladin Armor - Item Hotfixes in WoW: Forever",
+      "summary": "The latest hotfixes have changed the stats of some items in WoW: Forever, including adding spell power to the Soulforge Paladin Armor! Continue reading »",
+      "url": "https://www.wowhead.com/news=383909/spell-power-added-to-soulforge-paladin-armor-item-hotfixes-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-17",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-c34edb1c",
+      "title": "WoW: Forever Post Hits #1 on r/all - Many Players Are Very Upset About the Blackmaw Hold Gold Farm",
+      "summary": "Players are very upset about the recent gold farm in Blackmaw Hold and how this injection of gold can affect the economy. Continue reading »",
+      "url": "https://www.wowhead.com/news=383906/many-players-are-very-upset-about-the-blackmaw-hold-gold-farm",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-17",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-cd536414",
+      "title": "NA WoW: Forever Servers Down for Scheduled Maintenance for 1 Hour",
+      "summary": "WoW: Forever is down for 1 hour on NA realms for scheduled maintenance. Continue reading »",
+      "url": "https://www.wowhead.com/news=383905/na-wow-forever-servers-down-for-scheduled-maintenance-for-1-hour",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-11-17",
       "official": false,

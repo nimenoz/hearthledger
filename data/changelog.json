@@ -1914,5 +1914,37 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-11-17T21:02:49.096Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-66bc149b",
+        "detail": "Wowhead: Spell Power Added to Soulforge Paladin Armor - Item Hotfixes in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-c34edb1c",
+        "detail": "Wowhead: WoW: Forever Post Hits #1 on r/all - Many Players Are Very Upset About the Blackmaw Hold Gold Farm"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-cd536414",
+        "detail": "Wowhead: NA WoW: Forever Servers Down for Scheduled Maintenance for 1 Hour"
+      },
+      {
+        "kind": "change-updated",
+        "id": "item-count",
+        "detail": "The beta build showed 6,213 new items and 5,533 changed items. -> The beta build showed 6,411 new items and 5,533 changed items."
+      }
+    ],
+    "changed": true
   }
 ]
