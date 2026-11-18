@@ -1,6 +1,6 @@
 {
-  "version": 66,
-  "updatedAt": "2026-11-17",
+  "version": 67,
+  "updatedAt": "2026-11-18",
   "changes": [
     {
       "id": "release-date",
@@ -141,7 +141,7 @@
       "id": "item-count",
       "category": "Items",
       "title": "Thousands of item changes",
-      "forever": "The beta build showed 6,411 new items and 5,533 changed items.",
+      "forever": "The beta build showed 6,411 new items and 5,534 changed items.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
@@ -2245,6 +2245,30 @@
       "url": "https://www.wowhead.com/news=383905/na-wow-forever-servers-down-for-scheduled-maintenance-for-1-hour",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-11-17",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-1b70d229",
+      "title": "UBRS Damage and Health Increases & Shen'dralas Improvements - WoW: Forever Hotfixes for November 17, 2026",
+      "summary": "Blizzard has posted hotfixes for today, which includes damage and health increases to UBRS and improvements to quest pain points in the Shen'dralas zone. Continue reading »",
+      "url": "https://www.wowhead.com/news=383914/ubrs-damage-and-health-increases-and-shendralas-improvements-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-18",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-53b7b8d1",
+      "title": "WoW: Forever Continuing to Break Records With Over 15 Million Characters Created",
+      "summary": "WoW: Forever continues to break records with over 15 million characters created and almost 1.5 billion quests completed. Continue reading »",
+      "url": "https://www.wowhead.com/news=383912/wow-forever-continuing-to-break-records-with-over-15-million-characters-created",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-18",
       "official": false,
       "tags": [
         "news"

@@ -1946,5 +1946,32 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-11-18T07:41:02.920Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-1b70d229",
+        "detail": "Wowhead: UBRS Damage and Health Increases & Shen'dralas Improvements - WoW: Forever Hotfixes for November 17, 2026"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-53b7b8d1",
+        "detail": "Wowhead: WoW: Forever Continuing to Break Records With Over 15 Million Characters Created"
+      },
+      {
+        "kind": "change-updated",
+        "id": "item-count",
+        "detail": "The beta build showed 6,411 new items and 5,533 changed items. -> The beta build showed 6,411 new items and 5,534 changed items."
+      }
+    ],
+    "changed": true
   }
 ]
