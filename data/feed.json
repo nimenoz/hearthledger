@@ -1,5 +1,5 @@
 {
-  "version": 67,
+  "version": 68,
   "updatedAt": "2026-11-18",
   "changes": [
     {
@@ -141,7 +141,7 @@
       "id": "item-count",
       "category": "Items",
       "title": "Thousands of item changes",
-      "forever": "The beta build showed 6,411 new items and 5,534 changed items.",
+      "forever": "The beta build showed 6,414 new items and 5,534 changed items.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
@@ -2267,6 +2267,42 @@
       "title": "WoW: Forever Continuing to Break Records With Over 15 Million Characters Created",
       "summary": "WoW: Forever continues to break records with over 15 million characters created and almost 1.5 billion quests completed. Continue reading »",
       "url": "https://www.wowhead.com/news=383912/wow-forever-continuing-to-break-records-with-over-15-million-characters-created",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-18",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-a86aa612",
+      "title": "Weekly Gold Quest Requires Blackrock Spire and Blackrock Depths in WoW: Forever",
+      "summary": "To complete this week's Gold Quest for level 60 characters, players must complete Blackrock Spire and Blackrock Depths. Continue reading »",
+      "url": "https://www.wowhead.com/news=383919/weekly-gold-quest-requires-blackrock-spire-and-blackrock-depths-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-18",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-844e49cf",
+      "title": "WoW: Forever PvP Overview Video - Honor Rewards & Battlegrounds",
+      "summary": "Blizzard has released a video going over WoW: Forever's PvP system, highlighting Honor rewards, Rank rewards, and Battlegrounds! Continue reading »",
+      "url": "https://www.wowhead.com/news=383918/wow-forever-pvp-overview-video-honor-rewards-and-battlegrounds",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-18",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-1668e9d2",
+      "title": "Auction House Minimum Deposit Reduced to 1 Copper in WoW: Forever",
+      "summary": "The Auction House minimum deposit has finally been reduced back down to 1 Copper. Continue reading »",
+      "url": "https://www.wowhead.com/news=383917/auction-house-minimum-deposit-reduced-to-1-copper-in-wow-forever",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-11-18",
       "official": false,

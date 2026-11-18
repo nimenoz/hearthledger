@@ -1973,5 +1973,37 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-11-18T20:40:28.128Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-a86aa612",
+        "detail": "Wowhead: Weekly Gold Quest Requires Blackrock Spire and Blackrock Depths in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-844e49cf",
+        "detail": "Wowhead: WoW: Forever PvP Overview Video - Honor Rewards & Battlegrounds"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-1668e9d2",
+        "detail": "Wowhead: Auction House Minimum Deposit Reduced to 1 Copper in WoW: Forever"
+      },
+      {
+        "kind": "change-updated",
+        "id": "item-count",
+        "detail": "The beta build showed 6,411 new items and 5,534 changed items. -> The beta build showed 6,414 new items and 5,534 changed items."
+      }
+    ],
+    "changed": true
   }
 ]
