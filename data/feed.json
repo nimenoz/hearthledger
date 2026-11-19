@@ -1,6 +1,6 @@
 {
-  "version": 68,
-  "updatedAt": "2026-11-18",
+  "version": 69,
+  "updatedAt": "2026-11-19",
   "changes": [
     {
       "id": "release-date",
@@ -2305,6 +2305,18 @@
       "url": "https://www.wowhead.com/news=383917/auction-house-minimum-deposit-reduced-to-1-copper-in-wow-forever",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-11-18",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-207132ed",
+      "title": "Turn On In-Game Quest Objective Markers for Easier Navigation in WoW: Forever",
+      "summary": "In-game quest objective markers are available in WoW: Forever, allowing for easier navigation without needing additional addons. Continue reading »",
+      "url": "https://www.wowhead.com/news=383924/turn-on-in-game-quest-objective-markers-for-easier-navigation-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-19",
       "official": false,
       "tags": [
         "news"

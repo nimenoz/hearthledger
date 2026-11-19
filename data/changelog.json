@@ -2005,5 +2005,22 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-11-19T07:36:47.206Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-207132ed",
+        "detail": "Wowhead: Turn On In-Game Quest Objective Markers for Easier Navigation in WoW: Forever"
+      }
+    ],
+    "changed": true
   }
 ]
