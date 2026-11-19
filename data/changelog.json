@@ -2022,5 +2022,52 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-11-19T20:46:18.489Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-c673618b",
+        "detail": "Wowhead: Blizzard Wants to Get Rid of BiS in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-75a4e871",
+        "detail": "Wowhead: Study The Well - WoW: Forever Podcast Board Message Hints at New Brainteaser"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-28aff700",
+        "detail": "Wowhead: Zirene Teases Item Granting Bonus Stats When Bags are Full in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-4b5d83d2",
+        "detail": "Wowhead: WoW: Forever Podcast Episode 8: Classes, Itemization, and BiS"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-2e1dbc91",
+        "detail": "Wowhead: Earn a Free 16-Slot Bag from a Former SoD Questline in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-65994662",
+        "detail": "Wowhead: Tame a Secret Hunter Pet in WoW: Forever"
+      },
+      {
+        "kind": "change-updated",
+        "id": "item-count",
+        "detail": "The beta build showed 6,414 new items and 5,534 changed items. -> The beta build showed 6,421 new items and 5,534 changed items."
+      }
+    ],
+    "changed": true
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "version": 69,
+  "version": 70,
   "updatedAt": "2026-11-19",
   "changes": [
     {
@@ -141,7 +141,7 @@
       "id": "item-count",
       "category": "Items",
       "title": "Thousands of item changes",
-      "forever": "The beta build showed 6,414 new items and 5,534 changed items.",
+      "forever": "The beta build showed 6,421 new items and 5,534 changed items.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
@@ -2315,6 +2315,78 @@
       "title": "Turn On In-Game Quest Objective Markers for Easier Navigation in WoW: Forever",
       "summary": "In-game quest objective markers are available in WoW: Forever, allowing for easier navigation without needing additional addons. Continue reading »",
       "url": "https://www.wowhead.com/news=383924/turn-on-in-game-quest-objective-markers-for-easier-navigation-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-19",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-c673618b",
+      "title": "Blizzard Wants to Get Rid of BiS in WoW: Forever",
+      "summary": "In the latest episode of the WoW: Forever Podcast, Senior Game Designer Aidan Moon says he wants to get rid of the idea of BiS in WoW: Forever. Continue reading »",
+      "url": "https://www.wowhead.com/news=383931/blizzard-wants-to-get-rid-of-bis-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-19",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-75a4e871",
+      "title": "Study The Well - WoW: Forever Podcast Board Message Hints at New Brainteaser",
+      "summary": "This Week on the WoW: Forever podcast, the board said: Study The Well. Secret Finding is on it, and it's likely to be \"solved\" soon! Continue reading »",
+      "url": "https://www.wowhead.com/news=383929/study-the-well-wow-forever-podcast-board-message-hints-at-new-brainteaser",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-19",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-28aff700",
+      "title": "Zirene Teases Item Granting Bonus Stats When Bags are Full in WoW: Forever",
+      "summary": "Zirene has teased a new Master Looter BiS item: an item that gives bonus stats when your bags are full. Continue reading »",
+      "url": "https://www.wowhead.com/news=383927/zirene-teases-item-granting-bonus-stats-when-bags-are-full",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-19",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-4b5d83d2",
+      "title": "WoW: Forever Podcast Episode 8: Classes, Itemization, and BiS",
+      "summary": "The latest episode of the WoW: Forever podcast has been released, and this week it covers classes, itemization, BiS, and more! Continue reading »",
+      "url": "https://www.wowhead.com/news=383926/wow-forever-podcast-episode-8-classes-itemization-and-bis",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-19",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-2e1dbc91",
+      "title": "Earn a Free 16-Slot Bag from a Former SoD Questline in WoW: Forever",
+      "summary": "Another Season of Discovery questline has made its way to WoW: Forever, and among other things, it rewards a 16-slot bag! Continue reading »",
+      "url": "https://www.wowhead.com/news=383896/earn-a-free-16-slot-bag-from-a-former-sod-questline-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-19",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-65994662",
+      "title": "Tame a Secret Hunter Pet in WoW: Forever",
+      "summary": "A secret Hunter pet has been discovered in WoW: Forever, and players can finally tame a Winna's Kitten lookalike, which wasn't available in the original Classic! Continue reading »",
+      "url": "https://www.wowhead.com/news=383902/tame-a-secret-hunter-pet-in-wow-forever",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-11-19",
       "official": false,
