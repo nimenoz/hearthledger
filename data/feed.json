@@ -1,5 +1,5 @@
 {
-  "version": 71,
+  "version": 72,
   "updatedAt": "2026-11-20",
   "changes": [
     {
@@ -141,7 +141,7 @@
       "id": "item-count",
       "category": "Items",
       "title": "Thousands of item changes",
-      "forever": "The beta build showed 6,423 new items and 5,537 changed items.",
+      "forever": "The beta build showed 6,426 new items and 5,537 changed items.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
@@ -2461,6 +2461,42 @@
       "url": "https://www.wowhead.com/news=383935/motes-of-unstable-magic-now-soulbound-in-wow-forever-gold-strategy-nerfed",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-11-19",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-70e6cb72",
+      "title": "WoW: Forever Class Design, Patch 12.1.7, WoW Anniversary - WoW Weekly",
+      "summary": "Blizzard has recapped some of the biggest events in WoW this week, which includes a podcast on WoW: Forever class design, details on Patch 12.1.7, the WoW Anniversary event, and more! Continue reading »",
+      "url": "https://www.wowhead.com/news=383944/wow-forever-class-design-patch-12-1-7-wow-anniversary-wow-weekly",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-20",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-a2a749a8",
+      "title": "Unlock a Dungeon Shortcut in WoW: Forever with the Compound Key",
+      "summary": "Completing a quest in one of the new WoW: Forever dungeons will make future runs go a bit smoother: you'll gain a key to unlock doors leading to a final boss shortcut! Continue reading »",
+      "url": "https://www.wowhead.com/news=383890/unlock-a-dungeon-shortcut-in-wow-forever-with-the-compound-key",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-20",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-5035aa13",
+      "title": "Every Quest for Level 30 to 40 Dungeons in WoW: Forever",
+      "summary": "Here are all the quests for the level 30 to 40 dungeons to help you level faster in WoW: Forever! Continue reading »",
+      "url": "https://www.wowhead.com/news=383933/every-quest-for-level-30-to-40-dungeons-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-20",
       "official": false,
       "tags": [
         "news"

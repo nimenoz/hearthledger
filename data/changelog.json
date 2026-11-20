@@ -2116,5 +2116,37 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-11-20T20:30:08.395Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-70e6cb72",
+        "detail": "Wowhead: WoW: Forever Class Design, Patch 12.1.7, WoW Anniversary - WoW Weekly"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-a2a749a8",
+        "detail": "Wowhead: Unlock a Dungeon Shortcut in WoW: Forever with the Compound Key"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-5035aa13",
+        "detail": "Wowhead: Every Quest for Level 30 to 40 Dungeons in WoW: Forever"
+      },
+      {
+        "kind": "change-updated",
+        "id": "item-count",
+        "detail": "The beta build showed 6,423 new items and 5,537 changed items. -> The beta build showed 6,426 new items and 5,537 changed items."
+      }
+    ],
+    "changed": true
   }
 ]
