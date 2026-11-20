@@ -1,6 +1,6 @@
 {
-  "version": 70,
-  "updatedAt": "2026-11-19",
+  "version": 71,
+  "updatedAt": "2026-11-20",
   "changes": [
     {
       "id": "release-date",
@@ -141,7 +141,7 @@
       "id": "item-count",
       "category": "Items",
       "title": "Thousands of item changes",
-      "forever": "The beta build showed 6,421 new items and 5,534 changed items.",
+      "forever": "The beta build showed 6,423 new items and 5,537 changed items.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
@@ -2387,6 +2387,78 @@
       "title": "Tame a Secret Hunter Pet in WoW: Forever",
       "summary": "A secret Hunter pet has been discovered in WoW: Forever, and players can finally tame a Winna's Kitten lookalike, which wasn't available in the original Classic! Continue reading »",
       "url": "https://www.wowhead.com/news=383902/tame-a-secret-hunter-pet-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-19",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-598056c8",
+      "title": "Skyborne Now Get Reputation Discount for Mounts in WoW: Forever But You'll Need A Lot of Runecloth",
+      "summary": "Skyborne now get a 10% reputation discount for mounts in WoW: Forever when they hit Honored. Get your Runecloth turn-ins ready! Continue reading »",
+      "url": "https://www.wowhead.com/news=383940/skyborne-now-get-reputation-discount-for-mounts-in-wow-forever-but-youll-need-a",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-20",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-3cfdde08",
+      "title": "Ret Paladin Bug Fix and Seed Hybridizer Available Again - WoW: Forever Hotfixes for November 19th",
+      "summary": "Blizzard has posted hotfixes for today, which includes a Ret Paladin bug fix and making the Seed Hybridizer available again! Continue reading »",
+      "url": "https://www.wowhead.com/news=383939/ret-paladin-bug-fix-and-seed-hybridizer-available-again-wow-forever-hotfixes-for",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-20",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-a8deefa5",
+      "title": "Blizzard Investigating Several Bugged Quests in WoW: Forever",
+      "summary": "The official BlizzardCS account has commented on several quests in Wowhead's database, letting players know they are investigating bugs. Continue reading »",
+      "url": "https://www.wowhead.com/news=383938/blizzard-investigating-several-bugged-quests-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-20",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-f10b5605",
+      "title": "Blizzard Addresses Spell Power Gear Shortage in WoW: Forever",
+      "summary": "In the latest episode of the WoW: Forever Podcast, developers Kris Zierhut and Aidan Moon address the concern about a lack of Spell Power gear in WoW: Forever. Continue reading »",
+      "url": "https://www.wowhead.com/news=383928/blizzard-addresses-spell-power-gear-shortage-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-20",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-8c78c1ce",
+      "title": "Some EU Players Reporting Issues with PvP Queues and Honor Gains in WoW: Forever",
+      "summary": "Some EU players have been reporting issues with PvP queues, preventing any Battleground queues from popping. Continue reading »",
+      "url": "https://www.wowhead.com/news=383937/some-eu-players-reporting-issues-with-pvp-queues-and-honor-gains-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-19",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-498ea893",
+      "title": "Motes of Unstable Magic Now Soulbound in WoW: Forever - Gold Strategy Nerfed",
+      "summary": "Motes of Unstable Magic are now soulbound, preventing high-level players from selling them on the Auction House. Continue reading »",
+      "url": "https://www.wowhead.com/news=383935/motes-of-unstable-magic-now-soulbound-in-wow-forever-gold-strategy-nerfed",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-11-19",
       "official": false,

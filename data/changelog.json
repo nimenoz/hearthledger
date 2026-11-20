@@ -2069,5 +2069,52 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-11-20T07:27:50.047Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-598056c8",
+        "detail": "Wowhead: Skyborne Now Get Reputation Discount for Mounts in WoW: Forever But You'll Need A Lot of Runecloth"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-3cfdde08",
+        "detail": "Wowhead: Ret Paladin Bug Fix and Seed Hybridizer Available Again - WoW: Forever Hotfixes for November 19th"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-a8deefa5",
+        "detail": "Wowhead: Blizzard Investigating Several Bugged Quests in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-f10b5605",
+        "detail": "Wowhead: Blizzard Addresses Spell Power Gear Shortage in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-8c78c1ce",
+        "detail": "Wowhead: Some EU Players Reporting Issues with PvP Queues and Honor Gains in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-498ea893",
+        "detail": "Wowhead: Motes of Unstable Magic Now Soulbound in WoW: Forever - Gold Strategy Nerfed"
+      },
+      {
+        "kind": "change-updated",
+        "id": "item-count",
+        "detail": "The beta build showed 6,421 new items and 5,534 changed items. -> The beta build showed 6,423 new items and 5,537 changed items."
+      }
+    ],
+    "changed": true
   }
 ]
