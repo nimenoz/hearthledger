@@ -2148,5 +2148,32 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-11-21T07:22:38.437Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-ccdf9ce9",
+        "detail": "Wowhead: LFG Bug Fix Causes Players to See More Groups - WoW: Forever Hotfixes for November 20, 2026"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-848f0f48",
+        "detail": "Wowhead: Itemization of Crafted Tier Sets Revealed in WoW: Forever's First Raid Tier"
+      },
+      {
+        "kind": "change-updated",
+        "id": "item-count",
+        "detail": "The beta build showed 6,426 new items and 5,537 changed items. -> The beta build showed 6,426 new items and 5,539 changed items."
+      }
+    ],
+    "changed": true
   }
 ]

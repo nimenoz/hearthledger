@@ -1,6 +1,6 @@
 {
-  "version": 72,
-  "updatedAt": "2026-11-20",
+  "version": 73,
+  "updatedAt": "2026-11-21",
   "changes": [
     {
       "id": "release-date",
@@ -141,7 +141,7 @@
       "id": "item-count",
       "category": "Items",
       "title": "Thousands of item changes",
-      "forever": "The beta build showed 6,426 new items and 5,537 changed items.",
+      "forever": "The beta build showed 6,426 new items and 5,539 changed items.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
@@ -2495,6 +2495,30 @@
       "title": "Every Quest for Level 30 to 40 Dungeons in WoW: Forever",
       "summary": "Here are all the quests for the level 30 to 40 dungeons to help you level faster in WoW: Forever! Continue reading »",
       "url": "https://www.wowhead.com/news=383933/every-quest-for-level-30-to-40-dungeons-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-20",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-ccdf9ce9",
+      "title": "LFG Bug Fix Causes Players to See More Groups - WoW: Forever Hotfixes for November 20, 2026",
+      "summary": "Blizzard has posted hotfixes for today, which contains a bug fix for players seeing fewer groups than intended in LFG. Continue reading »",
+      "url": "https://www.wowhead.com/news=383949/lfg-bug-fix-causes-players-to-see-more-groups-wow-forever-hotfixes-for-november",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-21",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-848f0f48",
+      "title": "Itemization of Crafted Tier Sets Revealed in WoW: Forever's First Raid Tier",
+      "summary": "The stats for the crafted versions of Tier Set gear from the first raid tier have been revealed in a hotfix to Forever! Continue reading »",
+      "url": "https://www.wowhead.com/news=383946/itemization-of-crafted-tier-sets-revealed-in-wow-forevers-first-raid-tier",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-11-20",
       "official": false,
