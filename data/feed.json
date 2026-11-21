@@ -1,5 +1,5 @@
 {
-  "version": 73,
+  "version": 74,
   "updatedAt": "2026-11-21",
   "changes": [
     {
@@ -141,7 +141,7 @@
       "id": "item-count",
       "category": "Items",
       "title": "Thousands of item changes",
-      "forever": "The beta build showed 6,426 new items and 5,539 changed items.",
+      "forever": "The beta build showed 6,431 new items and 5,539 changed items.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
@@ -2521,6 +2521,30 @@
       "url": "https://www.wowhead.com/news=383946/itemization-of-crafted-tier-sets-revealed-in-wow-forevers-first-raid-tier",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-11-20",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-0b9469a7",
+      "title": "Maximum Dungeons Per Hour Reduced in WoW: Forever Hotfix - Solo Gold Farming Nerf?",
+      "summary": "Blizzard has reduced the maximum number of dungeons players can run per hour in WoW: Forever. Continue reading »",
+      "url": "https://www.wowhead.com/news=383950/maximum-dungeons-per-hour-reduced-in-wow-forever-hotfix-solo-gold-farming-nerf",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-21",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-beee5be7",
+      "title": "All Quests for New Alcaz Prison Dungeon in WoW: Forever",
+      "summary": "Located in Dustwallow Marsh, Alcaz Prison is a new dungeon for players around level 50 in WoW: Forever. Here are all the dungeon quests you should pick up! Continue reading »",
+      "url": "https://www.wowhead.com/news=383934/all-quests-for-new-alcaz-prison-dungeon-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-21",
       "official": false,
       "tags": [
         "news"

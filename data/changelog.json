@@ -2175,5 +2175,32 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-11-21T19:26:49.609Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-0b9469a7",
+        "detail": "Wowhead: Maximum Dungeons Per Hour Reduced in WoW: Forever Hotfix - Solo Gold Farming Nerf?"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-beee5be7",
+        "detail": "Wowhead: All Quests for New Alcaz Prison Dungeon in WoW: Forever"
+      },
+      {
+        "kind": "change-updated",
+        "id": "item-count",
+        "detail": "The beta build showed 6,426 new items and 5,539 changed items. -> The beta build showed 6,431 new items and 5,539 changed items."
+      }
+    ],
+    "changed": true
   }
 ]
