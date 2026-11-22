@@ -2202,5 +2202,37 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-11-22T19:49:28.924Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-261a6157",
+        "detail": "Wowhead: World Buffs Removed on Any Loading Screen in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-92575c1b",
+        "detail": "Wowhead: The Weekly Reset with Taliesin and Evitel: Gold in Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-339ec7f5",
+        "detail": "Wowhead: The Best Way to Level Lockpicking to Max in WoW: Forever"
+      },
+      {
+        "kind": "change-updated",
+        "id": "item-count",
+        "detail": "The beta build showed 6,431 new items and 5,539 changed items. -> The beta build showed 6,438 new items and 5,539 changed items."
+      }
+    ],
+    "changed": true
   }
 ]

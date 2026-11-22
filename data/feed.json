@@ -1,6 +1,6 @@
 {
-  "version": 74,
-  "updatedAt": "2026-11-21",
+  "version": 75,
+  "updatedAt": "2026-11-22",
   "changes": [
     {
       "id": "release-date",
@@ -141,7 +141,7 @@
       "id": "item-count",
       "category": "Items",
       "title": "Thousands of item changes",
-      "forever": "The beta build showed 6,431 new items and 5,539 changed items.",
+      "forever": "The beta build showed 6,438 new items and 5,539 changed items.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
@@ -2545,6 +2545,42 @@
       "url": "https://www.wowhead.com/news=383934/all-quests-for-new-alcaz-prison-dungeon-in-wow-forever",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-11-21",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-261a6157",
+      "title": "World Buffs Removed on Any Loading Screen in WoW: Forever",
+      "summary": "World Buffs are now removed whenever a loading screen triggers, preventing players from using them in dungeons or on the opposite continent. Continue reading »",
+      "url": "https://www.wowhead.com/news=383954/world-buffs-removed-on-any-loading-screen-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-22",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-92575c1b",
+      "title": "The Weekly Reset with Taliesin and Evitel: Gold in Forever",
+      "summary": "Taliesin and Evitel check out the latest news for both Forever and Retail, as well as the gold farm, chores, and exploit controversy in Forever. Continue reading »",
+      "url": "https://www.wowhead.com/news=383947/the-weekly-reset-with-taliesin-and-evitel-gold-in-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-22",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-339ec7f5",
+      "title": "The Best Way to Level Lockpicking to Max in WoW: Forever",
+      "summary": "In Classic WoW, Rogues had a go-to method for leveling Lockpicking from 250-300. In Forever, that method has changed - no more BRD runs! Continue reading »",
+      "url": "https://www.wowhead.com/news=383884/the-best-way-to-level-lockpicking-to-max-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-22",
       "official": false,
       "tags": [
         "news"
