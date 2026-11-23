@@ -1,6 +1,6 @@
 {
-  "version": 75,
-  "updatedAt": "2026-11-22",
+  "version": 76,
+  "updatedAt": "2026-11-23",
   "changes": [
     {
       "id": "release-date",
@@ -141,7 +141,7 @@
       "id": "item-count",
       "category": "Items",
       "title": "Thousands of item changes",
-      "forever": "The beta build showed 6,438 new items and 5,539 changed items.",
+      "forever": "The beta build showed 6,439 new items and 5,539 changed items.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
@@ -2579,6 +2579,18 @@
       "title": "The Best Way to Level Lockpicking to Max in WoW: Forever",
       "summary": "In Classic WoW, Rogues had a go-to method for leveling Lockpicking from 250-300. In Forever, that method has changed - no more BRD runs! Continue reading »",
       "url": "https://www.wowhead.com/news=383884/the-best-way-to-level-lockpicking-to-max-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-22",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-3fa72059",
+      "title": "Players Can No Longer Peek Inside Lockboxes in WoW: Forever to Fix New Exploit",
+      "summary": "With recent hotfixes, players can no longer peek inside lockboxes in WoW: Forever, likely due to a Lockbox exploit. Continue reading »",
+      "url": "https://www.wowhead.com/news=383956/players-can-no-longer-peek-inside-lockboxes-due-to-reroll-exploit",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-11-22",
       "official": false,

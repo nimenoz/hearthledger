@@ -2234,5 +2234,27 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-11-23T07:51:28.945Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-3fa72059",
+        "detail": "Wowhead: Players Can No Longer Peek Inside Lockboxes in WoW: Forever to Fix New Exploit"
+      },
+      {
+        "kind": "change-updated",
+        "id": "item-count",
+        "detail": "The beta build showed 6,438 new items and 5,539 changed items. -> The beta build showed 6,439 new items and 5,539 changed items."
+      }
+    ],
+    "changed": true
   }
 ]
