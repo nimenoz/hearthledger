@@ -1,5 +1,5 @@
 {
-  "version": 78,
+  "version": 79,
   "updatedAt": "2026-11-24",
   "changes": [
     {
@@ -141,7 +141,7 @@
       "id": "item-count",
       "category": "Items",
       "title": "Thousands of item changes",
-      "forever": "The beta build showed 6,439 new items and 5,539 changed items.",
+      "forever": "The beta build showed 6,458 new items and 5,539 changed items.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
@@ -2639,6 +2639,30 @@
       "title": "Class and Profession Bug Fixes - WoW: Forever Hotfixes for November 23, 2026",
       "summary": "Blizzard has announced hotfixes for today, which includes more class and profession bug fixes! Continue reading »",
       "url": "https://www.wowhead.com/news=383972/class-and-profession-bug-fixes-wow-forever-hotfixes-for-november-23-2026",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-24",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-6087d7fe",
+      "title": "Watch \"Al'Aketh Rising\" - New Motion Comic for WoW: Forever",
+      "summary": "Blizzard has released a new motion comic for WoW: Forever called \"Al'Aketh Rising,\" which follows a local Skyborne constable on Zephras Isle. Continue reading »",
+      "url": "https://www.wowhead.com/news=383980/watch-alaketh-rising-new-motion-comic-for-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-24",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-62152fa6",
+      "title": "All Tier 3 Blueprint Sources for Crafting in WoW: Forever",
+      "summary": "Tier 3 workstations are necessary for high-level crafting, so take a look at where to find all the blueprints you'll need in WoW: Forever. Continue reading »",
+      "url": "https://www.wowhead.com/news=383961/all-tier-3-blueprint-sources-for-crafting-in-wow-forever",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-11-24",
       "official": false,

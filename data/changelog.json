@@ -2300,5 +2300,32 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-11-24T22:34:25.190Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-6087d7fe",
+        "detail": "Wowhead: Watch \"Al'Aketh Rising\" - New Motion Comic for WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-62152fa6",
+        "detail": "Wowhead: All Tier 3 Blueprint Sources for Crafting in WoW: Forever"
+      },
+      {
+        "kind": "change-updated",
+        "id": "item-count",
+        "detail": "The beta build showed 6,439 new items and 5,539 changed items. -> The beta build showed 6,458 new items and 5,539 changed items."
+      }
+    ],
+    "changed": true
   }
 ]
