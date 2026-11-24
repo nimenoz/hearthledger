@@ -1,5 +1,5 @@
 {
-  "version": 77,
+  "version": 78,
   "updatedAt": "2026-11-24",
   "changes": [
     {
@@ -2629,6 +2629,18 @@
       "url": "https://www.wowhead.com/news=383963/blizzard-announces-lockbox-change-is-temporary-and-peeking-inside-lockboxes-will",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-11-23",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-9788e7b1",
+      "title": "Class and Profession Bug Fixes - WoW: Forever Hotfixes for November 23, 2026",
+      "summary": "Blizzard has announced hotfixes for today, which includes more class and profession bug fixes! Continue reading »",
+      "url": "https://www.wowhead.com/news=383972/class-and-profession-bug-fixes-wow-forever-hotfixes-for-november-23-2026",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-24",
       "official": false,
       "tags": [
         "news"

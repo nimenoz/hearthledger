@@ -2283,5 +2283,22 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-11-24T10:03:04.545Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-9788e7b1",
+        "detail": "Wowhead: Class and Profession Bug Fixes - WoW: Forever Hotfixes for November 23, 2026"
+      }
+    ],
+    "changed": true
   }
 ]
