@@ -2256,5 +2256,32 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-11-24T00:00:39.582Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-88f47eb6",
+        "detail": "Wowhead: Players Reporting that Sunder Armor Effects Don't Work in WoW: Forever Dungeons"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-30b3a946",
+        "detail": "Wowhead: World Buffs Now Persist Through Loading Screen & Nerf to Dire Maul Tribute Buff - World Buff Hotfixes in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-b01c4735",
+        "detail": "Wowhead: Blizzard Announces Lockbox Change is Temporary in WoW: Forever - Peeking Inside Lockboxes Will Return"
+      }
+    ],
+    "changed": true
   }
 ]

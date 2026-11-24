@@ -1,6 +1,6 @@
 {
-  "version": 76,
-  "updatedAt": "2026-11-23",
+  "version": 77,
+  "updatedAt": "2026-11-24",
   "changes": [
     {
       "id": "release-date",
@@ -2593,6 +2593,42 @@
       "url": "https://www.wowhead.com/news=383956/players-can-no-longer-peek-inside-lockboxes-due-to-reroll-exploit",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-11-22",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-88f47eb6",
+      "title": "Players Reporting that Sunder Armor Effects Don't Work in WoW: Forever Dungeons",
+      "summary": "According to the Classic WoW community Github, Sunder Armor effects don't work in WoW: Forever dungeons. Continue reading »",
+      "url": "https://www.wowhead.com/news=383969/players-reporting-that-sunder-armor-effects-dont-work-in-wow-forever-dungeons",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-23",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-30b3a946",
+      "title": "World Buffs Now Persist Through Loading Screen & Nerf to Dire Maul Tribute Buff - World Buff Hotfixes in WoW: Forever",
+      "summary": "World Buffs now persist through loading screens in WoW: Forever, but one of the Dire Maul Tribute buffs has been nerfed. Continue reading »",
+      "url": "https://www.wowhead.com/news=383967/world-buffs-now-persist-through-loading-screen-and-nerf-to-dire-maul-tribute",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-23",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-b01c4735",
+      "title": "Blizzard Announces Lockbox Change is Temporary in WoW: Forever - Peeking Inside Lockboxes Will Return",
+      "summary": "Blizzard has announced that the lockbox change is temporary while they work on a proper fix. Continue reading »",
+      "url": "https://www.wowhead.com/news=383963/blizzard-announces-lockbox-change-is-temporary-and-peeking-inside-lockboxes-will",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-23",
       "official": false,
       "tags": [
         "news"
