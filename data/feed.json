@@ -1,5 +1,5 @@
 {
-  "version": 80,
+  "version": 81,
   "updatedAt": "2026-11-25",
   "changes": [
     {
@@ -141,7 +141,7 @@
       "id": "item-count",
       "category": "Items",
       "title": "Thousands of item changes",
-      "forever": "The beta build showed 6,460 new items and 5,538 changed items.",
+      "forever": "The beta build showed 6,467 new items and 5,538 changed items.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
@@ -150,7 +150,7 @@
       "id": "spell-talent-count",
       "category": "Classes",
       "title": "Spell and talent changes",
-      "forever": "The beta build showed 766 talent and spell changes compared with Classic.",
+      "forever": "The beta build showed 767 talent and spell changes compared with Classic.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
@@ -2665,6 +2665,66 @@
       "url": "https://www.wowhead.com/news=383961/all-tier-3-blueprint-sources-for-crafting-in-wow-forever",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-11-24",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-8903ccf6",
+      "title": "Alterac Valley Zerg Strat Nerfed in WoW: Forever",
+      "summary": "The Alterac Valley zerg strat is dead, as the generals now have Tower Buffs. Continue reading »",
+      "url": "https://www.wowhead.com/news=383997/alterac-valley-zerg-strat-nerfed-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-25",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-1a41c7b2",
+      "title": "Balance Druid Talent Changes Now Live in WoW: Forever - 10% Damage Buff While in Moonkin Form",
+      "summary": "Balance Druids have received large talent changes in WoW: Forever, granting Moonkin Form a 10% Arcane and Nature damage buff! Continue reading »",
+      "url": "https://www.wowhead.com/news=383992/balance-druid-talent-changes-now-live-buffs-to-moonkin-form",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-25",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-0368ef8d",
+      "title": "Night Watchman's Torch Can Be Used While Mounted Again in WoW: Forever",
+      "summary": "With a recent hotfix, the Night Watchman's Torch has been fixed, allowing it to be used while mounted again! Continue reading »",
+      "url": "https://www.wowhead.com/news=383988/players-can-once-again-use-night-watchmans-torch-while-mounted-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-25",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-5bd653e9",
+      "title": "Revelation Enchant Nerfed in WoW: Forever",
+      "summary": "A recent hotfix has stealth nerfed the popular Revelation enchant, which reduces the endgame AoE damage of Mages, Warlocks, and Druids. Continue reading »",
+      "url": "https://www.wowhead.com/news=383986/revelation-enchant-nerfed-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-25",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-6d4035d4",
+      "title": "Dawn Waker Secret Brings Players to a Cataclysm Boss Cameo in WoW: Forever",
+      "summary": "A dungeon boss from Cataclysm seems to play a part in the ongoing Dawn Waker secret in WoW: Forever - join the secret finders to see where things might lead! Continue reading »",
+      "url": "https://www.wowhead.com/news=383812/dawn-waker-secret-brings-players-to-a-cataclysm-boss-cameo-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-25",
       "official": false,
       "tags": [
         "news"

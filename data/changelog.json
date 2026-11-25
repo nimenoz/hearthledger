@@ -2344,5 +2344,52 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-11-25T21:49:22.942Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-8903ccf6",
+        "detail": "Wowhead: Alterac Valley Zerg Strat Nerfed in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-1a41c7b2",
+        "detail": "Wowhead: Balance Druid Talent Changes Now Live in WoW: Forever - 10% Damage Buff While in Moonkin Form"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-0368ef8d",
+        "detail": "Wowhead: Night Watchman's Torch Can Be Used While Mounted Again in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-5bd653e9",
+        "detail": "Wowhead: Revelation Enchant Nerfed in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-6d4035d4",
+        "detail": "Wowhead: Dawn Waker Secret Brings Players to a Cataclysm Boss Cameo in WoW: Forever"
+      },
+      {
+        "kind": "change-updated",
+        "id": "item-count",
+        "detail": "The beta build showed 6,460 new items and 5,538 changed items. -> The beta build showed 6,467 new items and 5,538 changed items."
+      },
+      {
+        "kind": "change-updated",
+        "id": "spell-talent-count",
+        "detail": "The beta build showed 766 talent and spell changes compared with Classic. -> The beta build showed 767 talent and spell changes compared with Classic."
+      }
+    ],
+    "changed": true
   }
 ]
