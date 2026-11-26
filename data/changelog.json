@@ -2391,5 +2391,37 @@
       }
     ],
     "changed": true
+  },
+  {
+    "at": "2026-11-26T08:33:30.663Z",
+    "sourcesOk": [
+      "blizzard-news",
+      "wowhead-news",
+      "foreverchanges"
+    ],
+    "sourcesFailed": [],
+    "log": [
+      {
+        "kind": "news-added",
+        "id": "news-1726d87b",
+        "detail": "Wowhead: Fixes for Legacy Points, Classes, and Quests - WoW: Forever Hotfixes for November 25th"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-7089f755",
+        "detail": "Wowhead: Alterac Valley Reputation Increased Again in WoW: Forever"
+      },
+      {
+        "kind": "news-added",
+        "id": "news-839e70b2",
+        "detail": "Wowhead: Take Advantage of Profession Cooldowns for Goldmaking in WoW: Forever"
+      },
+      {
+        "kind": "change-updated",
+        "id": "item-count",
+        "detail": "The beta build showed 6,467 new items and 5,538 changed items. -> The beta build showed 6,467 new items and 5,539 changed items."
+      }
+    ],
+    "changed": true
   }
 ]

@@ -1,6 +1,6 @@
 {
-  "version": 81,
-  "updatedAt": "2026-11-25",
+  "version": 82,
+  "updatedAt": "2026-11-26",
   "changes": [
     {
       "id": "release-date",
@@ -141,7 +141,7 @@
       "id": "item-count",
       "category": "Items",
       "title": "Thousands of item changes",
-      "forever": "The beta build showed 6,467 new items and 5,538 changed items.",
+      "forever": "The beta build showed 6,467 new items and 5,539 changed items.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
@@ -2723,6 +2723,42 @@
       "title": "Dawn Waker Secret Brings Players to a Cataclysm Boss Cameo in WoW: Forever",
       "summary": "A dungeon boss from Cataclysm seems to play a part in the ongoing Dawn Waker secret in WoW: Forever - join the secret finders to see where things might lead! Continue reading »",
       "url": "https://www.wowhead.com/news=383812/dawn-waker-secret-brings-players-to-a-cataclysm-boss-cameo-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-25",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-1726d87b",
+      "title": "Fixes for Legacy Points, Classes, and Quests - WoW: Forever Hotfixes for November 25th",
+      "summary": "Blizzard has announced hotfixes for today, which includes many fixes for classes, Legacy Points, and various quests. Continue reading »",
+      "url": "https://www.wowhead.com/news=384000/fixes-for-legacy-points-classes-and-quests-wow-forever-hotfixes-for-november",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-25",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-7089f755",
+      "title": "Alterac Valley Reputation Increased Again in WoW: Forever",
+      "summary": "Blizzard has increased Alterac Valley reputation again in WoW: Forever! Continue reading »",
+      "url": "https://www.wowhead.com/news=383999/alterac-valley-reputation-increased-again-in-wow-forever",
+      "sourceLabel": "Wowhead",
+      "publishedAt": "2026-11-25",
+      "official": false,
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "id": "news-839e70b2",
+      "title": "Take Advantage of Profession Cooldowns for Goldmaking in WoW: Forever",
+      "summary": "Alchemists, Tailors, and Leatherworkers can easily earn a chunk of Gold every couple of days by using their multi-day profession cooldown in WoW: Forever. Continue reading »",
+      "url": "https://www.wowhead.com/news=383979/take-advantage-of-profession-cooldowns-for-goldmaking-in-wow-forever",
       "sourceLabel": "Wowhead",
       "publishedAt": "2026-11-25",
       "official": false,
