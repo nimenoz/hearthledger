@@ -1,5 +1,5 @@
 {
-  "version": 82,
+  "version": 83,
   "updatedAt": "2026-11-26",
   "changes": [
     {
@@ -141,7 +141,7 @@
       "id": "item-count",
       "category": "Items",
       "title": "Thousands of item changes",
-      "forever": "The beta build showed 6,467 new items and 5,539 changed items.",
+      "forever": "The beta build showed 6,366 new items and 5,537 changed items.",
       "status": "reported",
       "source": "https://foreverchanges.pro/",
       "sourceLabel": "ForeverChanges (beta data)"
